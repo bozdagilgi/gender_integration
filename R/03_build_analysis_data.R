@@ -41,6 +41,18 @@ prep_country <- function(ra_adult, hhroster, country_label,
                          wgt_var = "wgh_samp_pop_restr_resp",
                          strata_var = "samp_strat") {
 
+  # 'employed' and 'unemployed' are binary columns pre-built in the raw RA_adult
+  # .rds files (see skills_indicators.R which uses them directly). Confirm they
+  # exist before proceeding.
+  required_cols <- c("employed", "unemployed", emp_want_col, emp_avail_col,
+                     emp_search_col, emp_srch2_col, emp_type_col)
+  missing_req <- required_cols[!required_cols %in% names(ra_adult)]
+  if (length(missing_req) > 0) {
+    stop("prep_country (", country_label, "): required columns missing: ",
+         paste(missing_req, collapse = ", "),
+         "\nCheck RA_adult data or update the variable name constants above.")
+  }
+
   # Merge education from HHroster
   ra_adult <- ra_adult %>%
     mutate(rosterposition = as.numeric(rosterposition)) %>%
@@ -80,7 +92,8 @@ prep_country <- function(ra_adult, hhroster, country_label,
 
       # --- Barrier indicators ---
 
-      # Care barrier: does unpaid care work (household work or caring for sick)
+      # Care barrier: does unpaid care work (household work).
+      # 'employed' is a pre-existing binary column in the raw RA_adult data.
       care_barrier = case_when(
         as.numeric(.data[[emp_type_col]]) == 2 ~ 1L,  # household/care work
         !is.na(employed)                       ~ 0L,
