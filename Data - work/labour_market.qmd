@@ -400,18 +400,59 @@ table(PAK_RA_adult$DI01_09) #threatened or harrassed
 #Documentation linked to gender
 
 ##work permits?
+##There is info on frmal employment but many skip logic - perhaps better to skip 
+
+
 ```
 
 ```{r}
 #Ownership of a mobile phone 
+#Its an SDG indicator
+
+table(PAK_RA_adult$C050b01) #when an individual has a mobile phone with active sim card
+
 ```
 
 ```{r}
 #Safety feeling + if you cannot move in the evening.
+#Proportion of population that feel safe walking alone around the area they live after dark**
+
+table(PAK_RA_adult$FS01) #feeling safe walking alone in the dark
+
+#Very safe
+#Fairly safe
+#bit unsafe
+#very unsafe
+#i never walk alone
+#dont know
+
+table(PAK_RA_adult$C160105)
+
+
 ```
 
 ```{r}
-#Domestic work
+#Time spent on domestic work
+
+#1 Always respondent 
+#2 usually repondent
+#3respondent and spouse equally
+#4 usually spouse
+#5 always spouse
+#6 always or usually other person in the household
+#7always or usually someone else not living in the household
+#97 not applicable
+
+table(PAK_RA_adult$DW01_6) # Make repairs to your home, furniture, vehicle and applicances
+table(PAK_RA_adult$DW01_2) # Do the laundry and wash cloth
+table(PAK_RA_adult$DW01_4) #shop for the household
+table(PAK_RA_adult$DW01_3) #cook
+table(PAK_RA_adult$DW01_7) #collect water for your household
+table(PAK_RA_adult$DW01_8) #collect firewood for the household
+table(PAK_RA_adult$DW01_10) #take care of elderly or disabled
+table(PAK_RA_adult$DW01_9) #take care of children
+table(PAK_RA_adult$DW01_1) #clean the house
+table(PAK_RA_adult$DW01_5) #manage household finances
 ```
 
 ```{r}
@@ -424,4 +465,19 @@ table(PAK_RA_adult$DI01_09) #threatened or harrassed
 
 ```{r}
 #Trainings -> check indicator EducR16
+
+##ANY TRAINING in the country of origin or host country
+
+#ANY training that is not part of educational system
+
+table(PAK_RA_adult$EducR13)
+```
+
+```{r}
+
+#Information about job
+
+#In the last 30 days did you look information about job opportunities
+
+table(PAK_RA_adult$INFO00_3)
 ```
