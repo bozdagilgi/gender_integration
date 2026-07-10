@@ -56,9 +56,11 @@ tab1_gt <- desc_by_gender %>%
   select(country, gender_label, n_uw,
          excl_lf_pct, care_pct, docs_pct, digital_pct, mobility_pct,
          mean_age, mean_barriers) %>%
-  mutate(across(c(excl_lf_pct, care_pct, docs_pct, digital_pct,
-                  mobility_pct, mean_age, mean_barriers),
+  # Convert proportions (0-1) to percentages only for the pct columns;
+  # mean_age and mean_barriers are already on their natural scale.
+  mutate(across(c(excl_lf_pct, care_pct, docs_pct, digital_pct, mobility_pct),
                 ~ round(.x * 100, 1))) %>%
+  mutate(across(c(mean_age, mean_barriers), ~ round(.x, 1))) %>%
   gt(groupname_col = "country") %>%
   tab_header(
     title    = "Table 1. Key Labour Market and Barrier Indicators by Gender and Country",
@@ -79,11 +81,7 @@ tab1_gt <- desc_by_gender %>%
     label   = "Intersectional barriers",
     columns = c(care_pct, docs_pct, digital_pct, mobility_pct)
   ) %>%
-  fmt_number(
-    columns  = c(mean_age, mean_barriers),
-    decimals = 1,
-    scale_by = 0.01
-  ) %>%
+  fmt_number(columns = c(mean_age, mean_barriers), decimals = 1) %>%
   tab_source_note("Source: UNHCR FDS – Cameroon 2024, Pakistan 2024, Zambia 2025.") %>%
   opt_row_striping()
 
