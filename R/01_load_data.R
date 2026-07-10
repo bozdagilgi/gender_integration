@@ -9,7 +9,7 @@
 # Edit the here() paths below to match your folder structure.
 # ----------------------------------------------------------
 
-rm(list = ls())
+# Note: clear your own environment before sourcing if needed: rm(list = ls())
 
 source(here::here("R", "00_packages.R"))
 

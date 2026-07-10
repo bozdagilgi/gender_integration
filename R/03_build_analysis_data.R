@@ -30,8 +30,9 @@ build_analysis_vars <- function(df, country_label) {
       # Labour force status categories (already built in existing scripts)
       # Keep labour_force_status as-is; create a simpler binary outcome
       outside_lf = case_when(
-        employed == 1 | unemployed == 1 ~ 0L,
-        TRUE ~ 1L          # outside labour force (inactive / potential)
+        employed == 1 | unemployed == 1         ~ 0L,
+        is.na(employed) & is.na(unemployed)     ~ NA_integer_,   # missing employment data
+        TRUE                                    ~ 1L             # outside labour force (inactive / potential)
       ),
 
       # Unpaid work (EMP30: 2 = household/care, 5 = farming, 6 = volunteering)

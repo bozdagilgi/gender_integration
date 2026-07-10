@@ -27,9 +27,11 @@ r1 <- svyglm(
   family = quasibinomial()
 )
 
-# R2 – restrict to working-age adults 18-64
+# R2 – placeholder for working-age restriction (18-64)
+# USER ADJUSTMENT: replace the filter below with the actual age variable once confirmed,
+#   e.g. filter(age >= 18, age <= 64)
 des_r2 <- analysis_combined %>%
-  filter(!is.na(HH_02_RA)) %>%  # placeholder; adjust age filter when age variable is confirmed
+  filter(!is.na(female)) %>%
   as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr_resp, nest = TRUE)
 
 r2 <- svyglm(

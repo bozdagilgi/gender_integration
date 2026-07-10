@@ -29,10 +29,10 @@ make_desc_table <- function(des, country_label) {
     filter(!is.na(female), !is.na(Intro_07)) %>%
     group_by(country = country_label, pop_group = Intro_07, female) %>%
     summarise(
-      n_unweighted    = unweighted(n()),
-      outside_lf_rate = survey_mean(outside_lf,      na.rm = TRUE, vartype = "ci"),
-      unpaid_care_rate = survey_mean(unpaid_care,     na.rm = TRUE, vartype = "ci"),
-      no_legal_rate   = survey_mean(no_legal_work_right, na.rm = TRUE, vartype = "ci"),
+      n_unweighted     = unweighted(n()),
+      outside_lf_rate  = survey_mean(outside_lf,          na.rm = TRUE, vartype = "ci"),
+      unpaid_care_rate = survey_mean(unpaid_care,          na.rm = TRUE, vartype = "ci"),
+      no_legal_rate    = survey_mean(no_legal_work_right,  na.rm = TRUE, vartype = "ci"),
       .groups = "drop"
     ) %>%
     mutate(female = labelled::to_factor(female))

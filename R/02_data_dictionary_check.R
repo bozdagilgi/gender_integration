@@ -73,7 +73,7 @@ safe_unique <- function(df, col_name, top_n = 30) {
   }
   tibble(value = as.character(df[[col_name]])) %>%
     count(value, sort = TRUE) %>%
-    mutate(pct = round(100 * n / sum(n), 2)) %>%
+    mutate(pct = round(100 * n / sum(n), 2), note = NA_character_) %>%
     slice_head(n = top_n)
 }
 

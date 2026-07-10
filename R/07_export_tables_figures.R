@@ -45,7 +45,19 @@ ggsave(
 # Figure 2: Outside-LF rate by gender and country
 # ----------------------------------------------------------
 if (!exists("tab_desc")) {
-  tab_desc <- read_xlsx(here("output", "tables", "table1_weighted_descriptives.xlsx"))
+  # Reuse from memory if 04_descriptive_tables.R was already sourced;
+  # otherwise rebuild from the model-ready RDS.
+  analysis_combined <- read_rds(here("output", "data", "analysis_model_ready.rds"))
+  tab_desc <- bind_rows(
+    analysis_combined %>%
+      filter(!is.na(female), !is.na(Intro_07)) %>%
+      group_by(country, pop_group = Intro_07, female) %>%
+      summarise(
+        outside_lf_rate = mean(outside_lf, na.rm = TRUE),
+        .groups = "drop"
+      ) %>%
+      mutate(female = as.character(female))
+  )
 }
 
 fig2 <- tab_desc %>%
