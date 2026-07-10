@@ -64,37 +64,18 @@ prep_country <- function(ra_adult, hhroster, country_label,
         as.numeric(.data[[sex_col]]) == 1 ~ 0L,
         TRUE ~ NA_integer_
       ),
-      age = suppressWarnings(as.numeric(.data[[age_col]])),
-      age2 = age^2,
+      age       = suppressWarnings(as.numeric(.data[[age_col]])),
       education = as.factor(suppressWarnings(as.numeric(.data[[educ_col]]))),
       disability = as.factor(suppressWarnings(as.numeric(.data[[disability_col]]))),
       pop_group  = as.factor(suppressWarnings(as.numeric(.data[[pop_group_col]]))),
 
-      # --- Labour force status (mirrors skills_indicators.R logic) ---
+      # --- Labour force status step 1: potential LF (mirrors skills_indicators.R) ---
       outside_lf_potential = case_when(
         .data[[emp_want_col]] == 1 &
           .data[[emp_avail_col]] == 1 &
           .data[[emp_search_col]] == 2 &
           .data[[emp_srch2_col]] == 2 ~ 1L,
         TRUE ~ 0L
-      ),
-      outside_lf_no_potential = case_when(
-        employed == 0 & unemployed == 0 & outside_lf_potential == 0 ~ 1L,
-        TRUE ~ 0L
-      ),
-      labour_force_status = case_when(
-        employed == 1                  ~ 1L,
-        unemployed == 1                ~ 2L,
-        outside_lf_potential == 1      ~ 3L,
-        outside_lf_no_potential == 1   ~ 4L,
-        TRUE ~ NA_integer_
-      ),
-
-      # Outcome: excluded from labour force (outside LF, any reason)
-      excluded_lf = case_when(
-        labour_force_status %in% c(3L, 4L) ~ 1L,
-        labour_force_status %in% c(1L, 2L) ~ 0L,
-        TRUE ~ NA_integer_
       ),
 
       # --- Barrier indicators ---
@@ -127,6 +108,30 @@ prep_country <- function(ra_adult, hhroster, country_label,
       mobility_barrier = case_when(
         as.numeric(.data[[drive_col]]) == 2 ~ 1L,   # no driving licence
         as.numeric(.data[[drive_col]]) == 1 ~ 0L,
+        TRUE ~ NA_integer_
+      )
+    ) %>%
+    # Second mutate: derived columns that depend on outside_lf_potential or age
+    mutate(
+      age2 = age^2,
+
+      # Labour force status step 2: requires outside_lf_potential from above
+      outside_lf_no_potential = case_when(
+        employed == 0 & unemployed == 0 & outside_lf_potential == 0 ~ 1L,
+        TRUE ~ 0L
+      ),
+      labour_force_status = case_when(
+        employed == 1                  ~ 1L,
+        unemployed == 1                ~ 2L,
+        outside_lf_potential == 1      ~ 3L,
+        outside_lf_no_potential == 1   ~ 4L,
+        TRUE ~ NA_integer_
+      ),
+
+      # Outcome: excluded from labour force (outside LF, any reason)
+      excluded_lf = case_when(
+        labour_force_status %in% c(3L, 4L) ~ 1L,
+        labour_force_status %in% c(1L, 2L) ~ 0L,
         TRUE ~ NA_integer_
       )
     ) %>%
