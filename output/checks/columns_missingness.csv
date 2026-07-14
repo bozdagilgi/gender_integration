@@ -1,0 +1,3933 @@
+country,column,class,n_missing,pct_missing
+Cameroon,start,Date,0,0
+Cameroon,end,Date,0,0
+Cameroon,Intro_07,factor,0,0
+Cameroon,Intro_03a_NUTS1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Intro_03b_NUTS2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Intro_03c_NUTS3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,age_selected,numeric,6,0.13
+Cameroon,HH_02_RA,factor,0,0
+Cameroon,disability_RA,factor,6,0.13
+Cameroon,COO_RA,character,6,0.13
+Cameroon,Intro_09,factor,0,0
+Cameroon,uuid,character,0,0
+Cameroon,wgh_strata_spec_resp,numeric,0,0
+Cameroon,wgh_samp_pop_restr_resp,numeric,0,0
+Cameroon,wgh_inout_spec_resp,numeric,0,0
+Cameroon,samp_strat,factor,0,0
+Cameroon,inout_strat,factor,0,0
+Cameroon,rosterposition,character,0,0
+Cameroon,ID_VAR_randomadult,character,0,0
+Cameroon,signature_RM,character,0,0
+Cameroon,RM_consent,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W01_1,numeric,0,0
+Cameroon,W01_2,numeric,0,0
+Cameroon,W02_1,numeric,0,0
+Cameroon,W02_2,numeric,0,0
+Cameroon,W02_3,numeric,0,0
+Cameroon,W02_4,numeric,0,0
+Cameroon,W02_5,numeric,0,0
+Cameroon,W02_6,numeric,0,0
+Cameroon,W02_7a,numeric,0,0
+Cameroon,W02_8,numeric,722,16.01
+Cameroon,W02_9,numeric,0,0
+Cameroon,W02_10,numeric,0,0
+Cameroon,W02_11,numeric,0,0
+Cameroon,W04_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W04_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,W4_4,"haven_labelled, vctrs_vctr, double",2228,49.4
+Cameroon,ASP_08a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,ASP_08,"haven_labelled, vctrs_vctr, double",2078,46.08
+Cameroon,ASP_08_other,character,0,0
+Cameroon,ASP_10,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,ASP_11,character,0,0
+Cameroon,ID_00RA,"haven_labelled, vctrs_vctr, double",2755,61.09
+Cameroon,ID_00_specifyRA,character,0,0
+Cameroon,ID_01aRA,"haven_labelled, vctrs_vctr, double",3766,83.5
+Cameroon,ID_01a_2RA,"haven_labelled, vctrs_vctr, double",3782,83.86
+Cameroon,ID_01bRA,"haven_labelled, vctrs_vctr, double",3533,78.34
+Cameroon,ID_01b_2RA,"haven_labelled, vctrs_vctr, double",4435,98.34
+Cameroon,ID_02RA,"haven_labelled, vctrs_vctr, double",3525,78.16
+Cameroon,ID_03RA,"haven_labelled, vctrs_vctr, double",3537,78.43
+Cameroon,ID_04RA,"haven_labelled, vctrs_vctr, double",4508,99.96
+Cameroon,ID_05RA,"haven_labelled, vctrs_vctr, double",3911,86.72
+Cameroon,ID_06RA,"haven_labelled, vctrs_vctr, double",4507,99.93
+Cameroon,ID_06bRA,"haven_labelled, vctrs_vctr, double",3914,86.78
+Cameroon,ID_06b_specifyRA,character,0,0
+Cameroon,ID_07RA,"haven_labelled, vctrs_vctr, double",3499,77.58
+Cameroon,ID_08RA,"haven_labelled, vctrs_vctr, double",3709,82.24
+Cameroon,ID_08_specifyRA,character,0,0
+Cameroon,ID_09RA,"haven_labelled, vctrs_vctr, double",3499,77.58
+Cameroon,ID_09_specifyRA,character,0,0
+Cameroon,ID_10RA,"haven_labelled, vctrs_vctr, double",3537,78.43
+Cameroon,ID_11RA,"haven_labelled, vctrs_vctr, double",3740,82.93
+Cameroon,ID_11_pictureRA,character,0,0
+Cameroon,H01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,H01a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,H01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,H02,character,0,0
+Cameroon,H02A,numeric,3508,77.78
+Cameroon,H02B,numeric,3508,77.78
+Cameroon,H02C,numeric,3508,77.78
+Cameroon,H02D,numeric,3508,77.78
+Cameroon,H02E,numeric,3508,77.78
+Cameroon,H02F,numeric,3508,77.78
+Cameroon,H02G,numeric,3508,77.78
+Cameroon,H02OT,numeric,3508,77.78
+Cameroon,H02_specify,character,0,0
+Cameroon,H04,"haven_labelled, vctrs_vctr, double",3508,77.78
+Cameroon,H06,"haven_labelled, vctrs_vctr, double",3943,87.43
+Cameroon,H11,"haven_labelled, vctrs_vctr, double",3943,87.43
+Cameroon,H11_specify,character,0,0
+Cameroon,H11a,"haven_labelled, vctrs_vctr, double",4493,99.62
+Cameroon,H11a_specify,character,0,0
+Cameroon,H15,"haven_labelled, vctrs_vctr, double",4014,89
+Cameroon,H15d,"haven_labelled, vctrs_vctr, double",3943,87.43
+Cameroon,H15d_1,"haven_labelled, vctrs_vctr, double",4167,92.39
+Cameroon,H15d_2,character,0,0
+Cameroon,H15d_3,"haven_labelled, vctrs_vctr, double",4318,95.74
+Cameroon,H16,character,0,0
+Cameroon,H16A,numeric,4485,99.45
+Cameroon,H16B,numeric,4485,99.45
+Cameroon,H16C,numeric,4485,99.45
+Cameroon,H16D,numeric,4485,99.45
+Cameroon,H16E,numeric,4485,99.45
+Cameroon,H16F,numeric,4485,99.45
+Cameroon,H16G,numeric,4485,99.45
+Cameroon,H16H,numeric,4485,99.45
+Cameroon,H16I,numeric,4485,99.45
+Cameroon,H16OT,numeric,4485,99.45
+Cameroon,H16DK,numeric,4485,99.45
+Cameroon,H16_specify,character,0,0
+Cameroon,H16_k_specify,numeric,4510,100
+Cameroon,H16a1,numeric,4439,98.43
+Cameroon,H16a2,numeric,4485,99.45
+Cameroon,H17,"haven_labelled, vctrs_vctr, double",4485,99.45
+Cameroon,H17_specify,character,0,0
+Cameroon,H17_3,"haven_labelled, vctrs_vctr, double",4508,99.96
+Cameroon,H17_3_specify,character,0,0
+Cameroon,H21,numeric,4485,99.45
+Cameroon,H21_1,numeric,4497,99.71
+Cameroon,H21_2,numeric,4501,99.8
+Cameroon,H21_3,numeric,4501,99.8
+Cameroon,H22,"haven_labelled, vctrs_vctr, double",4014,89
+Cameroon,H28,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,IN1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,IN2,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,IN3,character,0,0
+Cameroon,MovFree01b,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,MovFree01a,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,MovFree02,"haven_labelled, vctrs_vctr, double",2760,61.2
+Cameroon,Mob01a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Mob01b,numeric,3663,81.22
+Cameroon,Mob02,character,0,0
+Cameroon,Mob02_camp_other,character,0,0
+Cameroon,Mob02_village_other,character,0,0
+Cameroon,Mob02_city_other,character,0,0
+Cameroon,Mob02_other,character,0,0
+Cameroon,Mob03a,character,0,0
+Cameroon,Mob03a_other,character,0,0
+Cameroon,Mob03b,"haven_labelled, vctrs_vctr, double",2027,44.94
+Cameroon,Mob04a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Mob04b,numeric,4440,98.45
+Cameroon,Mob05,character,0,0
+Cameroon,Mob06a,character,0,0
+Cameroon,Mob06a_other,character,0,0
+Cameroon,Mob06b,"haven_labelled, vctrs_vctr, double",70,1.55
+Cameroon,Res01,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,Res02,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,DH_06,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_01_year,numeric,4378,97.07
+Cameroon,DH_01_month,numeric,4378,97.07
+Cameroon,DH_02,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_04,"haven_labelled, vctrs_vctr, double",3053,67.69
+Cameroon,DH_05_year,numeric,4331,96.03
+Cameroon,DH_05_month,numeric,4331,96.03
+Cameroon,DH_09,character,0,0
+Cameroon,DH_10_NUTS1,character,0,0
+Cameroon,DH_10_NUTS2,character,0,0
+Cameroon,DH_10_NUTS4,character,0,0
+Cameroon,DH_11_year,numeric,1609,35.68
+Cameroon,DH_11_month,numeric,1609,35.68
+Cameroon,DH_12,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_12_Other,character,0,0
+Cameroon,DH_13,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_14,"haven_labelled, vctrs_vctr, double",3903,86.54
+Cameroon,DH_17,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_19,character,0,0
+Cameroon,DH_20,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_20_other,character,0,0
+Cameroon,DH_21a,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_21b_NUTS1,"haven_labelled, vctrs_vctr, double",4153,92.08
+Cameroon,DH_21b_NUTS2,"haven_labelled, vctrs_vctr, double",4153,92.08
+Cameroon,DH_21b_NUTS3,"haven_labelled, vctrs_vctr, double",4153,92.08
+Cameroon,DH_21b_NUTS4,numeric,4197,93.06
+Cameroon,DH_23,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_23_other,character,0,0
+Cameroon,DH_31a,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_31b,"haven_labelled, vctrs_vctr, double",1824,40.44
+Cameroon,DH_31c,"haven_labelled, vctrs_vctr, double",1892,41.95
+Cameroon,DH_32,"haven_labelled, vctrs_vctr, double",1609,35.68
+Cameroon,DH_32_other,character,0,0
+Cameroon,DH_IDP_01_NUTS1,"haven_labelled, vctrs_vctr, double",4504,99.87
+Cameroon,DH_IDP_01_NUTS2,"haven_labelled, vctrs_vctr, double",4504,99.87
+Cameroon,DH_IDP_01_NUTS3,"haven_labelled, vctrs_vctr, double",4504,99.87
+Cameroon,DH_IDP_03_year,numeric,4504,99.87
+Cameroon,DH_IDP_03_month,numeric,4504,99.87
+Cameroon,DH_IDP_04_year,numeric,4504,99.87
+Cameroon,DH_IDP_04_month,numeric,4504,99.87
+Cameroon,DH_IDP_05,"haven_labelled, vctrs_vctr, double",4504,99.87
+Cameroon,DH_IDP_05_Other,numeric,4510,100
+Cameroon,DH_IDP_06_NUTS1,numeric,4510,100
+Cameroon,DH_IDP_06_NUTS2,numeric,4510,100
+Cameroon,DH_IDP_06_NUTS3,numeric,4510,100
+Cameroon,DH_IDP_09,"haven_labelled, vctrs_vctr, double",4506,99.91
+Cameroon,DH_IDP_09_other,numeric,4510,100
+Cameroon,DH_IDP_10,"haven_labelled, vctrs_vctr, double",4506,99.91
+Cameroon,DH_IDP_13_year,numeric,4510,100
+Cameroon,DH_IDP_13_month,numeric,4510,100
+Cameroon,DH_IDP_14,"haven_labelled, vctrs_vctr, double",4510,100
+Cameroon,DH_IDP_14_other,numeric,4510,100
+Cameroon,DH_IDP_14a,"haven_labelled, vctrs_vctr, double",4506,99.91
+Cameroon,DH_IDP_14b,character,0,0
+Cameroon,DH_IDP_14b_other,numeric,4510,100
+Cameroon,educ_now,character,0,0
+Cameroon,EducR00a,"haven_labelled, vctrs_vctr, double",4026,89.27
+Cameroon,EducR00b,"haven_labelled, vctrs_vctr, double",4500,99.78
+Cameroon,EducR01,"haven_labelled, vctrs_vctr, double",3633,80.55
+Cameroon,EducR02_other,character,0,0
+Cameroon,EducR02,"haven_labelled, vctrs_vctr, double",4157,92.17
+Cameroon,EducR03,"haven_labelled, vctrs_vctr, double",4157,92.17
+Cameroon,EducR04,"haven_labelled, vctrs_vctr, double",4157,92.17
+Cameroon,EducR05,"haven_labelled, vctrs_vctr, double",4411,97.8
+Cameroon,EducR05_other,character,0,0
+Cameroon,EducR06,"haven_labelled, vctrs_vctr, double",4411,97.8
+Cameroon,EducR06_other,character,0,0
+Cameroon,EducR07,"haven_labelled, vctrs_vctr, double",4411,97.8
+Cameroon,EducR08,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,EducR09,"haven_labelled, vctrs_vctr, double",4109,91.11
+Cameroon,EducR10,"haven_labelled, vctrs_vctr, double",4109,91.11
+Cameroon,EducR10_other,character,0,0
+Cameroon,EducR11,numeric,4109,91.11
+Cameroon,EducR12,"haven_labelled, vctrs_vctr, double",4109,91.11
+Cameroon,EducR12_specify,numeric,4510,100
+Cameroon,EducR13,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,EducR14,numeric,4399,97.54
+Cameroon,EducR14b,"haven_labelled, vctrs_vctr, double",4399,97.54
+Cameroon,EducR15,numeric,4399,97.54
+Cameroon,TrProg1_EducR16,"haven_labelled, vctrs_vctr, double",4399,97.54
+Cameroon,TrProg1_EducR16_other,character,0,0
+Cameroon,TrProg2_EducR16,"haven_labelled, vctrs_vctr, double",4482,99.38
+Cameroon,TrProg2_EducR16_other,character,0,0
+Cameroon,TrProg3_EducR16,"haven_labelled, vctrs_vctr, double",4501,99.8
+Cameroon,TrProg3_EducR16_other,character,0,0
+Cameroon,EMP01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,EMP02,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,EMP03,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,EMP04,"haven_labelled, vctrs_vctr, double",1776,39.38
+Cameroon,EMP05,"haven_labelled, vctrs_vctr, double",1776,39.38
+Cameroon,EMP06a,"haven_labelled, vctrs_vctr, double",1888,41.86
+Cameroon,EMP06b,"haven_labelled, vctrs_vctr, double",2910,64.52
+Cameroon,EMP06c,"haven_labelled, vctrs_vctr, double",2624,58.18
+Cameroon,EMP06d,numeric,3003,66.59
+Cameroon,EMP07a,character,0,0
+Cameroon,EMP07b,character,0,0
+Cameroon,EMP07_1,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP07_1_other,character,0,0
+Cameroon,EMP08,character,0,0
+Cameroon,EMP09,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP09_other,character,0,0
+Cameroon,EMP10,"haven_labelled, vctrs_vctr, double",3878,85.99
+Cameroon,EMP10_1,"haven_labelled, vctrs_vctr, double",3992,88.51
+Cameroon,EMP10_2,"haven_labelled, vctrs_vctr, double",4273,94.75
+Cameroon,EMP10_3,"haven_labelled, vctrs_vctr, double",3992,88.51
+Cameroon,EMP10_4,"haven_labelled, vctrs_vctr, double",4489,99.53
+Cameroon,EMP10_5,"haven_labelled, vctrs_vctr, double",4489,99.53
+Cameroon,EMP10_6,"haven_labelled, vctrs_vctr, double",4489,99.53
+Cameroon,EMP10_6a,"haven_labelled, vctrs_vctr, double",4489,99.53
+Cameroon,EMP10_6b,"haven_labelled, vctrs_vctr, double",3992,88.51
+Cameroon,EMP10_6b_other,character,0,0
+Cameroon,EMP10_6c,"haven_labelled, vctrs_vctr, double",4401,97.58
+Cameroon,EMP10_6d,"haven_labelled, vctrs_vctr, double",4510,100
+Cameroon,EMP10_7,numeric,4280,94.9
+Cameroon,EMP10_8a,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_8b,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_8d,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_10,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_11,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_12,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,EMP10_14,numeric,4166,92.37
+Cameroon,EMP10_15a,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP10_15,numeric,4054,89.89
+Cameroon,EMP10_16,numeric,4054,89.89
+Cameroon,EMP10_17,numeric,4054,89.89
+Cameroon,EMP10_18,"haven_labelled, vctrs_vctr, double",4054,89.89
+Cameroon,EMP10_18_other,character,0,0
+Cameroon,EMP10_19_amount,numeric,4054,89.89
+Cameroon,EMP10_19_currency,"haven_labelled, vctrs_vctr, double",4054,89.89
+Cameroon,EMP10_19a_amount,numeric,4117,91.29
+Cameroon,EMP10_19a_currency,"haven_labelled, vctrs_vctr, double",4117,91.29
+Cameroon,EMP10_19b,"haven_labelled, vctrs_vctr, double",4117,91.29
+Cameroon,EMP10_19b_other,character,0,0
+Cameroon,EMP10_19c,numeric,4117,91.29
+Cameroon,EMP11a,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP12,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP16_2,numeric,4407,97.72
+Cameroon,EMP18,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP19,numeric,4424,98.09
+Cameroon,EMP20,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP21,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP22,"haven_labelled, vctrs_vctr, double",4031,89.38
+Cameroon,EMP23,"haven_labelled, vctrs_vctr, double",3625,80.38
+Cameroon,EMP24,numeric,4298,95.3
+Cameroon,EMP25a,"haven_labelled, vctrs_vctr, double",1050,23.28
+Cameroon,EMP25aa,"haven_labelled, vctrs_vctr, double",1050,23.28
+Cameroon,Emp25b,"haven_labelled, vctrs_vctr, double",1382,30.64
+Cameroon,Emp25b_other,character,0,0
+Cameroon,Emp25bb,"haven_labelled, vctrs_vctr, double",1393,30.89
+Cameroon,Emp25bb_other,character,0,0
+Cameroon,EMP27,"haven_labelled, vctrs_vctr, double",1050,23.28
+Cameroon,EMP29,"haven_labelled, vctrs_vctr, double",2407,53.37
+Cameroon,EMP30,"haven_labelled, vctrs_vctr, double",1050,23.28
+Cameroon,EMP30_other,character,0,0
+Cameroon,Exp01a,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01c,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01d,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01e,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01f,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01g,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01h,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01i,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01j,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01k,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01l,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01m,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01n,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01o,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01p,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Exp01q,character,0,0
+Cameroon,Exp02a,"haven_labelled, vctrs_vctr, double",2538,56.27
+Cameroon,Exp02c,"haven_labelled, vctrs_vctr, double",3961,87.83
+Cameroon,Exp02d,"haven_labelled, vctrs_vctr, double",4018,89.09
+Cameroon,Exp02e,"haven_labelled, vctrs_vctr, double",2421,53.68
+Cameroon,Exp02f,"haven_labelled, vctrs_vctr, double",2550,56.54
+Cameroon,Exp02g,"haven_labelled, vctrs_vctr, double",3599,79.8
+Cameroon,Exp02h,"haven_labelled, vctrs_vctr, double",4288,95.08
+Cameroon,Exp02i,"haven_labelled, vctrs_vctr, double",4286,95.03
+Cameroon,Exp02j,"haven_labelled, vctrs_vctr, double",3573,79.22
+Cameroon,Exp02k,"haven_labelled, vctrs_vctr, double",4418,97.96
+Cameroon,Exp02l,"haven_labelled, vctrs_vctr, double",4242,94.06
+Cameroon,Exp02m,"haven_labelled, vctrs_vctr, double",4453,98.74
+Cameroon,Exp02n,"haven_labelled, vctrs_vctr, double",4493,99.62
+Cameroon,Exp02o,"haven_labelled, vctrs_vctr, double",4010,88.91
+Cameroon,Exp02p,"haven_labelled, vctrs_vctr, double",4466,99.02
+Cameroon,Exp03,"haven_labelled, vctrs_vctr, double",930,20.62
+Cameroon,Exp04_months,numeric,4184,92.77
+Cameroon,Exp04_years,numeric,4184,92.77
+Cameroon,Exp05,"haven_labelled, vctrs_vctr, double",4184,92.77
+Cameroon,Exp05_other,character,0,0
+Cameroon,Skills00,"haven_labelled, vctrs_vctr, double",416,9.22
+Cameroon,Skill01a,"haven_labelled, vctrs_vctr, double",2684,59.51
+Cameroon,Skill01b,"haven_labelled, vctrs_vctr, double",2684,59.51
+Cameroon,Skill01c,"haven_labelled, vctrs_vctr, double",2684,59.51
+Cameroon,Skill01d,"haven_labelled, vctrs_vctr, double",2684,59.51
+Cameroon,Skills06a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills06b,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills06c,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills06d,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills38a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills38b,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills38c,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills39,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills40,"haven_labelled, vctrs_vctr, double",4450,98.67
+Cameroon,Skills41a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills41b,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills41c,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills41d,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills42a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Skills42b,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,JobLegal1,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,JobFacil1,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobFacil11_months,numeric,4510,100
+Cameroon,JobFacil11_weeks,numeric,4510,100
+Cameroon,JobFacil12,numeric,4510,100
+Cameroon,JobFacil12_specify,numeric,4510,100
+Cameroon,JobFacil2,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobFacil20,"haven_labelled, vctrs_vctr, double",4456,98.8
+Cameroon,JobFacil26,numeric,4466,99.02
+Cameroon,JobFacil26_specify,character,0,0
+Cameroon,JobFacil3,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobFacil31,numeric,2459,54.52
+Cameroon,JobFacil31_specify,character,0,0
+Cameroon,JobSearch11,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobSearch12,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobSearch13,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobSearch14,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobSearch15,"haven_labelled, vctrs_vctr, double",2411,53.46
+Cameroon,JobSearch16,character,0,0
+Cameroon,JobSearch21,numeric,2411,53.46
+Cameroon,JobSearch22,numeric,2411,53.46
+Cameroon,JobSearch23,numeric,2411,53.46
+Cameroon,JobSearch24,numeric,2411,53.46
+Cameroon,JobSearch25,numeric,2411,53.46
+Cameroon,JobSearch26,character,0,0
+Cameroon,JobSearch3,"haven_labelled, vctrs_vctr, double",2516,55.79
+Cameroon,JobSearch31,character,0,0
+Cameroon,JobSearch31_specify,character,0,0
+Cameroon,JobSearch32,"haven_labelled, vctrs_vctr, double",4439,98.43
+Cameroon,JobSearch33,numeric,4480,99.33
+Cameroon,DW01_6,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_2,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_3,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_4,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_7,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_8,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_9,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_10,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_1,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_5,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,DW01_1_ID,"haven_labelled, vctrs_vctr, double",4004,88.78
+Cameroon,DW01_2_ID,"haven_labelled, vctrs_vctr, double",4114,91.22
+Cameroon,DW01_3_ID,"haven_labelled, vctrs_vctr, double",4236,93.92
+Cameroon,DW01_4_ID,"haven_labelled, vctrs_vctr, double",4219,93.55
+Cameroon,DW01_5_ID,"haven_labelled, vctrs_vctr, double",4435,98.34
+Cameroon,DW01_6_ID,"haven_labelled, vctrs_vctr, double",4440,98.45
+Cameroon,DW01_7_ID,"haven_labelled, vctrs_vctr, double",3713,82.33
+Cameroon,DW01_8_ID,"haven_labelled, vctrs_vctr, double",4010,88.91
+Cameroon,DW01_9_ID,"haven_labelled, vctrs_vctr, double",4369,96.87
+Cameroon,DW01_10_ID,"haven_labelled, vctrs_vctr, double",4471,99.14
+Cameroon,MD01_1,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_2,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_3,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_4,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_5,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_6,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_7,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_8,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_9,"haven_labelled, vctrs_vctr, double",1746,38.71
+Cameroon,MD01_1_ID,"haven_labelled, vctrs_vctr, double",4427,98.16
+Cameroon,MD01_2_ID,"haven_labelled, vctrs_vctr, double",4438,98.4
+Cameroon,MD01_3_ID,"haven_labelled, vctrs_vctr, double",4475,99.22
+Cameroon,MD01_4_ID,"haven_labelled, vctrs_vctr, double",4482,99.38
+Cameroon,MD01_5_ID,"haven_labelled, vctrs_vctr, double",4472,99.16
+Cameroon,MD01_6_ID,"haven_labelled, vctrs_vctr, double",4492,99.6
+Cameroon,MD01_7_ID,"haven_labelled, vctrs_vctr, double",4287,95.06
+Cameroon,MD01_8_ID,"haven_labelled, vctrs_vctr, double",4404,97.65
+Cameroon,MD01_9_ID,"haven_labelled, vctrs_vctr, double",4494,99.65
+Cameroon,TR02_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_10,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_12,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_13,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,TR01_8,numeric,2237,49.6
+Cameroon,TR02_1,"haven_labelled, vctrs_vctr, double",2264,50.2
+Cameroon,TR02_2,"haven_labelled, vctrs_vctr, double",2264,50.2
+Cameroon,TR02_3,numeric,3028,67.14
+Cameroon,TR02_4,numeric,2740,60.75
+Cameroon,TR02_5,numeric,2740,60.75
+Cameroon,TR02_6,numeric,3028,67.14
+Cameroon,TR02_7,"haven_labelled, vctrs_vctr, double",2264,50.2
+Cameroon,TR02_8,"haven_labelled, vctrs_vctr, double",2264,50.2
+Cameroon,PP01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PP01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PP02_1,"haven_labelled, vctrs_vctr, double",3169,70.27
+Cameroon,PP02_2,"haven_labelled, vctrs_vctr, double",3347,74.21
+Cameroon,PP05,"haven_labelled, vctrs_vctr, double",3555,78.82
+Cameroon,PP06,"haven_labelled, vctrs_vctr, double",3555,78.82
+Cameroon,PL01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_10,"haven_labelled, vctrs_vctr, double",1796,39.82
+Cameroon,PL01_11,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_12,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_13_ot,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,PL01_13,character,0,0
+Cameroon,FI01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI01a,"haven_labelled, vctrs_vctr, double",4510,100
+Cameroon,FI02,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI04,character,0,0
+Cameroon,FI06,"haven_labelled, vctrs_vctr, double",4483,99.4
+Cameroon,FI08,"haven_labelled, vctrs_vctr, double",52,1.15
+Cameroon,FI09,character,0,0
+Cameroon,FI09_specify,character,0,0
+Cameroon,FI10,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI11_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI11_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI11_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI12,"haven_labelled, vctrs_vctr, double",677,15.01
+Cameroon,FI13,character,0,0
+Cameroon,FI14,numeric,4354,96.54
+Cameroon,FI15,"haven_labelled, vctrs_vctr, double",4354,96.54
+Cameroon,FI15_specify,character,0,0
+Cameroon,FI16,numeric,4354,96.54
+Cameroon,FI18,"haven_labelled, vctrs_vctr, double",4455,98.78
+Cameroon,FI19,"haven_labelled, vctrs_vctr, double",4409,97.76
+Cameroon,FI20,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,FI21_1,"haven_labelled, vctrs_vctr, double",992,22
+Cameroon,FI21_2,"haven_labelled, vctrs_vctr, double",992,22
+Cameroon,FI21_3,"haven_labelled, vctrs_vctr, double",992,22
+Cameroon,FI21_4,"haven_labelled, vctrs_vctr, double",992,22
+Cameroon,FI22,"haven_labelled, vctrs_vctr, double",4467,99.05
+Cameroon,FI22_specify,character,0,0
+Cameroon,FI23,"haven_labelled, vctrs_vctr, double",437,9.69
+Cameroon,FI23_1,numeric,4403,97.63
+Cameroon,FI24_1,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI24_2,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI24_3,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI25,"haven_labelled, vctrs_vctr, double",165,3.66
+Cameroon,FI26_1,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI26_2,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI26_3,"haven_labelled, vctrs_vctr, double",3518,78
+Cameroon,FI27,"haven_labelled, vctrs_vctr, double",172,3.81
+Cameroon,FI28,"haven_labelled, vctrs_vctr, double",142,3.15
+Cameroon,FI29,"haven_labelled, vctrs_vctr, double",3895,86.36
+Cameroon,FI29a,"haven_labelled, vctrs_vctr, double",4495,99.67
+Cameroon,FI30,"haven_labelled, vctrs_vctr, double",4500,99.78
+Cameroon,FI30_specify,character,0,0
+Cameroon,FI31,character,0,0
+Cameroon,FI31_specify,character,0,0
+Cameroon,FI32,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FI33,numeric,334,7.41
+Cameroon,FI34,numeric,334,7.41
+Cameroon,FI35,"haven_labelled, vctrs_vctr, double",99,2.2
+Cameroon,FI36,"haven_labelled, vctrs_vctr, double",104,2.31
+Cameroon,Remit01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,RecRem1_current_sender,character,0,0
+Cameroon,RecRem1_Remit02a,numeric,4161,92.26
+Cameroon,RecRem1_Remit02a_specify,character,0,0
+Cameroon,RecRem1_Remit02b,numeric,4161,92.26
+Cameroon,RecRem1_Remit02b_member,numeric,4485,99.45
+Cameroon,RecRem1_Remit03a,numeric,4186,92.82
+Cameroon,RecRem1_Remit03a_specify,character,0,0
+Cameroon,RecRem1_Remit03b,numeric,4485,99.45
+Cameroon,RecRem1_Remit03b_specify,numeric,4510,100
+Cameroon,RecRem1_Remit04,numeric,4161,92.26
+Cameroon,RecRem1_Remit07,numeric,4161,92.26
+Cameroon,RecRem1_Remit8,numeric,4211,93.37
+Cameroon,RecRem1_Remit8_specify,character,0,0
+Cameroon,RecRem1_Remit8_1a,numeric,4510,100
+Cameroon,RecRem1_Remit8_1a_other,numeric,4510,100
+Cameroon,RecRem1_Remit8_1b,numeric,4503,99.84
+Cameroon,RecRem1_Remit8_1b_other,numeric,4510,100
+Cameroon,RecRem1_Remit8_1c,numeric,4332,96.05
+Cameroon,RecRem1_Remit8_1c_other,numeric,4510,100
+Cameroon,RecRem1_Remit11,numeric,4346,96.36
+Cameroon,RecRem1_Remit12,numeric,4503,99.84
+Cameroon,RecRem2_current_sender,character,0,0
+Cameroon,RecRem2_Remit02a,numeric,4453,98.74
+Cameroon,RecRem2_Remit02a_specify,character,0,0
+Cameroon,RecRem2_Remit02b,numeric,4453,98.74
+Cameroon,RecRem2_Remit02b_member,numeric,4509,99.98
+Cameroon,RecRem2_Remit03a,numeric,4454,98.76
+Cameroon,RecRem2_Remit03a_specify,character,0,0
+Cameroon,RecRem2_Remit03b,numeric,4509,99.98
+Cameroon,RecRem2_Remit03b_specify,numeric,4510,100
+Cameroon,RecRem2_Remit04,numeric,4453,98.74
+Cameroon,RecRem2_Remit07,numeric,4453,98.74
+Cameroon,RecRem2_Remit8,numeric,4464,98.98
+Cameroon,RecRem2_Remit8_specify,character,0,0
+Cameroon,RecRem2_Remit8_1a,numeric,4509,99.98
+Cameroon,RecRem2_Remit8_1a_other,numeric,4510,100
+Cameroon,RecRem2_Remit8_1b,numeric,4510,100
+Cameroon,RecRem2_Remit8_1b_other,numeric,4510,100
+Cameroon,RecRem2_Remit8_1c,numeric,4486,99.47
+Cameroon,RecRem2_Remit8_1c_other,numeric,4510,100
+Cameroon,RecRem2_Remit11,numeric,4478,99.29
+Cameroon,RecRem2_Remit12,numeric,4510,100
+Cameroon,RecRem3_current_sender,character,0,0
+Cameroon,RecRem3_Remit02a,numeric,4497,99.71
+Cameroon,RecRem3_Remit02a_specify,character,0,0
+Cameroon,RecRem3_Remit02b,numeric,4497,99.71
+Cameroon,RecRem3_Remit02b_member,numeric,4509,99.98
+Cameroon,RecRem3_Remit03a,numeric,4498,99.73
+Cameroon,RecRem3_Remit03a_specify,character,0,0
+Cameroon,RecRem3_Remit03b,numeric,4509,99.98
+Cameroon,RecRem3_Remit03b_specify,numeric,4510,100
+Cameroon,RecRem3_Remit04,numeric,4497,99.71
+Cameroon,RecRem3_Remit07,numeric,4497,99.71
+Cameroon,RecRem3_Remit8,numeric,4499,99.76
+Cameroon,RecRem3_Remit8_specify,character,0,0
+Cameroon,RecRem3_Remit8_1a,numeric,4510,100
+Cameroon,RecRem3_Remit8_1a_other,numeric,4510,100
+Cameroon,RecRem3_Remit8_1b,numeric,4510,100
+Cameroon,RecRem3_Remit8_1b_other,numeric,4510,100
+Cameroon,RecRem3_Remit8_1c,numeric,4505,99.89
+Cameroon,RecRem3_Remit8_1c_other,numeric,4510,100
+Cameroon,RecRem3_Remit11,numeric,4502,99.82
+Cameroon,RecRem3_Remit12,numeric,4510,100
+Cameroon,RecRem4_current_sender,character,0,0
+Cameroon,RecRem4_Remit02a,numeric,4509,99.98
+Cameroon,RecRem4_Remit02a_specify,character,0,0
+Cameroon,RecRem4_Remit02b,numeric,4509,99.98
+Cameroon,RecRem4_Remit02b_member,numeric,4510,100
+Cameroon,RecRem4_Remit03a,numeric,4509,99.98
+Cameroon,RecRem4_Remit03a_specify,character,0,0
+Cameroon,RecRem4_Remit03b,numeric,4510,100
+Cameroon,RecRem4_Remit03b_specify,numeric,4510,100
+Cameroon,RecRem4_Remit04,numeric,4509,99.98
+Cameroon,RecRem4_Remit07,numeric,4509,99.98
+Cameroon,RecRem4_Remit8,numeric,4509,99.98
+Cameroon,RecRem4_Remit8_specify,character,0,0
+Cameroon,RecRem4_Remit8_1a,numeric,4510,100
+Cameroon,RecRem4_Remit8_1a_other,numeric,4510,100
+Cameroon,RecRem4_Remit8_1b,numeric,4510,100
+Cameroon,RecRem4_Remit8_1b_other,numeric,4510,100
+Cameroon,RecRem4_Remit8_1c,numeric,4510,100
+Cameroon,RecRem4_Remit8_1c_other,numeric,4510,100
+Cameroon,RecRem4_Remit11,numeric,4509,99.98
+Cameroon,RecRem4_Remit12,numeric,4510,100
+Cameroon,RecRem5_current_sender,character,0,0
+Cameroon,RecRem5_Remit02a,numeric,4509,99.98
+Cameroon,RecRem5_Remit02a_specify,character,0,0
+Cameroon,RecRem5_Remit02b,numeric,4509,99.98
+Cameroon,RecRem5_Remit02b_member,numeric,4510,100
+Cameroon,RecRem5_Remit03a,numeric,4509,99.98
+Cameroon,RecRem5_Remit03a_specify,character,0,0
+Cameroon,RecRem5_Remit03b,numeric,4510,100
+Cameroon,RecRem5_Remit03b_specify,numeric,4510,100
+Cameroon,RecRem5_Remit04,numeric,4509,99.98
+Cameroon,RecRem5_Remit07,numeric,4509,99.98
+Cameroon,RecRem5_Remit8,numeric,4509,99.98
+Cameroon,RecRem5_Remit8_specify,character,0,0
+Cameroon,RecRem5_Remit8_1a,numeric,4510,100
+Cameroon,RecRem5_Remit8_1a_other,numeric,4510,100
+Cameroon,RecRem5_Remit8_1b,numeric,4510,100
+Cameroon,RecRem5_Remit8_1b_other,numeric,4510,100
+Cameroon,RecRem5_Remit8_1c,numeric,4510,100
+Cameroon,RecRem5_Remit8_1c_other,numeric,4510,100
+Cameroon,RecRem5_Remit11,numeric,4509,99.98
+Cameroon,RecRem5_Remit12,numeric,4510,100
+Cameroon,Remit17,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,SentRem1_current_recipient,character,0,0
+Cameroon,SentRem1_Remit18a,numeric,4358,96.63
+Cameroon,SentRem1_Remit18a_specify,character,0,0
+Cameroon,SentRem1_Remit18b,numeric,4358,96.63
+Cameroon,SentRem1_Remit19a,numeric,4367,96.83
+Cameroon,SentRem1_Remit19a_specify,character,0,0
+Cameroon,SentRem1_Remit19b,numeric,4501,99.8
+Cameroon,SentRem1_Remit19b_specify,numeric,4510,100
+Cameroon,SentRem1_Remit20,numeric,4358,96.63
+Cameroon,SentRem1_Remit23,numeric,4358,96.63
+Cameroon,SentRem1_Remit24,numeric,4385,97.23
+Cameroon,SentRem1_Remit24_specify,character,0,0
+Cameroon,SentRem1_Remit24_1a,numeric,4510,100
+Cameroon,SentRem1_Remit24_1a_other,numeric,4510,100
+Cameroon,SentRem1_Remit24_1b,numeric,4509,99.98
+Cameroon,SentRem1_Remit24_1b_other,numeric,4510,100
+Cameroon,SentRem1_Remit24_1c,numeric,4417,97.94
+Cameroon,SentRem1_Remit24_1c_other,numeric,4510,100
+Cameroon,SentRem1_Remit26,numeric,4452,98.71
+Cameroon,SentRem1_Remit27,numeric,4507,99.93
+Cameroon,SentRem2_current_recipient,character,0,0
+Cameroon,SentRem2_Remit18a,numeric,4484,99.42
+Cameroon,SentRem2_Remit18a_specify,character,0,0
+Cameroon,SentRem2_Remit18b,numeric,4484,99.42
+Cameroon,SentRem2_Remit19a,numeric,4486,99.47
+Cameroon,SentRem2_Remit19a_specify,character,0,0
+Cameroon,SentRem2_Remit19b,numeric,4508,99.96
+Cameroon,SentRem2_Remit19b_specify,numeric,4510,100
+Cameroon,SentRem2_Remit20,numeric,4484,99.42
+Cameroon,SentRem2_Remit23,numeric,4484,99.42
+Cameroon,SentRem2_Remit24,numeric,4492,99.6
+Cameroon,SentRem2_Remit24_specify,character,0,0
+Cameroon,SentRem2_Remit24_1a,numeric,4510,100
+Cameroon,SentRem2_Remit24_1a_other,numeric,4510,100
+Cameroon,SentRem2_Remit24_1b,numeric,4510,100
+Cameroon,SentRem2_Remit24_1b_other,numeric,4510,100
+Cameroon,SentRem2_Remit24_1c,numeric,4497,99.71
+Cameroon,SentRem2_Remit24_1c_other,numeric,4510,100
+Cameroon,SentRem2_Remit26,numeric,4497,99.71
+Cameroon,SentRem2_Remit27,numeric,4510,100
+Cameroon,SentRem3_current_recipient,character,0,0
+Cameroon,SentRem3_Remit18a,numeric,4505,99.89
+Cameroon,SentRem3_Remit18a_specify,character,0,0
+Cameroon,SentRem3_Remit18b,numeric,4505,99.89
+Cameroon,SentRem3_Remit19a,numeric,4505,99.89
+Cameroon,SentRem3_Remit19a_specify,character,0,0
+Cameroon,SentRem3_Remit19b,numeric,4510,100
+Cameroon,SentRem3_Remit19b_specify,numeric,4510,100
+Cameroon,SentRem3_Remit20,numeric,4505,99.89
+Cameroon,SentRem3_Remit23,numeric,4505,99.89
+Cameroon,SentRem3_Remit24,numeric,4507,99.93
+Cameroon,SentRem3_Remit24_specify,character,0,0
+Cameroon,SentRem3_Remit24_1a,numeric,4510,100
+Cameroon,SentRem3_Remit24_1a_other,numeric,4510,100
+Cameroon,SentRem3_Remit24_1b,numeric,4510,100
+Cameroon,SentRem3_Remit24_1b_other,numeric,4510,100
+Cameroon,SentRem3_Remit24_1c,numeric,4507,99.93
+Cameroon,SentRem3_Remit24_1c_other,numeric,4510,100
+Cameroon,SentRem3_Remit26,numeric,4508,99.96
+Cameroon,SentRem3_Remit27,numeric,4510,100
+Cameroon,SentRem4_current_recipient,character,0,0
+Cameroon,SentRem4_Remit18a,numeric,4508,99.96
+Cameroon,SentRem4_Remit18a_specify,character,0,0
+Cameroon,SentRem4_Remit18b,numeric,4508,99.96
+Cameroon,SentRem4_Remit19a,numeric,4508,99.96
+Cameroon,SentRem4_Remit19a_specify,character,0,0
+Cameroon,SentRem4_Remit19b,numeric,4510,100
+Cameroon,SentRem4_Remit19b_specify,numeric,4510,100
+Cameroon,SentRem4_Remit20,numeric,4508,99.96
+Cameroon,SentRem4_Remit23,numeric,4508,99.96
+Cameroon,SentRem4_Remit24,numeric,4508,99.96
+Cameroon,SentRem4_Remit24_specify,character,0,0
+Cameroon,SentRem4_Remit24_1a,numeric,4510,100
+Cameroon,SentRem4_Remit24_1a_other,numeric,4510,100
+Cameroon,SentRem4_Remit24_1b,numeric,4510,100
+Cameroon,SentRem4_Remit24_1b_other,numeric,4510,100
+Cameroon,SentRem4_Remit24_1c,numeric,4508,99.96
+Cameroon,SentRem4_Remit24_1c_other,numeric,4510,100
+Cameroon,SentRem4_Remit26,numeric,4510,100
+Cameroon,SentRem4_Remit27,numeric,4510,100
+Cameroon,IA01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,IA01_1,"haven_labelled, vctrs_vctr, double",2041,45.25
+Cameroon,IA07,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,IA07_1,"haven_labelled, vctrs_vctr, double",554,12.28
+Cameroon,IA08,"haven_labelled, vctrs_vctr, double",3931,87.16
+Cameroon,IA08_specify,character,0,0
+Cameroon,IA09,character,0,0
+Cameroon,IA09_specify,character,0,0
+Cameroon,IA09_1,"haven_labelled, vctrs_vctr, double",3931,87.16
+Cameroon,IA10,character,0,0
+Cameroon,IA10_specify,character,0,0
+Cameroon,INFO00_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_2,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,INFO00_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,INFO00_9_1,character,0,0
+Cameroon,INFO01_1,"haven_labelled, vctrs_vctr, double",4064,90.11
+Cameroon,INFO01_1_specify,character,0,0
+Cameroon,INFO01_2,"haven_labelled, vctrs_vctr, double",4228,93.75
+Cameroon,INFO01_2_specify,character,0,0
+Cameroon,INFO01_3,"haven_labelled, vctrs_vctr, double",4370,96.9
+Cameroon,INFO01_4,"haven_labelled, vctrs_vctr, double",4410,97.78
+Cameroon,INFO01_5,"haven_labelled, vctrs_vctr, double",4405,97.67
+Cameroon,INFO01_7,"haven_labelled, vctrs_vctr, double",4384,97.21
+Cameroon,INFO01_3_specify,numeric,4510,100
+Cameroon,INFO01_4_specify,numeric,4510,100
+Cameroon,INFO01_5_specify,numeric,4510,100
+Cameroon,INFO01_7_specify,numeric,4510,100
+Cameroon,INFO02a_hours,numeric,4510,100
+Cameroon,INFO02a_minutes,numeric,4510,100
+Cameroon,INFO02b,numeric,4510,100
+Cameroon,INFO02b_specify,numeric,4510,100
+Cameroon,FS01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FS04,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FS06_1,"haven_labelled, vctrs_vctr, double",3939,87.34
+Cameroon,FS06_2,"haven_labelled, vctrs_vctr, double",3939,87.34
+Cameroon,FS07,character,0,0
+Cameroon,FS12,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FS13,"haven_labelled, vctrs_vctr, double",4127,91.51
+Cameroon,FS14,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,FS15,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Justice02,character,0,0
+Cameroon,Justice02_specify,character,0,0
+Cameroon,Justice03,character,0,0
+Cameroon,Justice04,character,0,0
+Cameroon,Justice04_specify,character,0,0
+Cameroon,Justice05,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice06,character,0,0
+Cameroon,Justice07a,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07b,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07c,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07d,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07e,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07f,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07g,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07h,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice07i,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice09,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice10,"haven_labelled, vctrs_vctr, double",4404,97.65
+Cameroon,Justice10_specify,character,0,0
+Cameroon,Justice12,"haven_labelled, vctrs_vctr, double",4404,97.65
+Cameroon,Justice13,"haven_labelled, vctrs_vctr, double",4404,97.65
+Cameroon,Justice14a,"haven_labelled, vctrs_vctr, double",4377,97.05
+Cameroon,Justice14b,character,0,0
+Cameroon,Justice14b_specify,character,0,0
+Cameroon,Justice16,character,0,0
+Cameroon,AC01_1,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC01_2,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC01_3,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC01_4,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC01_5,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC01_6,"haven_labelled, vctrs_vctr, double",2977,66.01
+Cameroon,AC06_1,"haven_labelled, vctrs_vctr, double",2039,45.21
+Cameroon,AC06_2,"haven_labelled, vctrs_vctr, double",3564,79.02
+Cameroon,AC06_3,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,AC06_4,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,AC06_5,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,AC06_6,"haven_labelled, vctrs_vctr, double",1533,33.99
+Cameroon,DI01_02,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_03,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_09,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_05,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_07,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_06,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_08,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI01_04,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,DI02_1,character,0,0
+Cameroon,DI02_specify1,character,0,0
+Cameroon,DI03_1,"haven_labelled, vctrs_vctr, double",4251,94.26
+Cameroon,DI03a_1,"haven_labelled, vctrs_vctr, double",4228,93.75
+Cameroon,DI02_2,character,0,0
+Cameroon,DI02_specify2,character,0,0
+Cameroon,DI03_2,"haven_labelled, vctrs_vctr, double",4208,93.3
+Cameroon,DI03a_2,"haven_labelled, vctrs_vctr, double",4178,92.64
+Cameroon,DI02_3,character,0,0
+Cameroon,DI02_specify3,character,0,0
+Cameroon,DI03_3,"haven_labelled, vctrs_vctr, double",4368,96.85
+Cameroon,DI03a_3,"haven_labelled, vctrs_vctr, double",4354,96.54
+Cameroon,DI02_4,character,0,0
+Cameroon,DI02_specify4,character,0,0
+Cameroon,DI03_4,"haven_labelled, vctrs_vctr, double",4265,94.57
+Cameroon,DI03a_4,"haven_labelled, vctrs_vctr, double",4240,94.01
+Cameroon,DI02_5,character,0,0
+Cameroon,DI02_specify5,character,0,0
+Cameroon,DI03_5,"haven_labelled, vctrs_vctr, double",4327,95.94
+Cameroon,DI03a_5,"haven_labelled, vctrs_vctr, double",4318,95.74
+Cameroon,DI02_6,character,0,0
+Cameroon,DI02_specify6,character,0,0
+Cameroon,DI03_6,"haven_labelled, vctrs_vctr, double",4299,95.32
+Cameroon,DI03a_6,"haven_labelled, vctrs_vctr, double",4280,94.9
+Cameroon,DI02_7,character,0,0
+Cameroon,DI02_specify7,character,0,0
+Cameroon,DI03_7,"haven_labelled, vctrs_vctr, double",4220,93.57
+Cameroon,DI03a_7,"haven_labelled, vctrs_vctr, double",4189,92.88
+Cameroon,DI02_8,character,0,0
+Cameroon,DI02_specify8,character,0,0
+Cameroon,DI03_8,"haven_labelled, vctrs_vctr, double",4230,93.79
+Cameroon,DI03a_8,"haven_labelled, vctrs_vctr, double",4206,93.26
+Cameroon,DI02_9,character,0,0
+Cameroon,DI02_specify9,character,0,0
+Cameroon,DI03_9,"haven_labelled, vctrs_vctr, double",4286,95.03
+Cameroon,DI03a_9,"haven_labelled, vctrs_vctr, double",4270,94.68
+Cameroon,VW00_1,"haven_labelled, vctrs_vctr, double",419,9.29
+Cameroon,VW00_2,"haven_labelled, vctrs_vctr, double",4285,95.01
+Cameroon,VW01_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW01_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,VW02_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_3a,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_3b,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS01_5_specify,character,0,0
+Cameroon,AS02_1,"haven_labelled, vctrs_vctr, double",1281,28.4
+Cameroon,AS02_2,"haven_labelled, vctrs_vctr, double",4132,91.62
+Cameroon,AS02_3a,"haven_labelled, vctrs_vctr, double",3824,84.79
+Cameroon,AS02_3b,"haven_labelled, vctrs_vctr, double",1594,35.34
+Cameroon,AS02_4,"haven_labelled, vctrs_vctr, double",3791,84.06
+Cameroon,AS02_5,"haven_labelled, vctrs_vctr, double",4440,98.45
+Cameroon,AS02_5_specify,character,0,0
+Cameroon,AS04,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,AS05,character,0,0
+Cameroon,CD01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_10,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_11,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD01_12,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD02_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD02_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD02_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD02_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD02_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD03,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD05,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,CD05_specify,character,0,0
+Cameroon,MH01_1,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_2,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_3,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_4,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_5,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_6,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_7,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_8,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH01_9,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,MH02,"haven_labelled, vctrs_vctr, double",2174,48.2
+Cameroon,telAdultSelected,character,0,0
+Cameroon,OBS_01_RA,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,OBS_02_RA,character,0,0
+Cameroon,OBS_03_RA,"haven_labelled, vctrs_vctr, double",4234,93.88
+Cameroon,Final_01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,Intro_06,character,0,0
+Cameroon,RA_HH_04_cat2,factor,6,0.13
+Cameroon,RA_HH_04_cat4,factor,6,0.13
+Cameroon,HH_Educ02a_RA,"haven_labelled, vctrs_vctr, double",1321,29.29
+Cameroon,HH_Educ07_RA,"haven_labelled, vctrs_vctr, double",385,8.54
+Cameroon,HH_Educ14_RA,"haven_labelled, vctrs_vctr, double",4155,92.13
+Cameroon,primary_complete_RA,numeric,3150,69.84
+Cameroon,lowersec_complete_RA,numeric,3685,81.71
+Cameroon,uppersec_complete_RA,numeric,4368,96.85
+Cameroon,stratum,character,65,1.44
+Cameroon,health_access,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,health_all,numeric,0,0
+Cameroon,RBM10303,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,RBM20401,"haven_labelled, vctrs_vctr, double",8,0.18
+Cameroon,RBM20402,"haven_labelled, vctrs_vctr, double",190,4.21
+Cameroon,RBM21301,"haven_labelled, vctrs_vctr, double",43,0.95
+Cameroon,working_age,numeric,227,5.03
+Cameroon,employed,numeric,0,0
+Cameroon,unemployed,numeric,0,0
+Cameroon,labour_force,numeric,0,0
+Cameroon,RBM21303,"haven_labelled, vctrs_vctr, double",3127,69.33
+Cameroon,C040301_15_24,"haven_labelled, vctrs_vctr, double",3624,80.35
+Cameroon,C040301_25_45,"haven_labelled, vctrs_vctr, double",2509,55.63
+Cameroon,C050b01,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,isce93,numeric,3475,77.05
+Cameroon,ins_sector,numeric,3475,77.05
+Cameroon,socsec,numeric,3475,77.05
+Cameroon,painleave,numeric,3475,77.05
+Cameroon,sickleave,numeric,3475,77.05
+Cameroon,parentalleave,numeric,3475,77.05
+Cameroon,registered,numeric,3475,77.05
+Cameroon,bookkeep,numeric,3475,77.05
+Cameroon,unit_prod,numeric,3475,77.05
+Cameroon,job_nature,numeric,3475,77.05
+Cameroon,hourly_pay,integer,3994,88.56
+Cameroon,family_farming,numeric,0,0
+Cameroon,C080502,"haven_labelled, vctrs_vctr, double",2892,64.12
+Cameroon,employed_youth,numeric,3562,78.98
+Cameroon,unemployed_youth,numeric,1444,32.02
+Cameroon,youth_education,numeric,3564,79.02
+Cameroon,youth_training,numeric,349,7.74
+Cameroon,num_C080601,numeric,0,0
+Cameroon,denominator_age,numeric,0,0
+Cameroon,C081002,"haven_labelled, vctrs_vctr, double",45,1
+Cameroon,C200204,"haven_labelled, vctrs_vctr, double",168,3.73
+Cameroon,C160105,"haven_labelled, vctrs_vctr, double",0,0
+Cameroon,dispute,numeric,32,0.71
+Cameroon,selfexclusion,numeric,4386,97.25
+Cameroon,resolution,numeric,4377,97.05
+Cameroon,C160303_num,numeric,0,0
+Cameroon,C160303_den,numeric,0,0
+Cameroon,C170801,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,start,Date,0,0
+Pakistan,end,Date,0,0
+Pakistan,Intro_07,factor,0,0
+Pakistan,Intro_03a_NUTS1,factor,0,0
+Pakistan,Intro_03b_NUTS2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Intro_03c_NUTS3,"haven_labelled, vctrs_vctr, double",1225,24.41
+Pakistan,age_selected,numeric,0,0
+Pakistan,HH_02_RA,factor,0,0
+Pakistan,disability_RA,factor,0,0
+Pakistan,COO_RA,character,0,0
+Pakistan,Intro_09,factor,0,0
+Pakistan,uuid,character,0,0
+Pakistan,wgh_strata_spec_resp,numeric,0,0
+Pakistan,wgh_samp_pop_restr_resp,numeric,0,0
+Pakistan,wgh_prov_spec_resp,numeric,0,0
+Pakistan,samp_strat,character,0,0
+Pakistan,prov_strata,character,0,0
+Pakistan,AdultAvail,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,visit1,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,visit2,"haven_labelled, vctrs_vctr, double",5014,99.92
+Pakistan,visit3,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,AdultAvail2,"haven_labelled, vctrs_vctr, double",4521,90.1
+Pakistan,visit12,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit22,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit32,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,AdultAvail3,"haven_labelled, vctrs_vctr, double",4926,98.17
+Pakistan,visit13,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit23,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit33,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,AdultAvail4,"haven_labelled, vctrs_vctr, double",4999,99.62
+Pakistan,visit14,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit24,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit34,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,AdultAvail5,"haven_labelled, vctrs_vctr, double",5012,99.88
+Pakistan,visit15,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit25,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,visit35,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,rosterposition,character,0,0
+Pakistan,unem_sampled,character,0,0
+Pakistan,ID_VAR_randomadult,character,0,0
+Pakistan,signature_RM,character,0,0
+Pakistan,RM_consent,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W01_1,numeric,0,0
+Pakistan,W01_2,numeric,0,0
+Pakistan,W02_1,numeric,0,0
+Pakistan,W02_2,numeric,0,0
+Pakistan,W02_3,numeric,0,0
+Pakistan,W02_4,numeric,0,0
+Pakistan,W02_5,numeric,0,0
+Pakistan,W02_6,numeric,0,0
+Pakistan,W02_7a,numeric,0,0
+Pakistan,W02_8,numeric,774,15.42
+Pakistan,W02_9,numeric,0,0
+Pakistan,W02_10,numeric,0,0
+Pakistan,W02_11,numeric,0,0
+Pakistan,W04_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,W04_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,ASP_02,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,ASP_03,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,ASP_08a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,ASP_08,"haven_labelled, vctrs_vctr, double",2380,47.43
+Pakistan,ASP_08_other,numeric,5018,100
+Pakistan,ASP_10,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,ASP_11,character,0,0
+Pakistan,ID_00RA,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,ID_00_specifyRA,numeric,5018,100
+Pakistan,ID_01aRA,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,ID_01a_2RA,"haven_labelled, vctrs_vctr, double",3532,70.39
+Pakistan,ID_01bRA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_01b_2RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_02RA,"haven_labelled, vctrs_vctr, double",4997,99.58
+Pakistan,ID_03RA,"haven_labelled, vctrs_vctr, double",5015,99.94
+Pakistan,ID_04RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_05RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_06RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_06bRA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_06b_specifyRA,numeric,5018,100
+Pakistan,ID_07RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_08RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_08_specifyRA,numeric,5018,100
+Pakistan,ID_09RA,numeric,5018,100
+Pakistan,ID_09_specifyRA,numeric,5018,100
+Pakistan,ID_10RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_11RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,ID_11_pictureRA,numeric,5018,100
+Pakistan,ID_13RA,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,H01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,H01a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,H01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,H02,character,0,0
+Pakistan,H02A,numeric,3593,71.6
+Pakistan,H02B,numeric,3593,71.6
+Pakistan,H02C,numeric,3593,71.6
+Pakistan,H02D,numeric,3593,71.6
+Pakistan,H02E,numeric,3593,71.6
+Pakistan,H02F,numeric,3593,71.6
+Pakistan,H02G,numeric,3593,71.6
+Pakistan,H02OT,numeric,3593,71.6
+Pakistan,H02_specify,character,0,0
+Pakistan,H04,"haven_labelled, vctrs_vctr, double",3593,71.6
+Pakistan,H06,"haven_labelled, vctrs_vctr, double",4036,80.43
+Pakistan,H11,"haven_labelled, vctrs_vctr, double",4036,80.43
+Pakistan,H11_specify,character,0,0
+Pakistan,H11a,"haven_labelled, vctrs_vctr, double",4042,80.55
+Pakistan,H11a_specify,character,0,0
+Pakistan,H15,"haven_labelled, vctrs_vctr, double",4036,80.43
+Pakistan,H15d,"haven_labelled, vctrs_vctr, double",4036,80.43
+Pakistan,H15d_1,"haven_labelled, vctrs_vctr, double",4456,88.8
+Pakistan,H15d_2,character,0,0
+Pakistan,H15d_3,"haven_labelled, vctrs_vctr, double",4609,91.85
+Pakistan,H16,character,0,0
+Pakistan,H16A,numeric,4973,99.1
+Pakistan,H16B,numeric,4973,99.1
+Pakistan,H16C,numeric,4973,99.1
+Pakistan,H16D,numeric,4973,99.1
+Pakistan,H16E,numeric,4973,99.1
+Pakistan,H16F,numeric,4973,99.1
+Pakistan,H16G,numeric,4973,99.1
+Pakistan,H16H,numeric,4973,99.1
+Pakistan,H16I,numeric,4973,99.1
+Pakistan,H16K,numeric,4973,99.1
+Pakistan,H16L,numeric,4973,99.1
+Pakistan,H16M,numeric,4973,99.1
+Pakistan,H16N,numeric,4973,99.1
+Pakistan,H16OT,numeric,4973,99.1
+Pakistan,H16DK,numeric,4973,99.1
+Pakistan,H16_specify,character,0,0
+Pakistan,H16_k_specify,numeric,5018,100
+Pakistan,H16a1,numeric,4992,99.48
+Pakistan,H16a2,numeric,4981,99.26
+Pakistan,H17,"haven_labelled, vctrs_vctr, double",4981,99.26
+Pakistan,H17_specify,character,0,0
+Pakistan,H17_3,"haven_labelled, vctrs_vctr, double",4982,99.28
+Pakistan,H17_3_specify,numeric,5018,100
+Pakistan,H21_hrs,numeric,4981,99.26
+Pakistan,H21_mins,numeric,4981,99.26
+Pakistan,H22,"haven_labelled, vctrs_vctr, double",4062,80.95
+Pakistan,H28,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,H29,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,H29a,"haven_labelled, vctrs_vctr, double",4693,93.52
+Pakistan,H29b,"haven_labelled, vctrs_vctr, double",4693,93.52
+Pakistan,H31,"haven_labelled, vctrs_vctr, double",4693,93.52
+Pakistan,H32,"haven_labelled, vctrs_vctr, double",4783,95.32
+Pakistan,H32a,character,0,0
+Pakistan,H32aA,numeric,4913,97.91
+Pakistan,H32aB,numeric,4913,97.91
+Pakistan,H32aC,numeric,4913,97.91
+Pakistan,H32aD,numeric,4913,97.91
+Pakistan,H32aE,numeric,4913,97.91
+Pakistan,H32aF,numeric,4913,97.91
+Pakistan,H32aG,numeric,4913,97.91
+Pakistan,H32aH,numeric,4913,97.91
+Pakistan,H32aI,numeric,4913,97.91
+Pakistan,H32aJ,numeric,4913,97.91
+Pakistan,H32aK,numeric,4913,97.91
+Pakistan,H32aOT,numeric,4913,97.91
+Pakistan,H32_specify,numeric,5018,100
+Pakistan,IN1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,IN2,"haven_labelled, vctrs_vctr, double",4949,98.62
+Pakistan,IN3,character,0,0
+Pakistan,MovFree01b,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,MovFree01a,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,MovFree02,"haven_labelled, vctrs_vctr, double",3088,61.54
+Pakistan,Mob01a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Mob01b,numeric,3948,78.68
+Pakistan,Mob02,character,0,0
+Pakistan,Mob02A,numeric,3948,78.68
+Pakistan,Mob02B,numeric,3948,78.68
+Pakistan,Mob02C,numeric,3948,78.68
+Pakistan,Mob02OT,numeric,3948,78.68
+Pakistan,Mob02RF,numeric,3948,78.68
+Pakistan,Mob02_camp_other,character,0,0
+Pakistan,Mob02_village_other,character,0,0
+Pakistan,Mob02_city_other,character,0,0
+Pakistan,Mob02_other,character,0,0
+Pakistan,Mob03a,character,0,0
+Pakistan,Mob03aA,numeric,3948,78.68
+Pakistan,Mob03aB,numeric,3948,78.68
+Pakistan,Mob03aC,numeric,3948,78.68
+Pakistan,Mob03aD,numeric,3948,78.68
+Pakistan,Mob03aE,numeric,3948,78.68
+Pakistan,Mob03aF,numeric,3948,78.68
+Pakistan,Mob03aG,numeric,3948,78.68
+Pakistan,Mob03aH,numeric,3948,78.68
+Pakistan,Mob03aI,numeric,3948,78.68
+Pakistan,Mob03aJ,numeric,3948,78.68
+Pakistan,Mob03aK,numeric,3948,78.68
+Pakistan,Mob03aOT,numeric,3948,78.68
+Pakistan,Mob03aRF,numeric,3948,78.68
+Pakistan,Mob03a_other,character,0,0
+Pakistan,Mob03b,"haven_labelled, vctrs_vctr, double",2185,43.54
+Pakistan,Mob04a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Mob04b,numeric,4978,99.2
+Pakistan,Mob05,character,0,0
+Pakistan,Mob06a,character,0,0
+Pakistan,Mob06aA,numeric,4978,99.2
+Pakistan,Mob06aB,numeric,4978,99.2
+Pakistan,Mob06aC,numeric,4978,99.2
+Pakistan,Mob06aD,numeric,4978,99.2
+Pakistan,Mob06aE,numeric,4978,99.2
+Pakistan,Mob06aF,numeric,4978,99.2
+Pakistan,Mob06aG,numeric,4978,99.2
+Pakistan,Mob06aH,numeric,4978,99.2
+Pakistan,Mob06aI,numeric,4978,99.2
+Pakistan,Mob06aJ,numeric,4978,99.2
+Pakistan,Mob06aK,numeric,4978,99.2
+Pakistan,Mob06aOT,numeric,4978,99.2
+Pakistan,Mob06aRF,numeric,4978,99.2
+Pakistan,Mob06a_other,character,0,0
+Pakistan,Mob06b,"haven_labelled, vctrs_vctr, double",40,0.8
+Pakistan,Res01,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,Res02,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,DH_06,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_01_year,numeric,4884,97.33
+Pakistan,DH_01_month,numeric,4884,97.33
+Pakistan,DH_02,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_04,"haven_labelled, vctrs_vctr, double",4870,97.05
+Pakistan,DH_05_year,numeric,5000,99.64
+Pakistan,DH_05_month,numeric,5000,99.64
+Pakistan,DH_09,character,0,0
+Pakistan,DH_10_NUTS1,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_10_NUTS2,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_10_NUTS4,numeric,4277,85.23
+Pakistan,DH_11_year,numeric,4277,85.23
+Pakistan,DH_11_month,numeric,4277,85.23
+Pakistan,DH_12,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_12_Other,character,0,0
+Pakistan,DH_13,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_14,"haven_labelled, vctrs_vctr, double",4948,98.61
+Pakistan,DH_17,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_19,character,0,0
+Pakistan,DH_20,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_20_other,character,0,0
+Pakistan,DH_21a,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_21b_NUTS1,"haven_labelled, vctrs_vctr, double",4873,97.11
+Pakistan,DH_21b_NUTS2,"haven_labelled, vctrs_vctr, double",4873,97.11
+Pakistan,DH_21b_NUTS3,"haven_labelled, vctrs_vctr, double",4873,97.11
+Pakistan,DH_21b_NUTS4,"haven_labelled, vctrs_vctr, double",4873,97.11
+Pakistan,DH_23,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_23_other,character,0,0
+Pakistan,DH_31a,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_31b,"haven_labelled, vctrs_vctr, double",4349,86.67
+Pakistan,DH_31c,"haven_labelled, vctrs_vctr, double",4358,86.85
+Pakistan,DH_32,"haven_labelled, vctrs_vctr, double",4277,85.23
+Pakistan,DH_32_other,character,0,0
+Pakistan,DH_IDP_01_NUTS1,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_01_NUTS2,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_01_NUTS3,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_03_year,numeric,5017,99.98
+Pakistan,DH_IDP_03_month,numeric,5017,99.98
+Pakistan,DH_IDP_04_year,numeric,5017,99.98
+Pakistan,DH_IDP_04_month,numeric,5017,99.98
+Pakistan,DH_IDP_05,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_05_Other,numeric,5018,100
+Pakistan,DH_IDP_06_NUTS1,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_06_NUTS2,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_06_NUTS3,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_09,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_09_other,numeric,5018,100
+Pakistan,DH_IDP_10,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_11,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,DH_IDP_12_year,numeric,5018,100
+Pakistan,DH_IDP_12_month,numeric,5018,100
+Pakistan,DH_IDP_13_year,numeric,5018,100
+Pakistan,DH_IDP_13_month,numeric,5018,100
+Pakistan,DH_IDP_14,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,DH_IDP_14_other,numeric,5018,100
+Pakistan,DH_IDP_14a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,DH_IDP_14b,numeric,5018,100
+Pakistan,DH_IDP_14b_other,numeric,5018,100
+Pakistan,educ_now,character,0,0
+Pakistan,EducR00a,"haven_labelled, vctrs_vctr, double",4300,85.69
+Pakistan,EducR00b,"haven_labelled, vctrs_vctr, double",5001,99.66
+Pakistan,EducR01,"haven_labelled, vctrs_vctr, double",4326,86.21
+Pakistan,EducR02_other,character,0,0
+Pakistan,EducR02,"haven_labelled, vctrs_vctr, double",4517,90.02
+Pakistan,EducR03,"haven_labelled, vctrs_vctr, double",4517,90.02
+Pakistan,EducR04,"haven_labelled, vctrs_vctr, double",4517,90.02
+Pakistan,EducR05,"haven_labelled, vctrs_vctr, double",4939,98.43
+Pakistan,EducR05_other,character,0,0
+Pakistan,EducR06,"haven_labelled, vctrs_vctr, double",4939,98.43
+Pakistan,EducR06_other,character,0,0
+Pakistan,EducR07,"haven_labelled, vctrs_vctr, double",4939,98.43
+Pakistan,EducR08,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,EducR09,"haven_labelled, vctrs_vctr, double",4882,97.29
+Pakistan,EducR10,"haven_labelled, vctrs_vctr, double",4882,97.29
+Pakistan,EducR10_other,character,0,0
+Pakistan,EducR11,numeric,4882,97.29
+Pakistan,EducR12,"haven_labelled, vctrs_vctr, double",4882,97.29
+Pakistan,EducR12_specify,character,0,0
+Pakistan,EducR13,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,EducR14,numeric,4976,99.16
+Pakistan,EducR14b,"haven_labelled, vctrs_vctr, double",4977,99.18
+Pakistan,EducR15,numeric,4976,99.16
+Pakistan,TrProg1_EducR16,"haven_labelled, vctrs_vctr, double",4976,99.16
+Pakistan,TrProg1_EducR16_other,character,0,0
+Pakistan,TrProg2_EducR16,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,TrProg2_EducR16_other,character,0,0
+Pakistan,TrProg3_EducR16,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,TrProg3_EducR16_other,character,0,0
+Pakistan,EMP01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,EMP02,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,EMP03,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,EMP04,"haven_labelled, vctrs_vctr, double",1607,32.02
+Pakistan,EMP05,"haven_labelled, vctrs_vctr, double",1607,32.02
+Pakistan,EMP06a,"haven_labelled, vctrs_vctr, double",1625,32.38
+Pakistan,EMP06b,"haven_labelled, vctrs_vctr, double",4293,85.55
+Pakistan,EMP06c,"haven_labelled, vctrs_vctr, double",4860,96.85
+Pakistan,EMP06d,numeric,4964,98.92
+Pakistan,EMP07a,character,0,0
+Pakistan,EMP07b,character,0,0
+Pakistan,EMP07_1,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP07_1_other,character,0,0
+Pakistan,EMP08,character,0,0
+Pakistan,EMP09,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP09_other,character,0,0
+Pakistan,EMP10,"haven_labelled, vctrs_vctr, double",3943,78.58
+Pakistan,EMP10_1,"haven_labelled, vctrs_vctr, double",4100,81.71
+Pakistan,EMP10_2,"haven_labelled, vctrs_vctr, double",4594,91.55
+Pakistan,EMP10_3,"haven_labelled, vctrs_vctr, double",4100,81.71
+Pakistan,EMP10_4,"haven_labelled, vctrs_vctr, double",4937,98.39
+Pakistan,EMP10_5,"haven_labelled, vctrs_vctr, double",4937,98.39
+Pakistan,EMP10_6,"haven_labelled, vctrs_vctr, double",4937,98.39
+Pakistan,EMP10_6a,"haven_labelled, vctrs_vctr, double",4937,98.39
+Pakistan,EMP10_6b,"haven_labelled, vctrs_vctr, double",4100,81.71
+Pakistan,EMP10_6b_other,character,0,0
+Pakistan,EMP10_6c,"haven_labelled, vctrs_vctr, double",4969,99.02
+Pakistan,EMP10_6d,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_7,numeric,4581,91.29
+Pakistan,EMP10_8a,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_8b,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_8d,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_10,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_11,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_12,"haven_labelled, vctrs_vctr, double",4581,91.29
+Pakistan,EMP10_14,numeric,4424,88.16
+Pakistan,EMP10_15a,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP10_15,numeric,3897,77.66
+Pakistan,EMP10_16,numeric,3897,77.66
+Pakistan,EMP10_17,numeric,3897,77.66
+Pakistan,EMP10_18,"haven_labelled, vctrs_vctr, double",3897,77.66
+Pakistan,EMP10_18_other,character,0,0
+Pakistan,EMP10_19_amount,numeric,3897,77.66
+Pakistan,EMP10_19_currency,"haven_labelled, vctrs_vctr, double",3897,77.66
+Pakistan,EMP10_19a_amount,numeric,4694,93.54
+Pakistan,EMP10_19a_currency,"haven_labelled, vctrs_vctr, double",4694,93.54
+Pakistan,EMP10_19b,"haven_labelled, vctrs_vctr, double",4694,93.54
+Pakistan,EMP10_19b_other,character,0,0
+Pakistan,EMP10_19c,numeric,4694,93.54
+Pakistan,EMP11a,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP12,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP16_2,numeric,4970,99.04
+Pakistan,EMP18,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP19,numeric,4986,99.36
+Pakistan,EMP20,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP21,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP22,"haven_labelled, vctrs_vctr, double",4526,90.2
+Pakistan,EMP23,"haven_labelled, vctrs_vctr, double",3473,69.21
+Pakistan,EMP24,numeric,4975,99.14
+Pakistan,EMP25a,"haven_labelled, vctrs_vctr, double",1613,32.14
+Pakistan,EMP25aa,"haven_labelled, vctrs_vctr, double",1613,32.14
+Pakistan,Emp25b,"haven_labelled, vctrs_vctr, double",1879,37.45
+Pakistan,Emp25b_other,character,0,0
+Pakistan,Emp25bb,"haven_labelled, vctrs_vctr, double",1819,36.25
+Pakistan,Emp25bb_other,character,0,0
+Pakistan,EMP27,"haven_labelled, vctrs_vctr, double",1613,32.14
+Pakistan,EMP29,"haven_labelled, vctrs_vctr, double",4355,86.79
+Pakistan,EMP30,"haven_labelled, vctrs_vctr, double",1613,32.14
+Pakistan,EMP30_other,character,0,0
+Pakistan,Exp01a,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01c,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01d,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01e,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01f,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01g,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01h,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01i,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01j,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01k,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01l,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01m,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01n,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01o,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01p,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Exp01q,character,0,0
+Pakistan,Exp02a,"haven_labelled, vctrs_vctr, double",3266,65.09
+Pakistan,Exp02c,"haven_labelled, vctrs_vctr, double",3719,74.11
+Pakistan,Exp02d,"haven_labelled, vctrs_vctr, double",4184,83.38
+Pakistan,Exp02e,"haven_labelled, vctrs_vctr, double",3458,68.91
+Pakistan,Exp02f,"haven_labelled, vctrs_vctr, double",4634,92.35
+Pakistan,Exp02g,"haven_labelled, vctrs_vctr, double",4212,83.94
+Pakistan,Exp02h,"haven_labelled, vctrs_vctr, double",4997,99.58
+Pakistan,Exp02i,"haven_labelled, vctrs_vctr, double",4567,91.01
+Pakistan,Exp02j,"haven_labelled, vctrs_vctr, double",4770,95.06
+Pakistan,Exp02k,"haven_labelled, vctrs_vctr, double",4980,99.24
+Pakistan,Exp02l,"haven_labelled, vctrs_vctr, double",4798,95.62
+Pakistan,Exp02m,"haven_labelled, vctrs_vctr, double",4815,95.95
+Pakistan,Exp02n,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,Exp02o,"haven_labelled, vctrs_vctr, double",4917,97.99
+Pakistan,Exp02p,"haven_labelled, vctrs_vctr, double",4983,99.3
+Pakistan,Exp03,"haven_labelled, vctrs_vctr, double",605,12.06
+Pakistan,Exp04_months,numeric,4968,99
+Pakistan,Exp04_years,numeric,4968,99
+Pakistan,Exp05,"haven_labelled, vctrs_vctr, double",4968,99
+Pakistan,Exp05_other,character,0,0
+Pakistan,Skills00,"haven_labelled, vctrs_vctr, double",561,11.18
+Pakistan,Skill01a,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skill01b,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skill01c,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skill01d,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skills02a,"haven_labelled, vctrs_vctr, double",3654,72.82
+Pakistan,Skills02b,"haven_labelled, vctrs_vctr, double",3654,72.82
+Pakistan,Skills02c,"haven_labelled, vctrs_vctr, double",3654,72.82
+Pakistan,Skills02d,"haven_labelled, vctrs_vctr, double",3654,72.82
+Pakistan,Skills03a,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skills03b,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skills03b_yes,character,0,0
+Pakistan,Skills03c,"haven_labelled, vctrs_vctr, double",1978,39.42
+Pakistan,Skills03c_yes,character,0,0
+Pakistan,Skills06a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills06b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills06c,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills06d,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills08,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills09a,"haven_labelled, vctrs_vctr, double",2176,43.36
+Pakistan,Skills09b_months,numeric,0,0
+Pakistan,Skills09b_years,numeric,0,0
+Pakistan,Skills32a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills32b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills32c,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills32d,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills38a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills38b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills38c,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills39,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills40,"haven_labelled, vctrs_vctr, double",4906,97.77
+Pakistan,Skills41a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills41b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills41c,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills41d,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills42a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Skills42b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,JobLegal1,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,JobFacil1,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobFacil11,numeric,5018,100
+Pakistan,JobFacil11_months,numeric,5014,99.92
+Pakistan,JobFacil11_weeks,numeric,5014,99.92
+Pakistan,JobFacil12_specify,numeric,5018,100
+Pakistan,JobFacil2,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobFacil12,"haven_labelled, vctrs_vctr, double",5014,99.92
+Pakistan,JobFacil20,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,JobFacil26,numeric,5018,100
+Pakistan,JobFacil26_specify,numeric,5018,100
+Pakistan,JobFacil3,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobFacil31,"haven_labelled, vctrs_vctr, double",3394,67.64
+Pakistan,JobFacil31_specify,character,0,0
+Pakistan,JobSearch11_q,numeric,5018,100
+Pakistan,JobSearch11,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch12,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch13,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch14,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch15,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch16,character,0,0
+Pakistan,JobSearch21_q,numeric,5018,100
+Pakistan,JobSearch21,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch22,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch23,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch24,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch25,"haven_labelled, vctrs_vctr, double",3158,62.93
+Pakistan,JobSearch26,character,0,0
+Pakistan,JobSearch3,"haven_labelled, vctrs_vctr, double",3176,63.29
+Pakistan,JobSearch31,character,0,0
+Pakistan,JobSearch31A,numeric,4964,98.92
+Pakistan,JobSearch31B,numeric,4964,98.92
+Pakistan,JobSearch31C,numeric,4964,98.92
+Pakistan,JobSearch31D,numeric,4964,98.92
+Pakistan,JobSearch31OT,numeric,4964,98.92
+Pakistan,JobSearch31DK,numeric,4964,98.92
+Pakistan,JobSearch31RF,numeric,4964,98.92
+Pakistan,JobSearch31_specify,character,0,0
+Pakistan,JobSearch32,"haven_labelled, vctrs_vctr, double",4971,99.06
+Pakistan,JobSearch33,numeric,4986,99.36
+Pakistan,DW01_1,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_2,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_3,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_4,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_5,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_6,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_7,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_8,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_9,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_10,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,DW01_1_ID,"haven_labelled, vctrs_vctr, double",4372,87.13
+Pakistan,DW01_2_ID,"haven_labelled, vctrs_vctr, double",4417,88.02
+Pakistan,DW01_3_ID,"haven_labelled, vctrs_vctr, double",4427,88.22
+Pakistan,DW01_4_ID,"haven_labelled, vctrs_vctr, double",4431,88.3
+Pakistan,DW01_5_ID,"haven_labelled, vctrs_vctr, double",4496,89.6
+Pakistan,DW01_6_ID,"haven_labelled, vctrs_vctr, double",4742,94.5
+Pakistan,DW01_7_ID,"haven_labelled, vctrs_vctr, double",4472,89.12
+Pakistan,DW01_8_ID,"haven_labelled, vctrs_vctr, double",4318,86.05
+Pakistan,DW01_9_ID,"haven_labelled, vctrs_vctr, double",4669,93.05
+Pakistan,DW01_10_ID,"haven_labelled, vctrs_vctr, double",4760,94.86
+Pakistan,MD01_1,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_2,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_3,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_4,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_5,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_6,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_7,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_8,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_9,"haven_labelled, vctrs_vctr, double",1456,29.02
+Pakistan,MD01_1_ID,"haven_labelled, vctrs_vctr, double",4468,89.04
+Pakistan,MD01_2_ID,"haven_labelled, vctrs_vctr, double",4639,92.45
+Pakistan,MD01_3_ID,"haven_labelled, vctrs_vctr, double",4762,94.9
+Pakistan,MD01_4_ID,"haven_labelled, vctrs_vctr, double",4779,95.24
+Pakistan,MD01_5_ID,"haven_labelled, vctrs_vctr, double",4744,94.54
+Pakistan,MD01_6_ID,"haven_labelled, vctrs_vctr, double",4745,94.56
+Pakistan,MD01_7_ID,"haven_labelled, vctrs_vctr, double",4732,94.3
+Pakistan,MD01_8_ID,"haven_labelled, vctrs_vctr, double",4779,95.24
+Pakistan,MD01_9_ID,"haven_labelled, vctrs_vctr, double",4797,95.6
+Pakistan,TR02_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_10,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_12,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR01_13,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,TR02,numeric,5018,100
+Pakistan,TR02_1Choices,numeric,5018,100
+Pakistan,TR02_1,"haven_labelled, vctrs_vctr, double",2545,50.72
+Pakistan,TR02_2,"haven_labelled, vctrs_vctr, double",2545,50.72
+Pakistan,TR02_7,"haven_labelled, vctrs_vctr, double",2545,50.72
+Pakistan,TR02_8,"haven_labelled, vctrs_vctr, double",2545,50.72
+Pakistan,PP01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PP01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PP02_1,"haven_labelled, vctrs_vctr, double",3701,73.75
+Pakistan,PP02_2,"haven_labelled, vctrs_vctr, double",3775,75.23
+Pakistan,PP03,"haven_labelled, vctrs_vctr, double",3775,75.23
+Pakistan,PP04,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PP05,"haven_labelled, vctrs_vctr, double",3539,70.53
+Pakistan,PP06,"haven_labelled, vctrs_vctr, double",3539,70.53
+Pakistan,PL01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_10,"haven_labelled, vctrs_vctr, double",2449,48.8
+Pakistan,PL01_11,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_12,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_13_ot,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,PL01_13,character,0,0
+Pakistan,FI01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI01a,"haven_labelled, vctrs_vctr, double",4681,93.28
+Pakistan,FI02,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI03,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI04,character,0,0
+Pakistan,FI04A,numeric,1500,29.89
+Pakistan,FI04B,numeric,1500,29.89
+Pakistan,FI04C,numeric,1500,29.89
+Pakistan,FI04D,numeric,1500,29.89
+Pakistan,FI04DK,numeric,1500,29.89
+Pakistan,FI05,"haven_labelled, vctrs_vctr, double",4984,99.32
+Pakistan,FI06,"haven_labelled, vctrs_vctr, double",4984,99.32
+Pakistan,FI08,"haven_labelled, vctrs_vctr, double",348,6.94
+Pakistan,FI09,character,0,0
+Pakistan,FI09A,numeric,348,6.94
+Pakistan,FI09B,numeric,348,6.94
+Pakistan,FI09C,numeric,348,6.94
+Pakistan,FI09D,numeric,348,6.94
+Pakistan,FI09E,numeric,348,6.94
+Pakistan,FI09F,numeric,348,6.94
+Pakistan,FI09G,numeric,348,6.94
+Pakistan,FI09H,numeric,348,6.94
+Pakistan,FI09I,numeric,348,6.94
+Pakistan,FI09J,numeric,348,6.94
+Pakistan,FI09K,numeric,348,6.94
+Pakistan,FI09X,numeric,348,6.94
+Pakistan,FI09_specify,character,0,0
+Pakistan,FI10,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI11_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI11_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI11_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI12,"haven_labelled, vctrs_vctr, double",261,5.2
+Pakistan,FI13,character,0,0
+Pakistan,FI13A,numeric,4906,97.77
+Pakistan,FI13B,numeric,4906,97.77
+Pakistan,FI13C,numeric,4906,97.77
+Pakistan,FI13D,numeric,4906,97.77
+Pakistan,FI13E,numeric,4906,97.77
+Pakistan,FI14,numeric,4989,99.42
+Pakistan,FI15,"haven_labelled, vctrs_vctr, double",4989,99.42
+Pakistan,FI15_specify,numeric,5018,100
+Pakistan,FI16,numeric,4989,99.42
+Pakistan,FI18,"haven_labelled, vctrs_vctr, double",4995,99.54
+Pakistan,FI19,"haven_labelled, vctrs_vctr, double",5012,99.88
+Pakistan,FI20,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,FI21_1,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI21_2,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI21_3,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI21_4,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI22,"haven_labelled, vctrs_vctr, double",4968,99
+Pakistan,FI22_specify,character,0,0
+Pakistan,FI23,"haven_labelled, vctrs_vctr, double",1108,22.08
+Pakistan,FI23_1,"haven_labelled, vctrs_vctr, double",4773,95.12
+Pakistan,FI24_1,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI24_2,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI24_3,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI25,"haven_labelled, vctrs_vctr, double",756,15.07
+Pakistan,FI26_1,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI26_2,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI26_3,"haven_labelled, vctrs_vctr, double",763,15.21
+Pakistan,FI27,"haven_labelled, vctrs_vctr, double",929,18.51
+Pakistan,FI28,"haven_labelled, vctrs_vctr, double",955,19.03
+Pakistan,FI29,"haven_labelled, vctrs_vctr, double",4524,90.16
+Pakistan,FI29a,"haven_labelled, vctrs_vctr, double",4988,99.4
+Pakistan,FI30,"haven_labelled, vctrs_vctr, double",5014,99.92
+Pakistan,FI30_specify,numeric,5018,100
+Pakistan,FI31,character,0,0
+Pakistan,FI31A,numeric,30,0.6
+Pakistan,FI31B,numeric,30,0.6
+Pakistan,FI31C,numeric,30,0.6
+Pakistan,FI31D,numeric,30,0.6
+Pakistan,FI31E,numeric,30,0.6
+Pakistan,FI31F,numeric,30,0.6
+Pakistan,FI31G,numeric,30,0.6
+Pakistan,FI31H,numeric,30,0.6
+Pakistan,FI31OT,numeric,30,0.6
+Pakistan,FI31DK,numeric,30,0.6
+Pakistan,FI31_specify,character,0,0
+Pakistan,FI32,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FI35,"haven_labelled, vctrs_vctr, double",107,2.13
+Pakistan,FI36,"haven_labelled, vctrs_vctr, double",106,2.11
+Pakistan,Remit01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,RecRem1_current_sender,character,0,0
+Pakistan,RecRem1_Remit02a,"haven_labelled, vctrs_vctr, double",4663,92.93
+Pakistan,RecRem1_Remit02a_specify,character,0,0
+Pakistan,RecRem1_Remit02b,"haven_labelled, vctrs_vctr, double",4663,92.93
+Pakistan,RecRem1_Remit02b_member,numeric,4850,96.65
+Pakistan,RecRem1_Remit03a,numeric,5018,100
+Pakistan,RecRem1_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem1_Remit03b,"haven_labelled, vctrs_vctr, double",4850,96.65
+Pakistan,RecRem1_Remit03b_specify,character,0,0
+Pakistan,RecRem1_Remit04,numeric,4663,92.93
+Pakistan,RecRem1_Remit07,"haven_labelled, vctrs_vctr, double",4663,92.93
+Pakistan,RecRem1_Remit8,"haven_labelled, vctrs_vctr, double",4702,93.7
+Pakistan,RecRem1_Remit8_specify,character,0,0
+Pakistan,RecRem1_Remit8_1a,"haven_labelled, vctrs_vctr, double",4992,99.48
+Pakistan,RecRem1_Remit8_1a_other,character,0,0
+Pakistan,RecRem1_Remit8_1b,"haven_labelled, vctrs_vctr, double",4977,99.18
+Pakistan,RecRem1_Remit8_1b_other,character,0,0
+Pakistan,RecRem1_Remit8_1c,numeric,5014,99.92
+Pakistan,RecRem1_Remit8_1c_other,character,0,0
+Pakistan,RecRem1_Remit11,"haven_labelled, vctrs_vctr, double",4735,94.36
+Pakistan,RecRem1_Remit12,"haven_labelled, vctrs_vctr, double",4976,99.16
+Pakistan,RecRem2_current_sender,character,0,0
+Pakistan,RecRem2_Remit02a,"haven_labelled, vctrs_vctr, double",4950,98.64
+Pakistan,RecRem2_Remit02a_specify,character,0,0
+Pakistan,RecRem2_Remit02b,"haven_labelled, vctrs_vctr, double",4950,98.64
+Pakistan,RecRem2_Remit02b_member,numeric,4971,99.06
+Pakistan,RecRem2_Remit03a,numeric,5018,100
+Pakistan,RecRem2_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem2_Remit03b,"haven_labelled, vctrs_vctr, double",4971,99.06
+Pakistan,RecRem2_Remit03b_specify,character,0,0
+Pakistan,RecRem2_Remit04,numeric,4950,98.64
+Pakistan,RecRem2_Remit07,"haven_labelled, vctrs_vctr, double",4950,98.64
+Pakistan,RecRem2_Remit8,"haven_labelled, vctrs_vctr, double",4958,98.8
+Pakistan,RecRem2_Remit8_specify,character,0,0
+Pakistan,RecRem2_Remit8_1a,"haven_labelled, vctrs_vctr, double",5012,99.88
+Pakistan,RecRem2_Remit8_1a_other,character,0,0
+Pakistan,RecRem2_Remit8_1b,"haven_labelled, vctrs_vctr, double",5008,99.8
+Pakistan,RecRem2_Remit8_1b_other,character,0,0
+Pakistan,RecRem2_Remit8_1c,numeric,5018,100
+Pakistan,RecRem2_Remit8_1c_other,character,0,0
+Pakistan,RecRem2_Remit11,"haven_labelled, vctrs_vctr, double",4966,98.96
+Pakistan,RecRem2_Remit12,"haven_labelled, vctrs_vctr, double",5015,99.94
+Pakistan,RecRem3_current_sender,character,0,0
+Pakistan,RecRem3_Remit02a,"haven_labelled, vctrs_vctr, double",4998,99.6
+Pakistan,RecRem3_Remit02a_specify,character,0,0
+Pakistan,RecRem3_Remit02b,"haven_labelled, vctrs_vctr, double",4998,99.6
+Pakistan,RecRem3_Remit02b_member,numeric,5003,99.7
+Pakistan,RecRem3_Remit03a,numeric,5018,100
+Pakistan,RecRem3_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem3_Remit03b,"haven_labelled, vctrs_vctr, double",5003,99.7
+Pakistan,RecRem3_Remit03b_specify,character,0,0
+Pakistan,RecRem3_Remit04,numeric,4998,99.6
+Pakistan,RecRem3_Remit07,"haven_labelled, vctrs_vctr, double",4998,99.6
+Pakistan,RecRem3_Remit8,"haven_labelled, vctrs_vctr, double",5001,99.66
+Pakistan,RecRem3_Remit8_specify,character,0,0
+Pakistan,RecRem3_Remit8_1a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem3_Remit8_1a_other,character,0,0
+Pakistan,RecRem3_Remit8_1b,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem3_Remit8_1b_other,character,0,0
+Pakistan,RecRem3_Remit8_1c,numeric,5018,100
+Pakistan,RecRem3_Remit8_1c_other,character,0,0
+Pakistan,RecRem3_Remit11,"haven_labelled, vctrs_vctr, double",5000,99.64
+Pakistan,RecRem3_Remit12,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem4_current_sender,character,0,0
+Pakistan,RecRem4_Remit02a,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,RecRem4_Remit02a_specify,character,0,0
+Pakistan,RecRem4_Remit02b,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,RecRem4_Remit02b_member,numeric,5013,99.9
+Pakistan,RecRem4_Remit03a,numeric,5018,100
+Pakistan,RecRem4_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem4_Remit03b,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,RecRem4_Remit03b_specify,character,0,0
+Pakistan,RecRem4_Remit04,numeric,5011,99.86
+Pakistan,RecRem4_Remit07,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,RecRem4_Remit8,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,RecRem4_Remit8_specify,character,0,0
+Pakistan,RecRem4_Remit8_1a,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem4_Remit8_1a_other,character,0,0
+Pakistan,RecRem4_Remit8_1b,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem4_Remit8_1b_other,character,0,0
+Pakistan,RecRem4_Remit8_1c,numeric,5018,100
+Pakistan,RecRem4_Remit8_1c_other,character,0,0
+Pakistan,RecRem4_Remit11,"haven_labelled, vctrs_vctr, double",5011,99.86
+Pakistan,RecRem4_Remit12,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem5_current_sender,character,0,0
+Pakistan,RecRem5_Remit02a,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit02a_specify,character,0,0
+Pakistan,RecRem5_Remit02b,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit02b_member,numeric,5016,99.96
+Pakistan,RecRem5_Remit03a,numeric,5018,100
+Pakistan,RecRem5_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem5_Remit03b,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit03b_specify,character,0,0
+Pakistan,RecRem5_Remit04,numeric,5016,99.96
+Pakistan,RecRem5_Remit07,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit8,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit8_specify,character,0,0
+Pakistan,RecRem5_Remit8_1a,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem5_Remit8_1a_other,character,0,0
+Pakistan,RecRem5_Remit8_1b,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem5_Remit8_1b_other,character,0,0
+Pakistan,RecRem5_Remit8_1c,numeric,5018,100
+Pakistan,RecRem5_Remit8_1c_other,character,0,0
+Pakistan,RecRem5_Remit11,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,RecRem5_Remit12,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem6_current_sender,character,0,0
+Pakistan,RecRem6_Remit02a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit02a_specify,character,0,0
+Pakistan,RecRem6_Remit02b,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit02b_member,numeric,5017,99.98
+Pakistan,RecRem6_Remit03a,numeric,5018,100
+Pakistan,RecRem6_Remit03a_specify,numeric,5018,100
+Pakistan,RecRem6_Remit03b,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit03b_specify,character,0,0
+Pakistan,RecRem6_Remit04,numeric,5017,99.98
+Pakistan,RecRem6_Remit07,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit8,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit8_specify,character,0,0
+Pakistan,RecRem6_Remit8_1a,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem6_Remit8_1a_other,character,0,0
+Pakistan,RecRem6_Remit8_1b,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,RecRem6_Remit8_1b_other,character,0,0
+Pakistan,RecRem6_Remit8_1c,numeric,5018,100
+Pakistan,RecRem6_Remit8_1c_other,character,0,0
+Pakistan,RecRem6_Remit11,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,RecRem6_Remit12,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,Remit17,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,SentRem1_current_recipient,character,0,0
+Pakistan,SentRem1_Remit18a,"haven_labelled, vctrs_vctr, double",4973,99.1
+Pakistan,SentRem1_Remit18a_specify,character,0,0
+Pakistan,SentRem1_Remit18b,"haven_labelled, vctrs_vctr, double",4973,99.1
+Pakistan,SentRem1_Remit19a,"haven_labelled, vctrs_vctr, double",4997,99.58
+Pakistan,SentRem1_Remit19a_specify,character,0,0
+Pakistan,SentRem1_Remit19b,"haven_labelled, vctrs_vctr, double",4994,99.52
+Pakistan,SentRem1_Remit19b_specify,character,0,0
+Pakistan,SentRem1_Remit23,"haven_labelled, vctrs_vctr, double",4973,99.1
+Pakistan,SentRem1_Remit24,"haven_labelled, vctrs_vctr, double",4984,99.32
+Pakistan,SentRem1_Remit24_specify,character,0,0
+Pakistan,SentRem1_Remit24_1a,"haven_labelled, vctrs_vctr, double",5015,99.94
+Pakistan,SentRem1_Remit24_1a_other,character,0,0
+Pakistan,SentRem1_Remit24_1b,numeric,5018,100
+Pakistan,SentRem1_Remit24_1b_other,numeric,5018,100
+Pakistan,SentRem1_Remit24_1c,numeric,5018,100
+Pakistan,SentRem1_Remit24_1c_other,numeric,5018,100
+Pakistan,SentRem1_Remit26,"haven_labelled, vctrs_vctr, double",4977,99.18
+Pakistan,SentRem1_Remit27,"haven_labelled, vctrs_vctr, double",5006,99.76
+Pakistan,SentRem2_current_recipient,character,0,0
+Pakistan,SentRem2_Remit18a,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,SentRem2_Remit18a_specify,character,0,0
+Pakistan,SentRem2_Remit18b,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,SentRem2_Remit19a,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,SentRem2_Remit19a_specify,character,0,0
+Pakistan,SentRem2_Remit19b,"haven_labelled, vctrs_vctr, double",5015,99.94
+Pakistan,SentRem2_Remit19b_specify,character,0,0
+Pakistan,SentRem2_Remit23,"haven_labelled, vctrs_vctr, double",5013,99.9
+Pakistan,SentRem2_Remit24,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,SentRem2_Remit24_specify,character,0,0
+Pakistan,SentRem2_Remit24_1a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem2_Remit24_1a_other,character,0,0
+Pakistan,SentRem2_Remit24_1b,numeric,5018,100
+Pakistan,SentRem2_Remit24_1b_other,numeric,5018,100
+Pakistan,SentRem2_Remit24_1c,numeric,5018,100
+Pakistan,SentRem2_Remit24_1c_other,numeric,5018,100
+Pakistan,SentRem2_Remit26,"haven_labelled, vctrs_vctr, double",5014,99.92
+Pakistan,SentRem2_Remit27,"haven_labelled, vctrs_vctr, double",5016,99.96
+Pakistan,SentRem3_current_recipient,character,0,0
+Pakistan,SentRem3_Remit18a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem3_Remit18a_specify,character,0,0
+Pakistan,SentRem3_Remit18b,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem3_Remit19a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem3_Remit19a_specify,character,0,0
+Pakistan,SentRem3_Remit19b,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem3_Remit19b_specify,character,0,0
+Pakistan,SentRem3_Remit23,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem3_Remit24,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem3_Remit24_specify,character,0,0
+Pakistan,SentRem3_Remit24_1a,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem3_Remit24_1a_other,character,0,0
+Pakistan,SentRem3_Remit24_1b,numeric,5018,100
+Pakistan,SentRem3_Remit24_1b_other,numeric,5018,100
+Pakistan,SentRem3_Remit24_1c,numeric,5018,100
+Pakistan,SentRem3_Remit24_1c_other,numeric,5018,100
+Pakistan,SentRem3_Remit26,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem3_Remit27,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_current_recipient,character,0,0
+Pakistan,SentRem4_Remit18a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_Remit18a_specify,character,0,0
+Pakistan,SentRem4_Remit18b,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_Remit19a,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_Remit19a_specify,character,0,0
+Pakistan,SentRem4_Remit19b,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem4_Remit19b_specify,character,0,0
+Pakistan,SentRem4_Remit23,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_Remit24,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem4_Remit24_specify,character,0,0
+Pakistan,SentRem4_Remit24_1a,"haven_labelled, vctrs_vctr, double",5018,100
+Pakistan,SentRem4_Remit24_1a_other,character,0,0
+Pakistan,SentRem4_Remit24_1b,numeric,5018,100
+Pakistan,SentRem4_Remit24_1b_other,numeric,5018,100
+Pakistan,SentRem4_Remit24_1c,numeric,5018,100
+Pakistan,SentRem4_Remit24_1c_other,numeric,5018,100
+Pakistan,SentRem4_Remit26,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,SentRem4_Remit27,"haven_labelled, vctrs_vctr, double",5017,99.98
+Pakistan,IA01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,IA01_1,"haven_labelled, vctrs_vctr, double",2481,49.44
+Pakistan,IA07,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,IA07_1,"haven_labelled, vctrs_vctr, double",1244,24.79
+Pakistan,IA08,"haven_labelled, vctrs_vctr, double",3699,73.71
+Pakistan,IA08_specify,character,0,0
+Pakistan,IA09,character,0,0
+Pakistan,IA09A,numeric,3699,73.71
+Pakistan,IA09B,numeric,3699,73.71
+Pakistan,IA09C,numeric,3699,73.71
+Pakistan,IA09D,numeric,3699,73.71
+Pakistan,IA09E,numeric,3699,73.71
+Pakistan,IA09F,numeric,3699,73.71
+Pakistan,IA09G,numeric,3699,73.71
+Pakistan,IA09OT,numeric,3699,73.71
+Pakistan,IA09_specify,character,0,0
+Pakistan,IA09_1,"haven_labelled, vctrs_vctr, double",3699,73.71
+Pakistan,IA10,character,0,0
+Pakistan,IA10A,numeric,3699,73.71
+Pakistan,IA10B,numeric,3699,73.71
+Pakistan,IA10C,numeric,3699,73.71
+Pakistan,IA10D,numeric,3699,73.71
+Pakistan,IA10E,numeric,3699,73.71
+Pakistan,IA10F,numeric,3699,73.71
+Pakistan,IA10G,numeric,3699,73.71
+Pakistan,IA10H,numeric,3699,73.71
+Pakistan,IA10I,numeric,3699,73.71
+Pakistan,IA10J,numeric,3699,73.71
+Pakistan,IA10K,numeric,3699,73.71
+Pakistan,IA10L,numeric,3699,73.71
+Pakistan,IA10OT,numeric,3699,73.71
+Pakistan,IA10_specify,character,0,0
+Pakistan,INFO00_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_2,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,INFO00_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,INFO00_9_1,character,0,0
+Pakistan,INFO01_1,"haven_labelled, vctrs_vctr, double",4408,87.84
+Pakistan,INFO01_1_specify,character,0,0
+Pakistan,INFO01_2,"haven_labelled, vctrs_vctr, double",4840,96.45
+Pakistan,INFO01_2_specify,numeric,5018,100
+Pakistan,INFO01_3,"haven_labelled, vctrs_vctr, double",4877,97.19
+Pakistan,INFO01_4,"haven_labelled, vctrs_vctr, double",4927,98.19
+Pakistan,INFO01_5,"haven_labelled, vctrs_vctr, double",4929,98.23
+Pakistan,INFO01_7,"haven_labelled, vctrs_vctr, double",4906,97.77
+Pakistan,INFO01_3_specify,numeric,5018,100
+Pakistan,INFO01_4_specify,numeric,5018,100
+Pakistan,INFO01_5_specify,numeric,5018,100
+Pakistan,INFO01_7_specify,numeric,5018,100
+Pakistan,INFO02a_hours,numeric,5016,99.96
+Pakistan,INFO02a_minutes,numeric,5016,99.96
+Pakistan,INFO02b,numeric,5018,100
+Pakistan,INFO02b_specify,numeric,5018,100
+Pakistan,FS01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FS04,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FS06_1,"haven_labelled, vctrs_vctr, double",4004,79.79
+Pakistan,FS06_2,"haven_labelled, vctrs_vctr, double",4004,79.79
+Pakistan,FS07,character,0,0
+Pakistan,FS07A,numeric,0,0
+Pakistan,FS07B,numeric,0,0
+Pakistan,FS07C,numeric,0,0
+Pakistan,FS07D,numeric,0,0
+Pakistan,FS07E,numeric,0,0
+Pakistan,FS07F,numeric,0,0
+Pakistan,FS07G,numeric,0,0
+Pakistan,FS07OT,numeric,0,0
+Pakistan,FS07_specify,character,0,0
+Pakistan,FS12,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FS13,"haven_labelled, vctrs_vctr, double",4871,97.07
+Pakistan,FS14,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,FS15,"haven_labelled, vctrs_vctr, double",4921,98.07
+Pakistan,Justice01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,Justice02,character,0,0
+Pakistan,Justice02A,numeric,4686,93.38
+Pakistan,Justice02B,numeric,4686,93.38
+Pakistan,Justice02C,numeric,4686,93.38
+Pakistan,Justice02D,numeric,4686,93.38
+Pakistan,Justice02E,numeric,4686,93.38
+Pakistan,Justice02F,numeric,4686,93.38
+Pakistan,Justice02G,numeric,4686,93.38
+Pakistan,Justice02H,numeric,4686,93.38
+Pakistan,Justice02I,numeric,4686,93.38
+Pakistan,Justice02J,numeric,4686,93.38
+Pakistan,Justice02K,numeric,4686,93.38
+Pakistan,Justice02L,numeric,4686,93.38
+Pakistan,Justice02OT,numeric,4686,93.38
+Pakistan,Justice02_specify,character,0,0
+Pakistan,Justice03,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice04,character,0,0
+Pakistan,Justice04A,numeric,4686,93.38
+Pakistan,Justice04D,numeric,4686,93.38
+Pakistan,Justice04OT,numeric,4686,93.38
+Pakistan,Justice04DK,numeric,4686,93.38
+Pakistan,Justice04RF,numeric,4686,93.38
+Pakistan,Justice04B,numeric,4686,93.38
+Pakistan,Justice04C,numeric,4686,93.38
+Pakistan,Justice04_specify,character,0,0
+Pakistan,Justice05,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice06,character,0,0
+Pakistan,Justice06A,numeric,4799,95.64
+Pakistan,Justice06B,numeric,4799,95.64
+Pakistan,Justice06C,numeric,4799,95.64
+Pakistan,Justice06D,numeric,4799,95.64
+Pakistan,Justice06E,numeric,4799,95.64
+Pakistan,Justice06F,numeric,4799,95.64
+Pakistan,Justice06G,numeric,4799,95.64
+Pakistan,Justice06H,numeric,4799,95.64
+Pakistan,Justice06I,numeric,4799,95.64
+Pakistan,Justice06J,numeric,4799,95.64
+Pakistan,Justice06OT,numeric,4799,95.64
+Pakistan,Justice06_specify,character,0,0
+Pakistan,Justice07a,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07b,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07c,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07d,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07e,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07f,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07g,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07h,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice07i,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice09,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice10,"haven_labelled, vctrs_vctr, double",4807,95.8
+Pakistan,Justice10_specify,character,0,0
+Pakistan,Justice12,"haven_labelled, vctrs_vctr, double",4807,95.8
+Pakistan,Justice13,"haven_labelled, vctrs_vctr, double",4807,95.8
+Pakistan,Justice14a,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,Justice14b,character,0,0
+Pakistan,Justice14bA,numeric,4943,98.51
+Pakistan,Justice14bB,numeric,4943,98.51
+Pakistan,Justice14bC,numeric,4943,98.51
+Pakistan,Justice14bD,numeric,4943,98.51
+Pakistan,Justice14bE,numeric,4943,98.51
+Pakistan,Justice14bF,numeric,4943,98.51
+Pakistan,Justice14bG,numeric,4943,98.51
+Pakistan,Justice14bOT,numeric,4943,98.51
+Pakistan,Justice14b_specify,character,0,0
+Pakistan,AC01_1,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC01_2,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC01_3,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC01_4,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC01_5,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC01_6,"haven_labelled, vctrs_vctr, double",3519,70.13
+Pakistan,AC06_1,"haven_labelled, vctrs_vctr, double",1980,39.46
+Pakistan,AC06_2,"haven_labelled, vctrs_vctr, double",2410,48.03
+Pakistan,AC06_3,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,AC06_4,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,AC06_5,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,AC06_6,"haven_labelled, vctrs_vctr, double",1500,29.89
+Pakistan,AC10_01,numeric,0,0
+Pakistan,AC10_02,numeric,0,0
+Pakistan,AC10_03,numeric,0,0
+Pakistan,DI01_02,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_03,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_09,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_05,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_07,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_06,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_08,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI01_04,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,DI02_group1_note,numeric,5018,100
+Pakistan,DI02_1,character,0,0
+Pakistan,DI02_1A,numeric,4568,91.03
+Pakistan,DI02_1B,numeric,4568,91.03
+Pakistan,DI02_1C,numeric,4568,91.03
+Pakistan,DI02_1D,numeric,4568,91.03
+Pakistan,DI02_1E,numeric,4568,91.03
+Pakistan,DI02_1F,numeric,4568,91.03
+Pakistan,DI02_1G,numeric,4568,91.03
+Pakistan,DI02_1H,numeric,4568,91.03
+Pakistan,DI02_1I,numeric,4568,91.03
+Pakistan,DI02_1J,numeric,4568,91.03
+Pakistan,DI02_1K,numeric,4568,91.03
+Pakistan,DI02_1L,numeric,4568,91.03
+Pakistan,DI02_1M,numeric,4568,91.03
+Pakistan,DI02_1N,numeric,4568,91.03
+Pakistan,DI02_1O,numeric,4568,91.03
+Pakistan,DI02_1P,numeric,4568,91.03
+Pakistan,DI02_1Q,numeric,4568,91.03
+Pakistan,DI02_1S,numeric,4568,91.03
+Pakistan,DI02_1T,numeric,4568,91.03
+Pakistan,DI02_1U,numeric,4568,91.03
+Pakistan,DI02_1AA,numeric,4568,91.03
+Pakistan,DI02_1AB,numeric,4568,91.03
+Pakistan,DI02_1AC,numeric,4568,91.03
+Pakistan,DI02_1AD,numeric,4568,91.03
+Pakistan,DI02_1AE,numeric,4568,91.03
+Pakistan,DI02_1OT,numeric,4568,91.03
+Pakistan,DI02_1DK,numeric,4568,91.03
+Pakistan,DI02_specify1,character,0,0
+Pakistan,DI03_1,"haven_labelled, vctrs_vctr, double",4588,91.43
+Pakistan,DI03a_1,"haven_labelled, vctrs_vctr, double",4568,91.03
+Pakistan,DI02_group2_note,numeric,5018,100
+Pakistan,DI02_2,character,0,0
+Pakistan,DI02_2A,numeric,4543,90.53
+Pakistan,DI02_2B,numeric,4543,90.53
+Pakistan,DI02_2C,numeric,4543,90.53
+Pakistan,DI02_2D,numeric,4543,90.53
+Pakistan,DI02_2E,numeric,4543,90.53
+Pakistan,DI02_2F,numeric,4543,90.53
+Pakistan,DI02_2G,numeric,4543,90.53
+Pakistan,DI02_2H,numeric,4543,90.53
+Pakistan,DI02_2I,numeric,4543,90.53
+Pakistan,DI02_2J,numeric,4543,90.53
+Pakistan,DI02_2K,numeric,4543,90.53
+Pakistan,DI02_2L,numeric,4543,90.53
+Pakistan,DI02_2M,numeric,4543,90.53
+Pakistan,DI02_2N,numeric,4543,90.53
+Pakistan,DI02_2O,numeric,4543,90.53
+Pakistan,DI02_2P,numeric,4543,90.53
+Pakistan,DI02_2Q,numeric,4543,90.53
+Pakistan,DI02_2S,numeric,4543,90.53
+Pakistan,DI02_2T,numeric,4543,90.53
+Pakistan,DI02_2U,numeric,4543,90.53
+Pakistan,DI02_2AA,numeric,4543,90.53
+Pakistan,DI02_2AB,numeric,4543,90.53
+Pakistan,DI02_2AC,numeric,4543,90.53
+Pakistan,DI02_2AD,numeric,4543,90.53
+Pakistan,DI02_2AE,numeric,4543,90.53
+Pakistan,DI02_2OT,numeric,4543,90.53
+Pakistan,DI02_2DK,numeric,4543,90.53
+Pakistan,DI02_specify2,character,0,0
+Pakistan,DI03_2,"haven_labelled, vctrs_vctr, double",4561,90.89
+Pakistan,DI03a_2,"haven_labelled, vctrs_vctr, double",4543,90.53
+Pakistan,DI02_group3_note,numeric,5018,100
+Pakistan,DI02_3,character,0,0
+Pakistan,DI02_3A,numeric,4619,92.05
+Pakistan,DI02_3B,numeric,4619,92.05
+Pakistan,DI02_3C,numeric,4619,92.05
+Pakistan,DI02_3D,numeric,4619,92.05
+Pakistan,DI02_3E,numeric,4619,92.05
+Pakistan,DI02_3F,numeric,4619,92.05
+Pakistan,DI02_3G,numeric,4619,92.05
+Pakistan,DI02_3H,numeric,4619,92.05
+Pakistan,DI02_3I,numeric,4619,92.05
+Pakistan,DI02_3J,numeric,4619,92.05
+Pakistan,DI02_3K,numeric,4619,92.05
+Pakistan,DI02_3L,numeric,4619,92.05
+Pakistan,DI02_3M,numeric,4619,92.05
+Pakistan,DI02_3N,numeric,4619,92.05
+Pakistan,DI02_3O,numeric,4619,92.05
+Pakistan,DI02_3P,numeric,4619,92.05
+Pakistan,DI02_3Q,numeric,4619,92.05
+Pakistan,DI02_3S,numeric,4619,92.05
+Pakistan,DI02_3T,numeric,4619,92.05
+Pakistan,DI02_3U,numeric,4619,92.05
+Pakistan,DI02_3AA,numeric,4619,92.05
+Pakistan,DI02_3AB,numeric,4619,92.05
+Pakistan,DI02_3AC,numeric,4619,92.05
+Pakistan,DI02_3AD,numeric,4619,92.05
+Pakistan,DI02_3AE,numeric,4619,92.05
+Pakistan,DI02_3OT,numeric,4619,92.05
+Pakistan,DI02_3DK,numeric,4619,92.05
+Pakistan,DI02_specify3,character,0,0
+Pakistan,DI03_3,"haven_labelled, vctrs_vctr, double",4640,92.47
+Pakistan,DI03a_3,"haven_labelled, vctrs_vctr, double",4619,92.05
+Pakistan,DI02_group4_note,numeric,5018,100
+Pakistan,DI02_4,character,0,0
+Pakistan,DI02_4A,numeric,4597,91.61
+Pakistan,DI02_4B,numeric,4597,91.61
+Pakistan,DI02_4C,numeric,4597,91.61
+Pakistan,DI02_4D,numeric,4597,91.61
+Pakistan,DI02_4E,numeric,4597,91.61
+Pakistan,DI02_4F,numeric,4597,91.61
+Pakistan,DI02_4G,numeric,4597,91.61
+Pakistan,DI02_4H,numeric,4597,91.61
+Pakistan,DI02_4I,numeric,4597,91.61
+Pakistan,DI02_4J,numeric,4597,91.61
+Pakistan,DI02_4K,numeric,4597,91.61
+Pakistan,DI02_4L,numeric,4597,91.61
+Pakistan,DI02_4M,numeric,4597,91.61
+Pakistan,DI02_4N,numeric,4597,91.61
+Pakistan,DI02_4O,numeric,4597,91.61
+Pakistan,DI02_4P,numeric,4597,91.61
+Pakistan,DI02_4Q,numeric,4597,91.61
+Pakistan,DI02_4S,numeric,4597,91.61
+Pakistan,DI02_4T,numeric,4597,91.61
+Pakistan,DI02_4U,numeric,4597,91.61
+Pakistan,DI02_4AA,numeric,4597,91.61
+Pakistan,DI02_4AB,numeric,4597,91.61
+Pakistan,DI02_4AC,numeric,4597,91.61
+Pakistan,DI02_4AD,numeric,4597,91.61
+Pakistan,DI02_4AE,numeric,4597,91.61
+Pakistan,DI02_4OT,numeric,4597,91.61
+Pakistan,DI02_4DK,numeric,4597,91.61
+Pakistan,DI02_specify4,character,0,0
+Pakistan,DI03_4,"haven_labelled, vctrs_vctr, double",4626,92.19
+Pakistan,DI03a_4,"haven_labelled, vctrs_vctr, double",4597,91.61
+Pakistan,DI02_group5_note,numeric,5018,100
+Pakistan,DI02_5,character,0,0
+Pakistan,DI02_5A,numeric,4669,93.05
+Pakistan,DI02_5B,numeric,4669,93.05
+Pakistan,DI02_5C,numeric,4669,93.05
+Pakistan,DI02_5D,numeric,4669,93.05
+Pakistan,DI02_5E,numeric,4669,93.05
+Pakistan,DI02_5F,numeric,4669,93.05
+Pakistan,DI02_5G,numeric,4669,93.05
+Pakistan,DI02_5H,numeric,4669,93.05
+Pakistan,DI02_5I,numeric,4669,93.05
+Pakistan,DI02_5J,numeric,4669,93.05
+Pakistan,DI02_5K,numeric,4669,93.05
+Pakistan,DI02_5L,numeric,4669,93.05
+Pakistan,DI02_5M,numeric,4669,93.05
+Pakistan,DI02_5N,numeric,4669,93.05
+Pakistan,DI02_5O,numeric,4669,93.05
+Pakistan,DI02_5P,numeric,4669,93.05
+Pakistan,DI02_5Q,numeric,4669,93.05
+Pakistan,DI02_5S,numeric,4669,93.05
+Pakistan,DI02_5T,numeric,4669,93.05
+Pakistan,DI02_5U,numeric,4669,93.05
+Pakistan,DI02_5AA,numeric,4669,93.05
+Pakistan,DI02_5AB,numeric,4669,93.05
+Pakistan,DI02_5AC,numeric,4669,93.05
+Pakistan,DI02_5AD,numeric,4669,93.05
+Pakistan,DI02_5AE,numeric,4669,93.05
+Pakistan,DI02_5OT,numeric,4669,93.05
+Pakistan,DI02_5DK,numeric,4669,93.05
+Pakistan,DI02_specify5,numeric,5018,100
+Pakistan,DI03_5,"haven_labelled, vctrs_vctr, double",4686,93.38
+Pakistan,DI03a_5,"haven_labelled, vctrs_vctr, double",4669,93.05
+Pakistan,DI02_group6_note,numeric,5018,100
+Pakistan,DI02_6,character,0,0
+Pakistan,DI02_6A,numeric,4637,92.41
+Pakistan,DI02_6B,numeric,4637,92.41
+Pakistan,DI02_6C,numeric,4637,92.41
+Pakistan,DI02_6D,numeric,4637,92.41
+Pakistan,DI02_6E,numeric,4637,92.41
+Pakistan,DI02_6F,numeric,4637,92.41
+Pakistan,DI02_6G,numeric,4637,92.41
+Pakistan,DI02_6H,numeric,4637,92.41
+Pakistan,DI02_6I,numeric,4637,92.41
+Pakistan,DI02_6J,numeric,4637,92.41
+Pakistan,DI02_6K,numeric,4637,92.41
+Pakistan,DI02_6L,numeric,4637,92.41
+Pakistan,DI02_6M,numeric,4637,92.41
+Pakistan,DI02_6N,numeric,4637,92.41
+Pakistan,DI02_6O,numeric,4637,92.41
+Pakistan,DI02_6P,numeric,4637,92.41
+Pakistan,DI02_6Q,numeric,4637,92.41
+Pakistan,DI02_6S,numeric,4637,92.41
+Pakistan,DI02_6T,numeric,4637,92.41
+Pakistan,DI02_6U,numeric,4637,92.41
+Pakistan,DI02_6AA,numeric,4637,92.41
+Pakistan,DI02_6AB,numeric,4637,92.41
+Pakistan,DI02_6AC,numeric,4637,92.41
+Pakistan,DI02_6AD,numeric,4637,92.41
+Pakistan,DI02_6AE,numeric,4637,92.41
+Pakistan,DI02_6OT,numeric,4637,92.41
+Pakistan,DI02_6DK,numeric,4637,92.41
+Pakistan,DI02_specify6,character,0,0
+Pakistan,DI03_6,"haven_labelled, vctrs_vctr, double",4654,92.75
+Pakistan,DI03a_6,"haven_labelled, vctrs_vctr, double",4637,92.41
+Pakistan,DI02_group7_note,numeric,5018,100
+Pakistan,DI02_7,character,0,0
+Pakistan,DI02_7A,numeric,4522,90.12
+Pakistan,DI02_7B,numeric,4522,90.12
+Pakistan,DI02_7C,numeric,4522,90.12
+Pakistan,DI02_7D,numeric,4522,90.12
+Pakistan,DI02_7E,numeric,4522,90.12
+Pakistan,DI02_7F,numeric,4522,90.12
+Pakistan,DI02_7G,numeric,4522,90.12
+Pakistan,DI02_7H,numeric,4522,90.12
+Pakistan,DI02_7I,numeric,4522,90.12
+Pakistan,DI02_7J,numeric,4522,90.12
+Pakistan,DI02_7K,numeric,4522,90.12
+Pakistan,DI02_7L,numeric,4522,90.12
+Pakistan,DI02_7M,numeric,4522,90.12
+Pakistan,DI02_7N,numeric,4522,90.12
+Pakistan,DI02_7O,numeric,4522,90.12
+Pakistan,DI02_7P,numeric,4522,90.12
+Pakistan,DI02_7Q,numeric,4522,90.12
+Pakistan,DI02_7S,numeric,4522,90.12
+Pakistan,DI02_7T,numeric,4522,90.12
+Pakistan,DI02_7U,numeric,4522,90.12
+Pakistan,DI02_7AA,numeric,4522,90.12
+Pakistan,DI02_7AB,numeric,4522,90.12
+Pakistan,DI02_7AC,numeric,4522,90.12
+Pakistan,DI02_7AD,numeric,4522,90.12
+Pakistan,DI02_7AE,numeric,4522,90.12
+Pakistan,DI02_7OT,numeric,4522,90.12
+Pakistan,DI02_7DK,numeric,4522,90.12
+Pakistan,DI02_specify7,character,0,0
+Pakistan,DI03_7,"haven_labelled, vctrs_vctr, double",4553,90.73
+Pakistan,DI03a_7,"haven_labelled, vctrs_vctr, double",4522,90.12
+Pakistan,DI02_group8_note,numeric,5018,100
+Pakistan,DI02_8,character,0,0
+Pakistan,DI02_8A,numeric,4570,91.07
+Pakistan,DI02_8B,numeric,4570,91.07
+Pakistan,DI02_8C,numeric,4570,91.07
+Pakistan,DI02_8D,numeric,4570,91.07
+Pakistan,DI02_8E,numeric,4570,91.07
+Pakistan,DI02_8F,numeric,4570,91.07
+Pakistan,DI02_8G,numeric,4570,91.07
+Pakistan,DI02_8H,numeric,4570,91.07
+Pakistan,DI02_8I,numeric,4570,91.07
+Pakistan,DI02_8J,numeric,4570,91.07
+Pakistan,DI02_8K,numeric,4570,91.07
+Pakistan,DI02_8L,numeric,4570,91.07
+Pakistan,DI02_8M,numeric,4570,91.07
+Pakistan,DI02_8N,numeric,4570,91.07
+Pakistan,DI02_8O,numeric,4570,91.07
+Pakistan,DI02_8P,numeric,4570,91.07
+Pakistan,DI02_8Q,numeric,4570,91.07
+Pakistan,DI02_8S,numeric,4570,91.07
+Pakistan,DI02_8T,numeric,4570,91.07
+Pakistan,DI02_8U,numeric,4570,91.07
+Pakistan,DI02_8AA,numeric,4570,91.07
+Pakistan,DI02_8AB,numeric,4570,91.07
+Pakistan,DI02_8AC,numeric,4570,91.07
+Pakistan,DI02_8AD,numeric,4570,91.07
+Pakistan,DI02_8AE,numeric,4570,91.07
+Pakistan,DI02_8OT,numeric,4570,91.07
+Pakistan,DI02_8DK,numeric,4570,91.07
+Pakistan,DI02_specify8,numeric,5018,100
+Pakistan,DI03_8,"haven_labelled, vctrs_vctr, double",4591,91.49
+Pakistan,DI03a_8,"haven_labelled, vctrs_vctr, double",4570,91.07
+Pakistan,DI02_group10_note,numeric,5018,100
+Pakistan,DI02_9,character,0,0
+Pakistan,DI02_9A,numeric,4651,92.69
+Pakistan,DI02_9B,numeric,4651,92.69
+Pakistan,DI02_9C,numeric,4651,92.69
+Pakistan,DI02_9D,numeric,4651,92.69
+Pakistan,DI02_9E,numeric,4651,92.69
+Pakistan,DI02_9F,numeric,4651,92.69
+Pakistan,DI02_9G,numeric,4651,92.69
+Pakistan,DI02_9H,numeric,4651,92.69
+Pakistan,DI02_9I,numeric,4651,92.69
+Pakistan,DI02_9J,numeric,4651,92.69
+Pakistan,DI02_9K,numeric,4651,92.69
+Pakistan,DI02_9L,numeric,4651,92.69
+Pakistan,DI02_9M,numeric,4651,92.69
+Pakistan,DI02_9N,numeric,4651,92.69
+Pakistan,DI02_9O,numeric,4651,92.69
+Pakistan,DI02_9P,numeric,4651,92.69
+Pakistan,DI02_9Q,numeric,4651,92.69
+Pakistan,DI02_9S,numeric,4651,92.69
+Pakistan,DI02_9T,numeric,4651,92.69
+Pakistan,DI02_9U,numeric,4651,92.69
+Pakistan,DI02_9AA,numeric,4651,92.69
+Pakistan,DI02_9AB,numeric,4651,92.69
+Pakistan,DI02_9AC,numeric,4651,92.69
+Pakistan,DI02_9AD,numeric,4651,92.69
+Pakistan,DI02_9AE,numeric,4651,92.69
+Pakistan,DI02_9OT,numeric,4651,92.69
+Pakistan,DI02_9DK,numeric,4651,92.69
+Pakistan,DI02_specify9,character,0,0
+Pakistan,DI03_9,"haven_labelled, vctrs_vctr, double",4664,92.95
+Pakistan,DI03a_9,"haven_labelled, vctrs_vctr, double",4651,92.69
+Pakistan,VW00_1,"haven_labelled, vctrs_vctr, double",1047,20.86
+Pakistan,VW00_2,"haven_labelled, vctrs_vctr, double",4816,95.97
+Pakistan,VW01_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW01_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,VW02_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_3a,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_3b,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS01_5_specify,character,0,0
+Pakistan,AS02_1,"haven_labelled, vctrs_vctr, double",3168,63.13
+Pakistan,AS02_2,"haven_labelled, vctrs_vctr, double",4678,93.22
+Pakistan,AS02_3a,"haven_labelled, vctrs_vctr, double",4609,91.85
+Pakistan,AS02_3b,"haven_labelled, vctrs_vctr, double",3342,66.6
+Pakistan,AS02_4,"haven_labelled, vctrs_vctr, double",4163,82.96
+Pakistan,AS02_5,"haven_labelled, vctrs_vctr, double",4991,99.46
+Pakistan,AS02_5_specify,character,0,0
+Pakistan,AS04,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,AS05,character,0,0
+Pakistan,CD01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_10,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_11,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD01_12,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD02_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD02_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD02_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD02_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD02_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD03,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD05,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,CD05_specify,character,0,0
+Pakistan,MH01_1,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_2,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_3,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_4,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_5,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_6,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_7,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_8,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH01_9,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,MH02,"haven_labelled, vctrs_vctr, double",1763,35.13
+Pakistan,telAdultSelected,character,0,0
+Pakistan,OBS_01_RA,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,OBS_02_RA,character,0,0
+Pakistan,OBS_02_RA0,numeric,4692,93.5
+Pakistan,OBS_02_RA1,numeric,4692,93.5
+Pakistan,OBS_02_RA2,numeric,4692,93.5
+Pakistan,OBS_02_RA3,numeric,4692,93.5
+Pakistan,OBS_02_RA4,numeric,4692,93.5
+Pakistan,OBS_02_RA5,numeric,4692,93.5
+Pakistan,OBS_02_RA6,numeric,4692,93.5
+Pakistan,OBS_02_RA7,numeric,4692,93.5
+Pakistan,OBS_02_RA8,numeric,4692,93.5
+Pakistan,OBS_02_RA9,numeric,4692,93.5
+Pakistan,OBS_02_RA10,numeric,4692,93.5
+Pakistan,OBS_02_RA11,numeric,4692,93.5
+Pakistan,OBS_02_RA12,numeric,4692,93.5
+Pakistan,OBS_02_RA13,numeric,4692,93.5
+Pakistan,OBS_02_RA14,numeric,4692,93.5
+Pakistan,OBS_02_RA15,numeric,4692,93.5
+Pakistan,OBS_02_RA16,numeric,4692,93.5
+Pakistan,OBS_02_RA17,numeric,4692,93.5
+Pakistan,OBS_02_RA18,numeric,4692,93.5
+Pakistan,OBS_02_RA19,numeric,4692,93.5
+Pakistan,OBS_02_RA20,numeric,4692,93.5
+Pakistan,OBS_02_RA21,numeric,4692,93.5
+Pakistan,OBS_02_RA22,numeric,4692,93.5
+Pakistan,OBS_02_RA23,numeric,4692,93.5
+Pakistan,OBS_02_RA24,numeric,4692,93.5
+Pakistan,OBS_02_RA25,numeric,4692,93.5
+Pakistan,OBS_02_RA26,numeric,4725,94.16
+Pakistan,OBS_02_RA27,numeric,4725,94.16
+Pakistan,OBS_02_RA28,numeric,4725,94.16
+Pakistan,OBS_02_RA29,numeric,4725,94.16
+Pakistan,OBS_02_RA30,numeric,4725,94.16
+Pakistan,OBS_02_RA31,numeric,4776,95.18
+Pakistan,OBS_02_RA32,numeric,4776,95.18
+Pakistan,OBS_02_RA33,numeric,4776,95.18
+Pakistan,OBS_02_RA34,numeric,4776,95.18
+Pakistan,OBS_02_RA35,numeric,4776,95.18
+Pakistan,OBS_02_RA36,numeric,4776,95.18
+Pakistan,OBS_02_RA37,numeric,4776,95.18
+Pakistan,OBS_02_RA38,numeric,4776,95.18
+Pakistan,OBS_02_RA39,numeric,4776,95.18
+Pakistan,OBS_02_RA40,numeric,4776,95.18
+Pakistan,OBS_02_RA41,numeric,4889,97.43
+Pakistan,OBS_02_RA42,numeric,4889,97.43
+Pakistan,OBS_02_RA43,numeric,4889,97.43
+Pakistan,OBS_02_RA44,numeric,4889,97.43
+Pakistan,OBS_02_RA45,numeric,4889,97.43
+Pakistan,OBS_02_RA46,numeric,4889,97.43
+Pakistan,OBS_02_RA47,numeric,4889,97.43
+Pakistan,OBS_02_RA48,numeric,4889,97.43
+Pakistan,OBS_02_RA49,numeric,4889,97.43
+Pakistan,OBS_02_RA50,numeric,4889,97.43
+Pakistan,OBS_03_RA,"haven_labelled, vctrs_vctr, double",4692,93.5
+Pakistan,sample_strata,"haven_labelled, vctrs_vctr, double",6,0.12
+Pakistan,Final_01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,RA_HH_04_cat2,factor,0,0
+Pakistan,RA_HH_04_cat4,factor,0,0
+Pakistan,HH_Educ02a_RA,"haven_labelled, vctrs_vctr, double",1061,21.14
+Pakistan,HH_Educ07_RA,"haven_labelled, vctrs_vctr, double",401,7.99
+Pakistan,HH_Educ14_RA,"haven_labelled, vctrs_vctr, double",4666,92.99
+Pakistan,primary_complete_RA,numeric,3737,74.47
+Pakistan,lowersec_complete_RA,numeric,4124,82.18
+Pakistan,uppersec_complete_RA,numeric,4720,94.06
+Pakistan,health_access,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,health_all,numeric,0,0
+Pakistan,RBM10303,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,RBM20401,"haven_labelled, vctrs_vctr, double",68,1.36
+Pakistan,RBM20402,"haven_labelled, vctrs_vctr, double",88,1.75
+Pakistan,RBM21301,"haven_labelled, vctrs_vctr, double",58,1.16
+Pakistan,working_age,numeric,477,9.51
+Pakistan,employed,numeric,0,0
+Pakistan,unemployed,numeric,0,0
+Pakistan,labour_force,numeric,0,0
+Pakistan,RBM21303,"haven_labelled, vctrs_vctr, double",3281,65.38
+Pakistan,C040301_15_24,"haven_labelled, vctrs_vctr, double",3678,73.3
+Pakistan,C040301_25_45,"haven_labelled, vctrs_vctr, double",2522,50.26
+Pakistan,C050b01,"haven_labelled, vctrs_vctr, double",0,0
+Pakistan,isce93,numeric,3438,68.51
+Pakistan,ins_sector,numeric,3438,68.51
+Pakistan,socsec,numeric,3438,68.51
+Pakistan,painleave,numeric,3438,68.51
+Pakistan,sickleave,numeric,3438,68.51
+Pakistan,parentalleave,numeric,3438,68.51
+Pakistan,registered,numeric,3438,68.51
+Pakistan,bookkeep,numeric,3438,68.51
+Pakistan,unit_prod,numeric,3438,68.51
+Pakistan,job_nature,numeric,3438,68.51
+Pakistan,hourly_pay,integer,3895,77.62
+Pakistan,C080502,"haven_labelled, vctrs_vctr, double",3185,63.47
+Pakistan,employed_youth,numeric,3647,72.68
+Pakistan,unemployed_youth,numeric,4895,97.55
+Pakistan,youth_education,numeric,3652,72.78
+Pakistan,youth_training,numeric,113,2.25
+Pakistan,num_C080601,numeric,0,0
+Pakistan,denominator_age,numeric,0,0
+Pakistan,C081002,"haven_labelled, vctrs_vctr, double",59,1.18
+Pakistan,C200204,"haven_labelled, vctrs_vctr, double",350,6.97
+Pakistan,C160105,numeric,0,0
+Pakistan,dispute,numeric,8,0.16
+Pakistan,C170801,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,start,"POSIXct, POSIXt",0,0
+Zambia,end,"POSIXct, POSIXt",0,0
+Zambia,Intro_07,factor,0,0
+Zambia,Intro_03a_NUTS1,character,0,0
+Zambia,Intro_03b_NUTS2,character,0,0
+Zambia,Intro_03c_NUTS3,character,0,0
+Zambia,age_selected,numeric,2,0.05
+Zambia,HH_02_RA,factor,0,0
+Zambia,disability_RA,factor,3,0.07
+Zambia,COO_RA,character,3,0.07
+Zambia,Intro_09,factor,0,0
+Zambia,_uuid,character,0,0
+Zambia,wgh_strata_spec_resp,numeric,0,0
+Zambia,wgh_samp_pop_restr_resp,numeric,0,0
+Zambia,samp_strat,factor,0,0
+Zambia,pop_strat,factor,0,0
+Zambia,_index,character,0,0
+Zambia,source,character,0,0
+Zambia,_id,integer,0,0
+Zambia,uuid,character,0,0
+Zambia,AdultAvail,character,0,0
+Zambia,visit1,character,4277,99.23
+Zambia,visit2,character,4281,99.33
+Zambia,visit3,character,4291,99.56
+Zambia,random1ap2,numeric,3585,83.18
+Zambia,eadult_nap2,numeric,3585,83.18
+Zambia,epositionap2,character,3585,83.18
+Zambia,random_indexap2,numeric,3586,83.2
+Zambia,selected_adultap2,numeric,3585,83.18
+Zambia,unem_sampled2,character,3585,83.18
+Zambia,AdultAvail2,character,3585,83.18
+Zambia,visit12,character,4302,99.81
+Zambia,visit22,character,4302,99.81
+Zambia,visit32,character,4303,99.84
+Zambia,random1ap3,numeric,4083,94.73
+Zambia,eadult_nap3,numeric,4083,94.73
+Zambia,epositionap3,character,4083,94.73
+Zambia,random_indexap3,numeric,4083,94.73
+Zambia,selected_adultap3,numeric,4083,94.73
+Zambia,unem_sampled3,character,4083,94.73
+Zambia,AdultAvail3,character,4083,94.73
+Zambia,visit13,character,4306,99.91
+Zambia,visit23,character,4307,99.93
+Zambia,visit33,character,4307,99.93
+Zambia,random1ap4,numeric,4232,98.19
+Zambia,eadult_nap4,numeric,4232,98.19
+Zambia,epositionap4,character,4232,98.19
+Zambia,random_indexap4,numeric,4232,98.19
+Zambia,selected_adultap4,numeric,4232,98.19
+Zambia,unem_sampled4,character,4232,98.19
+Zambia,AdultAvail4,character,4232,98.19
+Zambia,random1ap5,numeric,4290,99.54
+Zambia,eadult_nap5,numeric,4290,99.54
+Zambia,epositionap5,character,4290,99.54
+Zambia,random_indexap5,numeric,4290,99.54
+Zambia,selected_adultap5,numeric,4290,99.54
+Zambia,unem_sampled5,character,4290,99.54
+Zambia,AdultAvail5,character,4290,99.54
+Zambia,visit25,character,4309,99.98
+Zambia,selected_adultap,numeric,2,0.05
+Zambia,unem_sampled,character,1,0.02
+Zambia,age_selected_001,numeric,0,0
+Zambia,HH_08_selected,numeric,0,0
+Zambia,ID_VAR_randomadult,numeric,0,0
+Zambia,Adultinterviewctd,numeric,0,0
+Zambia,signature_RM,character,0,0
+Zambia,RM_consent,character,0,0
+Zambia,RM_consent_StartTime,"POSIXct, POSIXt",0,0
+Zambia,W01_1,numeric,0,0
+Zambia,W01_1_StartTime,"POSIXct, POSIXt",0,0
+Zambia,W01_2,numeric,0,0
+Zambia,SMW_random1,numeric,0,0
+Zambia,SMW_random2,numeric,3,0.07
+Zambia,W02_1,numeric,0,0
+Zambia,W02_2,numeric,0,0
+Zambia,W02_3,numeric,0,0
+Zambia,W02_4,numeric,0,0
+Zambia,W02_5,numeric,0,0
+Zambia,W02_6,numeric,0,0
+Zambia,W02_7a,numeric,0,0
+Zambia,W02_8,numeric,935,21.69
+Zambia,W02_9,numeric,0,0
+Zambia,W02_10,numeric,0,0
+Zambia,W02_11,numeric,0,0
+Zambia,SMW_random3,numeric,0,0
+Zambia,SMW_random4,numeric,4,0.09
+Zambia,randomW03,numeric,0,0
+Zambia,roundrand,numeric,6,0.14
+Zambia,SMW_random5,numeric,0,0
+Zambia,SMW_random6,numeric,2,0.05
+Zambia,SMW_random7,numeric,0,0
+Zambia,SMW_random8,numeric,3,0.07
+Zambia,H00a,character,0,0
+Zambia,H00a_specify,character,4280,99.3
+Zambia,H00b,character,33,0.77
+Zambia,H00b_specify,character,4175,96.87
+Zambia,H00c,character,33,0.77
+Zambia,HH00c1,character,1484,34.43
+Zambia,HH00c2,character,2912,67.56
+Zambia,HH00c3,character,2912,67.56
+Zambia,H01,character,0,0
+Zambia,H01_StartTime,"POSIXct, POSIXt",555,12.88
+Zambia,H01a,character,0,0
+Zambia,H01afilter,numeric,0,0
+Zambia,H01_1,character,0,0
+Zambia,H02,character,2844,65.99
+Zambia,H02_OT,integer,2844,65.99
+Zambia,H02_G,integer,2844,65.99
+Zambia,H02_F,integer,2844,65.99
+Zambia,H02_E,integer,2844,65.99
+Zambia,H02_D,integer,2844,65.99
+Zambia,H02_C,integer,2844,65.99
+Zambia,H02_B,integer,2844,65.99
+Zambia,H02_A,integer,2844,65.99
+Zambia,H02_specify,character,4258,98.79
+Zambia,H04,character,2844,65.99
+Zambia,H06,character,2947,68.38
+Zambia,H08,character,4207,97.61
+Zambia,H08_Y,integer,4207,97.61
+Zambia,H08_X,integer,4207,97.61
+Zambia,H08_H,integer,4207,97.61
+Zambia,H08_G,integer,4207,97.61
+Zambia,H08_F,integer,4207,97.61
+Zambia,H08_E,integer,4207,97.61
+Zambia,H08_D,integer,4207,97.61
+Zambia,H08_C,integer,4207,97.61
+Zambia,H08_B,integer,4207,97.61
+Zambia,H08_A,integer,4207,97.61
+Zambia,H08_specify,character,4288,99.49
+Zambia,H11,character,2947,68.38
+Zambia,H11_label,character,2947,68.38
+Zambia,H11_specify,character,4308,99.95
+Zambia,H11a,character,2950,68.45
+Zambia,H11a_specify,character,4299,99.74
+Zambia,H15_calculate,character,0,0
+Zambia,H15_calculate_french,character,345,8
+Zambia,H15,character,3039,70.51
+Zambia,H16,character,4287,99.47
+Zambia,H16_OT,integer,4287,99.47
+Zambia,H16_I,integer,4287,99.47
+Zambia,H16_H,integer,4287,99.47
+Zambia,H16_G,integer,4287,99.47
+Zambia,H16_F,integer,4287,99.47
+Zambia,H16_E,integer,4287,99.47
+Zambia,H16_DK,integer,4287,99.47
+Zambia,H16_D,integer,4287,99.47
+Zambia,H16_C,integer,4287,99.47
+Zambia,H16_B,integer,4287,99.47
+Zambia,H16_A,integer,4287,99.47
+Zambia,H16_specify,character,4304,99.86
+Zambia,H16a1,numeric,4218,97.87
+Zambia,H16a2,numeric,4287,99.47
+Zambia,H17,character,4287,99.47
+Zambia,H17_label,character,4287,99.47
+Zambia,H17_specify,character,4308,99.95
+Zambia,H17_3,character,4289,99.51
+Zambia,H17_3_specify,character,4307,99.93
+Zambia,H21,character,4287,99.47
+Zambia,H21_1,character,4301,99.79
+Zambia,H21_2,character,4298,99.72
+Zambia,H21_3,character,4298,99.72
+Zambia,MovFree01b,character,1937,44.94
+Zambia,MovFree01b_StartTime,"POSIXct, POSIXt",1936,44.92
+Zambia,MovFree01a,character,1937,44.94
+Zambia,MovFree02,character,2200,51.04
+Zambia,MovFree03,character,1937,44.94
+Zambia,MovFree04,character,2719,63.09
+Zambia,MovFree05,numeric,3547,82.3
+Zambia,MovFree06,numeric,3547,82.3
+Zambia,MovFree07,numeric,3563,82.67
+Zambia,MovFree08,character,3547,82.3
+Zambia,MovFree09,character,3563,82.67
+Zambia,Mob01a,character,0,0
+Zambia,Mob01b,numeric,3416,79.26
+Zambia,Mob02,character,3416,79.26
+Zambia,Mob02_RF,integer,3416,79.26
+Zambia,Mob02_OT,integer,3416,79.26
+Zambia,Mob02_C,integer,3416,79.26
+Zambia,Mob02_B,integer,3416,79.26
+Zambia,Mob02_A,integer,3416,79.26
+Zambia,Mob02_camp_other,character,4289,99.51
+Zambia,Mob02_village_other,character,4126,95.73
+Zambia,Mob02_city_other,character,3684,85.48
+Zambia,Mob02_other,character,4231,98.17
+Zambia,Mob03a,character,3416,79.26
+Zambia,Mob03a_RF,integer,3416,79.26
+Zambia,Mob03a_OT,integer,3416,79.26
+Zambia,Mob03a_K,integer,3416,79.26
+Zambia,Mob03a_J,integer,3416,79.26
+Zambia,Mob03a_I,integer,3416,79.26
+Zambia,Mob03a_H,integer,3416,79.26
+Zambia,Mob03a_G,integer,3416,79.26
+Zambia,Mob03a_F,integer,3416,79.26
+Zambia,Mob03a_E,integer,3416,79.26
+Zambia,Mob03a_D,integer,3416,79.26
+Zambia,Mob03a_C,integer,3416,79.26
+Zambia,Mob03a_B,integer,3416,79.26
+Zambia,Mob03a_A,integer,3416,79.26
+Zambia,Mob03a_other,character,4055,94.08
+Zambia,Mob03b,character,2459,57.05
+Zambia,Mob04a,character,0,0
+Zambia,Mob04b,numeric,4280,99.3
+Zambia,Mob05,character,4280,99.3
+Zambia,Mob06a,character,4280,99.3
+Zambia,Mob06a_RF,integer,4280,99.3
+Zambia,Mob06a_OT,integer,4280,99.3
+Zambia,Mob06a_K,integer,4280,99.3
+Zambia,Mob06a_J,integer,4280,99.3
+Zambia,Mob06a_I,integer,4280,99.3
+Zambia,Mob06a_H,integer,4280,99.3
+Zambia,Mob06a_G,integer,4280,99.3
+Zambia,Mob06a_F,integer,4280,99.3
+Zambia,Mob06a_E,integer,4280,99.3
+Zambia,Mob06a_D,integer,4280,99.3
+Zambia,Mob06a_C,integer,4280,99.3
+Zambia,Mob06a_B,integer,4280,99.3
+Zambia,Mob06a_A,integer,4280,99.3
+Zambia,Mob06a_other,character,4300,99.77
+Zambia,Mob06b,character,30,0.7
+Zambia,Res01,character,1937,44.94
+Zambia,Res02,character,1937,44.94
+Zambia,Res02_EndTime,"POSIXct, POSIXt",1936,44.92
+Zambia,educleveladult,numeric,0,0
+Zambia,educleveladult2,numeric,0,0
+Zambia,HHeduc28,numeric,0,0
+Zambia,HHeduc28_Greater,numeric,0,0
+Zambia,HHeduc28_lower,numeric,0,0
+Zambia,educleveladult_lbl,character,3058,70.95
+Zambia,educ_now,numeric,1068,24.78
+Zambia,Educ_ever,numeric,688,15.96
+Zambia,educlevelR,character,1439,33.39
+Zambia,gradecodeHH,character,0,0
+Zambia,EducR00a,character,3609,83.74
+Zambia,EducR00a_StartTime,"POSIXct, POSIXt",3602,83.57
+Zambia,EducR00b,character,4276,99.21
+Zambia,calculate_EducR01,character,0,0
+Zambia,calculate_EducR01_swahili,character,1709,39.65
+Zambia,calculate_EducR01_nyanja,character,1709,39.65
+Zambia,calculate_EducR01_bemba,character,163,3.78
+Zambia,EducR01,character,3097,71.86
+Zambia,EducR02_other,character,3880,90.02
+Zambia,EducR02,character,3279,76.08
+Zambia,EducR03,character,3279,76.08
+Zambia,EducR04,character,3279,76.08
+Zambia,EducR05,character,4203,97.52
+Zambia,EducR05_other,character,4275,99.19
+Zambia,EducR06,character,4203,97.52
+Zambia,EducR06_other,character,4275,99.19
+Zambia,EducR07,character,4203,97.52
+Zambia,EducR20,character,3610,83.76
+Zambia,EducR21,character,4076,94.57
+Zambia,EducR21a,character,4095,95.01
+Zambia,EducR22,character,4101,95.15
+Zambia,EducR23,character,4294,99.63
+Zambia,EducR23_OT,integer,4294,99.63
+Zambia,EducR23_98,integer,4294,99.63
+Zambia,EducR23_5,integer,4294,99.63
+Zambia,EducR23_4,integer,4294,99.63
+Zambia,EducR23_3,integer,4294,99.63
+Zambia,EducR23_2,integer,4294,99.63
+Zambia,EducR23_1,integer,4294,99.63
+Zambia,EducR24,character,4117,95.52
+Zambia,EducR24_OT,integer,4117,95.52
+Zambia,EducR24_99,integer,4117,95.52
+Zambia,EducR24_98,integer,4117,95.52
+Zambia,EducR24_4,integer,4117,95.52
+Zambia,EducR24_3,integer,4117,95.52
+Zambia,EducR24_2,integer,4117,95.52
+Zambia,EducR24_1,integer,4117,95.52
+Zambia,EducR08,character,0,0
+Zambia,EducR08trigger,"POSIXct, POSIXt",32,0.74
+Zambia,HealthcareEndTrigger,"POSIXct, POSIXt",42,0.97
+Zambia,EducR09,character,3865,89.68
+Zambia,EducR10,character,3865,89.68
+Zambia,EducR10_other,character,4153,96.36
+Zambia,EducR11,numeric,3865,89.68
+Zambia,EducR12,character,3865,89.68
+Zambia,EducR12a,character,3865,89.68
+Zambia,EducR13,character,0,0
+Zambia,EducR14,numeric,4144,96.15
+Zambia,EducR14b,character,4144,96.15
+Zambia,EducR15,numeric,4144,96.15
+Zambia,noteEduc16_17_1,logical,4310,100
+Zambia,noteEduc16_17_2,logical,4310,100
+Zambia,noteEduc16_17_3,logical,4310,100
+Zambia,noteEduc16_17_4,logical,4310,100
+Zambia,noteEduc16_17_5,logical,4310,100
+Zambia,noteEduc16_17_6,logical,4310,100
+Zambia,calcPos_1,numeric,4144,96.15
+Zambia,calcPos_2,numeric,4261,98.86
+Zambia,calcPos_3,numeric,4288,99.49
+Zambia,calcPos_4,numeric,4300,99.77
+Zambia,calcPos_5,numeric,4304,99.86
+Zambia,calcPos_6,numeric,4308,99.95
+Zambia,noteTraining_1,logical,4310,100
+Zambia,noteTraining_2,logical,4310,100
+Zambia,noteTraining_3,logical,4310,100
+Zambia,noteTraining_4,logical,4310,100
+Zambia,noteTraining_5,logical,4310,100
+Zambia,noteTraining_6,logical,4310,100
+Zambia,TrProg1_EducR16,character,4144,96.15
+Zambia,TrProg2_EducR16,character,4261,98.86
+Zambia,TrProg3_EducR16,character,4288,99.49
+Zambia,TrProg4_EducR16,character,4300,99.77
+Zambia,TrProg5_EducR16,character,4304,99.86
+Zambia,TrProg6_EducR16,character,4308,99.95
+Zambia,TrProg1_EducR16_other,character,4218,97.87
+Zambia,TrProg2_EducR16_other,character,4280,99.3
+Zambia,TrProg3_EducR16_other,character,4295,99.65
+Zambia,TrProg4_EducR16_other,character,4303,99.84
+Zambia,TrProg5_EducR16_other,character,4307,99.93
+Zambia,TrProg6_EducR16_other,character,4308,99.95
+Zambia,EducR17_1,character,4283,99.37
+Zambia,EducR17_2,character,4299,99.74
+Zambia,EducR17_3,character,4307,99.93
+Zambia,EducR17_4,character,4309,99.98
+Zambia,EducR17_5,character,4308,99.95
+Zambia,EducR17_6,character,4310,100
+Zambia,EducR17_other_1,character,4306,99.91
+Zambia,EducR17_other_2,character,4309,99.98
+Zambia,EducR17_other_3,character,4310,100
+Zambia,EducR17_other_4,character,4310,100
+Zambia,EducR17_other_5,character,4310,100
+Zambia,EducR17_other_6,character,4310,100
+Zambia,EducR18,character,4158,96.47
+Zambia,EducR18_RF,integer,4158,96.47
+Zambia,EducR18_OT,integer,4158,96.47
+Zambia,EducR18_DK,integer,4158,96.47
+Zambia,EducR18_D,integer,4158,96.47
+Zambia,EducR18_C,integer,4158,96.47
+Zambia,EducR18_B,integer,4158,96.47
+Zambia,EducR18_A,integer,4158,96.47
+Zambia,EducR18_other,character,4283,99.37
+Zambia,EducR19,character,4158,96.47
+Zambia,EducR19_RF,integer,4158,96.47
+Zambia,EducR19_OT,integer,4158,96.47
+Zambia,EducR19_E,integer,4158,96.47
+Zambia,EducR19_DK,integer,4158,96.47
+Zambia,EducR19_D,integer,4158,96.47
+Zambia,EducR19_C,integer,4158,96.47
+Zambia,EducR19_B,integer,4158,96.47
+Zambia,EducR19_A,integer,4158,96.47
+Zambia,EducR19_other,character,4292,99.58
+Zambia,EMP01,character,0,0
+Zambia,EMP01_EndTime,"POSIXct, POSIXt",0,0
+Zambia,EMP02,character,0,0
+Zambia,EMP03,character,0,0
+Zambia,EMP04,character,1806,41.9
+Zambia,EMP05,character,1806,41.9
+Zambia,EMP06a,character,1842,42.74
+Zambia,EMP06b,character,3362,78
+Zambia,EMP06c,character,3409,79.1
+Zambia,EMP06d,character,3545,82.25
+Zambia,EMP07_1,character,2766,64.18
+Zambia,EMP07_1_other,character,4168,96.71
+Zambia,EMP07_2,character,3344,77.59
+Zambia,EMP09,character,2766,64.18
+Zambia,EMP09_other,character,4075,94.55
+Zambia,EMP10,character,3147,73.02
+Zambia,EMP10_other,character,4189,97.19
+Zambia,EMP10_1,character,3624,84.08
+Zambia,EMP10_2,character,4045,93.85
+Zambia,EMP10_3,character,3624,84.08
+Zambia,EMP10_4,character,4275,99.19
+Zambia,EMP10_5,character,4275,99.19
+Zambia,EMP10_6,character,4275,99.19
+Zambia,EMP10_6a,character,4275,99.19
+Zambia,EMP10_6b,character,3624,84.08
+Zambia,EMP10_6b_other,character,4196,97.35
+Zambia,EMP10_6c,character,4202,97.49
+Zambia,EMP10_7,numeric,3969,92.09
+Zambia,EMP10_8a,character,3969,92.09
+Zambia,EMP10_8b,character,3969,92.09
+Zambia,EMP10_8d,character,3969,92.09
+Zambia,EMP10_10,character,3969,92.09
+Zambia,EMP10_11,character,3969,92.09
+Zambia,EMP10_12,character,3969,92.09
+Zambia,EMP10_14,character,3492,81.02
+Zambia,EMP10_15a,character,2766,64.18
+Zambia,EMP10_15,numeric,3880,90.02
+Zambia,EMP10_16,numeric,3880,90.02
+Zambia,EMP10_17,numeric,3880,90.02
+Zambia,EMP10_18,character,3880,90.02
+Zambia,EMP10_18_other,character,4306,99.91
+Zambia,EMP10_18_label,character,3880,90.02
+Zambia,EMP10_18_label2,character,3880,90.02
+Zambia,EMP10_19_amount,numeric,3880,90.02
+Zambia,EMP10_19_currency,character,3880,90.02
+Zambia,EMP10_19a_amount,numeric,3342,77.54
+Zambia,EMP10_19a_currency,character,3342,77.54
+Zambia,EMP10_19b,character,3342,77.54
+Zambia,EMP10_19b_other,character,4291,99.56
+Zambia,EMP10_19b_label,character,3342,77.54
+Zambia,EMP10_19b_label2,character,3342,77.54
+Zambia,EMP10_19c,numeric,3342,77.54
+Zambia,EMP11a,character,2766,64.18
+Zambia,EMP12,character,2766,64.18
+Zambia,EMP16_2,character,4151,96.31
+Zambia,EMP18,character,2766,64.18
+Zambia,EMP19,numeric,4230,98.14
+Zambia,EMP20,character,2766,64.18
+Zambia,EMP21,character,2766,64.18
+Zambia,EMP22,character,3451,80.07
+Zambia,EMP23,character,2766,64.18
+Zambia,EMP24,numeric,4112,95.41
+Zambia,EMP25a,character,1442,33.46
+Zambia,EMP25aa,character,1442,33.46
+Zambia,Emp25b,character,1982,45.99
+Zambia,Emp25b_other,character,3821,88.65
+Zambia,Emp25bb,character,1805,41.88
+Zambia,Emp25bb_other,character,3986,92.48
+Zambia,EMP27,character,1442,33.46
+Zambia,EMP29,character,2343,54.36
+Zambia,EMP30,character,1442,33.46
+Zambia,EMP30_other,character,3342,77.54
+Zambia,Exp01_random1,numeric,0,0
+Zambia,Exp01_random2,numeric,7,0.16
+Zambia,Exp01a,character,81,1.88
+Zambia,Exp01aTrigger,"POSIXct, POSIXt",2127,49.35
+Zambia,Exp01c,character,81,1.88
+Zambia,Exp01d,character,81,1.88
+Zambia,Exp01e,character,81,1.88
+Zambia,Exp01f,character,81,1.88
+Zambia,Exp01g,character,81,1.88
+Zambia,Exp01h,character,81,1.88
+Zambia,Exp01i,character,81,1.88
+Zambia,Exp01j,character,81,1.88
+Zambia,Exp01k,character,81,1.88
+Zambia,Exp01l,character,81,1.88
+Zambia,Exp01m,character,81,1.88
+Zambia,Exp01n,character,81,1.88
+Zambia,Exp01o,character,81,1.88
+Zambia,Exp01p,character,81,1.88
+Zambia,Exp01q,character,4217,97.84
+Zambia,Exp01q_calc,character,4217,97.84
+Zambia,Exp02a,character,1842,42.74
+Zambia,Exp02c,character,3012,69.88
+Zambia,Exp02d,character,3335,77.38
+Zambia,Exp02e,character,2035,47.22
+Zambia,Exp02f,character,1585,36.77
+Zambia,Exp02g,character,2996,69.51
+Zambia,Exp02h,character,3953,91.72
+Zambia,Exp02i,character,3942,91.46
+Zambia,Exp02j,character,2819,65.41
+Zambia,Exp02k,character,4135,95.94
+Zambia,Exp02l,character,3832,88.91
+Zambia,Exp02m,character,4095,95.01
+Zambia,Exp02n,character,4216,97.82
+Zambia,Exp02o,character,3730,86.54
+Zambia,Exp02p,character,4217,97.84
+Zambia,Exp03,character,622,14.43
+Zambia,Exp04_months,numeric,3490,80.97
+Zambia,Exp04_years,numeric,3490,80.97
+Zambia,Exp05,character,3490,80.97
+Zambia,Exp05_other,character,4128,95.78
+Zambia,Skills00,character,1252,29.05
+Zambia,Skill01a,character,1402,32.53
+Zambia,Skill01b,character,1402,32.53
+Zambia,Skill01c,character,1402,32.53
+Zambia,Skill01d,character,1402,32.53
+Zambia,Skills03a,character,1402,32.53
+Zambia,Skills03b,character,1402,32.53
+Zambia,Skills03b_yes,character,3233,75.01
+Zambia,Skills03c,character,1402,32.53
+Zambia,Skills03c_yes,character,3441,79.84
+Zambia,Skills06a,character,0,0
+Zambia,Skills06b,character,0,0
+Zambia,Skills06c,character,0,0
+Zambia,Skills06d,character,0,0
+Zambia,Skills38a,character,0,0
+Zambia,Skills38b,character,0,0
+Zambia,Skills38c,character,0,0
+Zambia,Skills41a,character,0,0
+Zambia,Skills41b,character,0,0
+Zambia,Skills41c,character,0,0
+Zambia,Skills41d,character,0,0
+Zambia,Skills42a,character,0,0
+Zambia,Skills42b,character,0,0
+Zambia,Skills42b_EndTime,"POSIXct, POSIXt",0,0
+Zambia,JobLegal1,character,1215,28.19
+Zambia,JobLegal1_StartTime,"POSIXct, POSIXt",1215,28.19
+Zambia,JobLegal5,character,1220,28.31
+Zambia,JobLegal2,character,1341,31.11
+Zambia,JobLegal3,character,4287,99.47
+Zambia,JobLegal4,character,4302,99.81
+Zambia,JobLegal6,character,4308,99.95
+Zambia,JobLegal6_OT,integer,4308,99.95
+Zambia,JobLegal6_99,integer,4308,99.95
+Zambia,JobLegal6_98,integer,4308,99.95
+Zambia,JobLegal6_4,integer,4308,99.95
+Zambia,JobLegal6_3,integer,4308,99.95
+Zambia,JobLegal6_2,integer,4308,99.95
+Zambia,JobLegal6_1,integer,4308,99.95
+Zambia,JobLegal7,character,3594,83.39
+Zambia,JobLegal8,character,4268,99.03
+Zambia,JobLegal8_OT,integer,4268,99.03
+Zambia,JobLegal8_99,integer,4268,99.03
+Zambia,JobLegal8_98,integer,4268,99.03
+Zambia,JobLegal8_3,integer,4268,99.03
+Zambia,JobLegal8_2,integer,4268,99.03
+Zambia,JobLegal8_1,integer,4268,99.03
+Zambia,JobLegal9,character,3636,84.36
+Zambia,JobLegal9_OT,integer,3636,84.36
+Zambia,JobLegal9_99,integer,3636,84.36
+Zambia,JobLegal9_4,integer,3636,84.36
+Zambia,JobLegal9_3,integer,3636,84.36
+Zambia,JobLegal9_2,integer,3636,84.36
+Zambia,JobLegal9_1,integer,3636,84.36
+Zambia,JobLegal10,character,1220,28.31
+Zambia,JobLegal11,character,1378,31.97
+Zambia,JobLegal12,character,4283,99.37
+Zambia,JobLegal13,character,4301,99.79
+Zambia,JobLegal14,character,4304,99.86
+Zambia,JobLegal14_OT,integer,4304,99.86
+Zambia,JobLegal14_99,integer,4304,99.86
+Zambia,JobLegal14_98,integer,4304,99.86
+Zambia,JobLegal14_4,integer,4304,99.86
+Zambia,JobLegal14_3,integer,4304,99.86
+Zambia,JobLegal14_2,integer,4304,99.86
+Zambia,JobLegal14_1,integer,4304,99.86
+Zambia,JobLegal15,character,3619,83.97
+Zambia,JobLegal16,character,4274,99.16
+Zambia,JobLegal16_OT,integer,4274,99.16
+Zambia,JobLegal16_99,integer,4274,99.16
+Zambia,JobLegal16_98,integer,4274,99.16
+Zambia,JobLegal16_3,integer,4274,99.16
+Zambia,JobLegal16_2,integer,4274,99.16
+Zambia,JobLegal16_1,integer,4274,99.16
+Zambia,JobLegal17,character,3655,84.8
+Zambia,JobLegal17_OT,integer,3655,84.8
+Zambia,JobLegal17_99,integer,3655,84.8
+Zambia,JobLegal17_5,integer,3655,84.8
+Zambia,JobLegal17_4,integer,3655,84.8
+Zambia,JobLegal17_3,integer,3655,84.8
+Zambia,JobLegal17_2,integer,3655,84.8
+Zambia,JobLegal17_1,integer,3655,84.8
+Zambia,JobFacil2,character,1965,45.59
+Zambia,JobFacil2.0,character,4091,94.92
+Zambia,JobFacil2.6,character,4159,96.5
+Zambia,JobFacil2.6_specify,character,4244,98.47
+Zambia,JobFacil3,character,1965,45.59
+Zambia,JobFacil3.1,character,2129,49.4
+Zambia,JobFacil3.1_specify,character,3935,91.3
+Zambia,JobSearch1.1,character,1965,45.59
+Zambia,JobSearch1.2,character,1965,45.59
+Zambia,JobSearch1.3,character,1965,45.59
+Zambia,JobSearch1.4,character,1965,45.59
+Zambia,JobSearch1.5,character,1965,45.59
+Zambia,JobSearch1.6,character,4099,95.1
+Zambia,JobSearch2.1,character,1965,45.59
+Zambia,JobSearch2.2,character,1965,45.59
+Zambia,JobSearch2.3,character,1965,45.59
+Zambia,JobSearch2.4,character,1965,45.59
+Zambia,JobSearch2.5,character,1965,45.59
+Zambia,JobSearch2.6,character,4034,93.6
+Zambia,JobSearch3,character,2078,48.21
+Zambia,JobSearch3.1,character,4050,93.97
+Zambia,JobSearch3.1_RF,integer,4050,93.97
+Zambia,JobSearch3.1_OT,integer,4050,93.97
+Zambia,JobSearch3.1_DK,integer,4050,93.97
+Zambia,JobSearch3.1_D,integer,4050,93.97
+Zambia,JobSearch3.1_C,integer,4050,93.97
+Zambia,JobSearch3.1_B,integer,4050,93.97
+Zambia,JobSearch3.1_A,integer,4050,93.97
+Zambia,JobSearch3.1_specify,character,4271,99.1
+Zambia,JobSearch3.2,character,4103,95.2
+Zambia,JobSearch3.3,character,4204,97.54
+Zambia,DW_random1,numeric,2451,56.87
+Zambia,DW_random2,numeric,2451,56.87
+Zambia,DW01_6,character,2451,56.87
+Zambia,DW01_6_ID,character,4283,99.37
+Zambia,DW01_2,character,2451,56.87
+Zambia,DW01_2_ID,character,4196,97.35
+Zambia,DW01_4,character,2451,56.87
+Zambia,DW01_4_ID,character,4193,97.29
+Zambia,DW01_3,character,2451,56.87
+Zambia,DW01_3_ID,character,4159,96.5
+Zambia,DW01_7,character,2451,56.87
+Zambia,DW01_7_ID,character,4010,93.04
+Zambia,DW01_8,character,2451,56.87
+Zambia,DW01_8_ID,character,4148,96.24
+Zambia,DW01_10,character,2451,56.87
+Zambia,DW01_10_ID,character,4287,99.47
+Zambia,DW01_9,character,2451,56.87
+Zambia,DW01_9_ID,character,4241,98.4
+Zambia,DW01_1,character,2451,56.87
+Zambia,DW01_1_ID,character,4119,95.57
+Zambia,DW01_5,character,2451,56.87
+Zambia,DW01_5_ID,character,4272,99.12
+Zambia,DW_random3,numeric,2451,56.87
+Zambia,DW_random4,numeric,2452,56.89
+Zambia,MD01_1,character,2451,56.87
+Zambia,MD01_1_ID,character,4279,99.28
+Zambia,MD01_2,character,2451,56.87
+Zambia,MD01_2_ID,character,4290,99.54
+Zambia,MD01_3,character,2451,56.87
+Zambia,MD01_3_ID,character,4298,99.72
+Zambia,MD01_4,character,2451,56.87
+Zambia,MD01_4_ID,character,4296,99.68
+Zambia,MD01_5,character,2451,56.87
+Zambia,MD01_5_ID,character,4275,99.19
+Zambia,MD01_6,character,2451,56.87
+Zambia,MD01_6_ID,character,4296,99.68
+Zambia,MD01_7,character,2451,56.87
+Zambia,MD01_7_ID,character,4273,99.14
+Zambia,MD01_8,character,2451,56.87
+Zambia,MD01_8_ID,character,4286,99.44
+Zambia,MD01_9,character,2451,56.87
+Zambia,MD01_9_ID,character,4272,99.12
+Zambia,TP_random1,numeric,0,0
+Zambia,TP_random2,numeric,5,0.12
+Zambia,TP_random3,numeric,0,0
+Zambia,TP_random4,numeric,1,0.02
+Zambia,TR02_1,character,0,0
+Zambia,TR02_1trigger,"POSIXct, POSIXt",2147,49.81
+Zambia,TR02_2,character,0,0
+Zambia,TR02_3,character,1705,39.56
+Zambia,TR02_4,character,1215,28.19
+Zambia,TR02_5,character,1215,28.19
+Zambia,TR02_6,character,1215,28.19
+Zambia,TR02_7,character,0,0
+Zambia,TR02_8,character,0,0
+Zambia,TR02_1_EndTime,"POSIXct, POSIXt",844,19.58
+Zambia,PP01_1,character,0,0
+Zambia,PP01_2,character,0,0
+Zambia,PP02_1,character,3074,71.32
+Zambia,PP02_2,character,3096,71.83
+Zambia,PP05,character,1705,39.56
+Zambia,PP06,character,1705,39.56
+Zambia,TP_random5,numeric,0,0
+Zambia,TP_random6,numeric,0,0
+Zambia,TP_random7,numeric,0,0
+Zambia,TP_random8,numeric,3,0.07
+Zambia,PL01_1,character,0,0
+Zambia,PL01_2,character,0,0
+Zambia,PL01_3,character,0,0
+Zambia,PL01_4,character,0,0
+Zambia,PL01_5,character,0,0
+Zambia,PL01_6,character,0,0
+Zambia,PL01_7,character,0,0
+Zambia,PL01_8,character,0,0
+Zambia,PL01_9,character,0,0
+Zambia,PL01_10,character,2028,47.05
+Zambia,PL01_11,character,0,0
+Zambia,PL01_12,character,0,0
+Zambia,PL01_13_ot,character,0,0
+Zambia,PL01_13,character,4228,98.1
+Zambia,PL01_14,character,2193,50.88
+Zambia,FI01,character,0,0
+Zambia,FI01_EndTime,"POSIXct, POSIXt",0,0
+Zambia,FI02,character,0,0
+Zambia,FI04,character,1937,44.94
+Zambia,FI06,character,4232,98.19
+Zambia,FI08,character,339,7.87
+Zambia,FI09,character,339,7.87
+Zambia,FI09_X,integer,339,7.87
+Zambia,FI09_K,integer,339,7.87
+Zambia,FI09_J,integer,339,7.87
+Zambia,FI09_I,integer,339,7.87
+Zambia,FI09_H,integer,339,7.87
+Zambia,FI09_G,integer,339,7.87
+Zambia,FI09_F,integer,339,7.87
+Zambia,FI09_E,integer,339,7.87
+Zambia,FI09_D,integer,339,7.87
+Zambia,FI09_C,integer,339,7.87
+Zambia,FI09_B,integer,339,7.87
+Zambia,FI09_A,integer,339,7.87
+Zambia,FI09_specify,character,4084,94.76
+Zambia,FI10,character,0,0
+Zambia,FI11_1,character,0,0
+Zambia,FI11_2,character,0,0
+Zambia,FI11_3,character,0,0
+Zambia,FI12,character,1577,36.59
+Zambia,FI13,character,4173,96.82
+Zambia,FI13_OT,integer,4173,96.82
+Zambia,FI13_E,integer,4173,96.82
+Zambia,FI13_D,integer,4173,96.82
+Zambia,FI13_C,integer,4173,96.82
+Zambia,FI13_B,integer,4173,96.82
+Zambia,FI13_A,integer,4173,96.82
+Zambia,FI13_specify,character,4256,98.75
+Zambia,FI14,numeric,4007,92.97
+Zambia,FI15,character,4007,92.97
+Zambia,FI15_specify,character,4304,99.86
+Zambia,FI16,numeric,4007,92.97
+Zambia,FI17,numeric,4007,92.97
+Zambia,FI18,character,4201,97.47
+Zambia,FI19,character,4116,95.5
+Zambia,FI20,character,1937,44.94
+Zambia,FI21_1,character,705,16.36
+Zambia,FI21_2,character,705,16.36
+Zambia,FI21_3,character,705,16.36
+Zambia,FI21_4,character,705,16.36
+Zambia,FI22,character,4152,96.33
+Zambia,FI22_specify,character,4307,99.93
+Zambia,FI23,character,796,18.47
+Zambia,FI23_1,character,4101,95.15
+Zambia,FI23_1_specify,character,4208,97.63
+Zambia,FI24_1,character,3605,83.64
+Zambia,FI24_2,character,3605,83.64
+Zambia,FI24_3,character,3605,83.64
+Zambia,FI25,character,182,4.22
+Zambia,FI26_1,character,3605,83.64
+Zambia,FI26_2,character,3605,83.64
+Zambia,FI26_3,character,3605,83.64
+Zambia,FI27,character,161,3.74
+Zambia,FI28,character,338,7.84
+Zambia,FI29,character,4141,96.08
+Zambia,FI29a,character,4280,99.3
+Zambia,FI30,character,4290,99.54
+Zambia,FI30_specify,character,4305,99.88
+Zambia,FI31,character,30,0.7
+Zambia,FI31_OT,integer,30,0.7
+Zambia,FI31_H,integer,30,0.7
+Zambia,FI31_G,integer,30,0.7
+Zambia,FI31_F,integer,30,0.7
+Zambia,FI31_E,integer,30,0.7
+Zambia,FI31_DK,integer,30,0.7
+Zambia,FI31_D,integer,30,0.7
+Zambia,FI31_C,integer,30,0.7
+Zambia,FI31_B,integer,30,0.7
+Zambia,FI31_A,integer,30,0.7
+Zambia,FI31_specify,character,3677,85.31
+Zambia,FI32,character,0,0
+Zambia,FI33,character,288,6.68
+Zambia,FI35,character,27,0.63
+Zambia,FI36,character,40,0.93
+Zambia,FI36_EndTime,"POSIXct, POSIXt",40,0.93
+Zambia,Remit01,character,0,0
+Zambia,Remit01_StartTime,"POSIXct, POSIXt",0,0
+Zambia,Remit17,character,0,0
+Zambia,IA01,character,0,0
+Zambia,IA01_EndTime,"POSIXct, POSIXt",0,0
+Zambia,IA01_1,character,1517,35.2
+Zambia,IA07,character,0,0
+Zambia,IA07_1,character,1034,23.99
+Zambia,IA07_calc,character,0,0
+Zambia,IA08,character,3185,73.9
+Zambia,IA08_specify,character,4303,99.84
+Zambia,IA09,character,3185,73.9
+Zambia,IA09_OT,integer,3185,73.9
+Zambia,IA09_G,integer,3185,73.9
+Zambia,IA09_F,integer,3185,73.9
+Zambia,IA09_E,integer,3185,73.9
+Zambia,IA09_D,integer,3185,73.9
+Zambia,IA09_C,integer,3185,73.9
+Zambia,IA09_B,integer,3185,73.9
+Zambia,IA09_A,integer,3185,73.9
+Zambia,IA09_specify,character,4299,99.74
+Zambia,IA09_1,character,3185,73.9
+Zambia,IA10,character,3185,73.9
+Zambia,IA10_OT,integer,3185,73.9
+Zambia,IA10_L,integer,3185,73.9
+Zambia,IA10_K,integer,3185,73.9
+Zambia,IA10_J,integer,3185,73.9
+Zambia,IA10_I,integer,3185,73.9
+Zambia,IA10_H,integer,3185,73.9
+Zambia,IA10_G,integer,3185,73.9
+Zambia,IA10_F,integer,3185,73.9
+Zambia,IA10_E,integer,3185,73.9
+Zambia,IA10_D,integer,3185,73.9
+Zambia,IA10_C,integer,3185,73.9
+Zambia,IA10_B,integer,3185,73.9
+Zambia,IA10_A,integer,3185,73.9
+Zambia,IA10_specify,character,4279,99.28
+Zambia,FS01,character,0,0
+Zambia,FS01_EndTime,"POSIXct, POSIXt",0,0
+Zambia,FS02,character,3789,87.91
+Zambia,campsettlement,character,0,0
+Zambia,Justice01,character,0,0
+Zambia,Justice01_EndTime,"POSIXct, POSIXt",0,0
+Zambia,Justice02,character,4053,94.04
+Zambia,Justice02_OT,integer,4053,94.04
+Zambia,Justice02_L,integer,4053,94.04
+Zambia,Justice02_K,integer,4053,94.04
+Zambia,Justice02_J,integer,4053,94.04
+Zambia,Justice02_I,integer,4053,94.04
+Zambia,Justice02_H,integer,4053,94.04
+Zambia,Justice02_G,integer,4053,94.04
+Zambia,Justice02_F,integer,4053,94.04
+Zambia,Justice02_E,integer,4053,94.04
+Zambia,Justice02_D,integer,4053,94.04
+Zambia,Justice02_C,integer,4053,94.04
+Zambia,Justice02_B,integer,4053,94.04
+Zambia,Justice02_A,integer,4053,94.04
+Zambia,Justice02_specify,character,4258,98.79
+Zambia,Justice03,character,4053,94.04
+Zambia,just04_choice,numeric,0,0
+Zambia,Justice04,character,4053,94.04
+Zambia,Justice04_RF,integer,4053,94.04
+Zambia,Justice04_OT,integer,4053,94.04
+Zambia,Justice04_DK,integer,4053,94.04
+Zambia,Justice04_D,integer,4053,94.04
+Zambia,Justice04_C,integer,4053,94.04
+Zambia,Justice04_B,integer,4053,94.04
+Zambia,Justice04_A,integer,4053,94.04
+Zambia,Justice04_specify,character,4301,99.79
+Zambia,Justice07a,character,4053,94.04
+Zambia,Justice07b,character,4053,94.04
+Zambia,Justice07c,character,4053,94.04
+Zambia,Justice07d,character,4053,94.04
+Zambia,Justice07e,character,4053,94.04
+Zambia,Justice07f,character,4053,94.04
+Zambia,Justice07g,character,4053,94.04
+Zambia,Justice07h,character,4053,94.04
+Zambia,Justice07i,character,4053,94.04
+Zambia,Justice09,character,4053,94.04
+Zambia,Justice10,character,4111,95.38
+Zambia,Justice10_specify,character,4300,99.77
+Zambia,AC01_1,character,3095,71.81
+Zambia,AC01_2,character,3095,71.81
+Zambia,AC01_3,character,3095,71.81
+Zambia,AC01_4,character,3095,71.81
+Zambia,AC01_5,character,3095,71.81
+Zambia,AC01_6,character,3095,71.81
+Zambia,AC02,character,3095,71.81
+Zambia,AC03,character,3095,71.81
+Zambia,AC04,character,3095,71.81
+Zambia,AC05,character,3095,71.81
+Zambia,hostcountryspace,character,0,0
+Zambia,AC06_1,character,3585,83.18
+Zambia,AC06_1_EndTime,"POSIXct, POSIXt",4268,99.03
+Zambia,AC06_2,character,2427,56.31
+Zambia,AC06_3,character,1937,44.94
+Zambia,AC06_3Trigger,"POSIXct, POSIXt",1979,45.92
+Zambia,AC06_4,character,1937,44.94
+Zambia,AC06_5,character,1937,44.94
+Zambia,AC06_6,character,1937,44.94
+Zambia,AC06_6_EndTime,"POSIXct, POSIXt",1979,45.92
+Zambia,AC06_3_EndTime,"POSIXct, POSIXt",764,17.73
+Zambia,refugeenational,character,0,0
+Zambia,refugeenational_french,character,345,8
+Zambia,randomDISC1,numeric,0,0
+Zambia,randomDISC2,numeric,9,0.21
+Zambia,DI01_02,character,0,0
+Zambia,DI01_02Trigger,"POSIXct, POSIXt",2184,50.67
+Zambia,DI01_03,character,0,0
+Zambia,DI01_09,character,0,0
+Zambia,DI01_05,character,0,0
+Zambia,DI01_07,character,0,0
+Zambia,DI01_06,character,0,0
+Zambia,DI01_08,character,0,0
+Zambia,DI01_01,character,0,0
+Zambia,DI01_04,character,0,0
+Zambia,DI02,character,2625,60.9
+Zambia,DI02_U,integer,2625,60.9
+Zambia,DI02_T,integer,2625,60.9
+Zambia,DI02_S,integer,2625,60.9
+Zambia,DI02_Q,integer,2625,60.9
+Zambia,DI02_P,integer,2625,60.9
+Zambia,DI02_OT,integer,2625,60.9
+Zambia,DI02_O,integer,2625,60.9
+Zambia,DI02_N,integer,2625,60.9
+Zambia,DI02_M,integer,2625,60.9
+Zambia,DI02_L,integer,2625,60.9
+Zambia,DI02_K,integer,2625,60.9
+Zambia,DI02_J,integer,2625,60.9
+Zambia,DI02_I,integer,2625,60.9
+Zambia,DI02_H,integer,2625,60.9
+Zambia,DI02_G,integer,2625,60.9
+Zambia,DI02_F,integer,2625,60.9
+Zambia,DI02_E,integer,2625,60.9
+Zambia,DI02_DK,integer,2625,60.9
+Zambia,DI02_D,integer,2625,60.9
+Zambia,DI02_C,integer,2625,60.9
+Zambia,DI02_B,integer,2625,60.9
+Zambia,DI02_AE,integer,2625,60.9
+Zambia,DI02_AD,integer,2625,60.9
+Zambia,DI02_AC,integer,2625,60.9
+Zambia,DI02_AB,integer,2625,60.9
+Zambia,DI02_AA,integer,2625,60.9
+Zambia,DI02_A,integer,2625,60.9
+Zambia,DI02_1,character,4170,96.75
+Zambia,DI02_1_U,integer,4170,96.75
+Zambia,DI02_1_T,integer,4170,96.75
+Zambia,DI02_1_S,integer,4170,96.75
+Zambia,DI02_1_Q,integer,4170,96.75
+Zambia,DI02_1_P,integer,4170,96.75
+Zambia,DI02_1_OT,integer,4170,96.75
+Zambia,DI02_1_O,integer,4170,96.75
+Zambia,DI02_1_N,integer,4170,96.75
+Zambia,DI02_1_M,integer,4170,96.75
+Zambia,DI02_1_L,integer,4170,96.75
+Zambia,DI02_1_K,integer,4170,96.75
+Zambia,DI02_1_J,integer,4170,96.75
+Zambia,DI02_1_I,integer,4170,96.75
+Zambia,DI02_1_H,integer,4170,96.75
+Zambia,DI02_1_G,integer,4170,96.75
+Zambia,DI02_1_F,integer,4170,96.75
+Zambia,DI02_1_E,integer,4170,96.75
+Zambia,DI02_1_DK,integer,4170,96.75
+Zambia,DI02_1_D,integer,4170,96.75
+Zambia,DI02_1_C,integer,4170,96.75
+Zambia,DI02_1_B,integer,4170,96.75
+Zambia,DI02_1_AE,integer,4170,96.75
+Zambia,DI02_1_AD,integer,4170,96.75
+Zambia,DI02_1_AC,integer,4170,96.75
+Zambia,DI02_1_AB,integer,4170,96.75
+Zambia,DI02_1_AA,integer,4170,96.75
+Zambia,DI02_1_A,integer,4170,96.75
+Zambia,DI02_specify1,character,4298,99.72
+Zambia,DI03_1,character,4205,97.56
+Zambia,DI03a_1,character,4170,96.75
+Zambia,DI02_2,character,4143,96.13
+Zambia,DI02_2_U,integer,4143,96.13
+Zambia,DI02_2_T,integer,4143,96.13
+Zambia,DI02_2_S,integer,4143,96.13
+Zambia,DI02_2_Q,integer,4143,96.13
+Zambia,DI02_2_P,integer,4143,96.13
+Zambia,DI02_2_OT,integer,4143,96.13
+Zambia,DI02_2_O,integer,4143,96.13
+Zambia,DI02_2_N,integer,4143,96.13
+Zambia,DI02_2_M,integer,4143,96.13
+Zambia,DI02_2_L,integer,4143,96.13
+Zambia,DI02_2_K,integer,4143,96.13
+Zambia,DI02_2_J,integer,4143,96.13
+Zambia,DI02_2_I,integer,4143,96.13
+Zambia,DI02_2_H,integer,4143,96.13
+Zambia,DI02_2_G,integer,4143,96.13
+Zambia,DI02_2_F,integer,4143,96.13
+Zambia,DI02_2_E,integer,4143,96.13
+Zambia,DI02_2_DK,integer,4143,96.13
+Zambia,DI02_2_D,integer,4143,96.13
+Zambia,DI02_2_C,integer,4143,96.13
+Zambia,DI02_2_B,integer,4143,96.13
+Zambia,DI02_2_AE,integer,4143,96.13
+Zambia,DI02_2_AD,integer,4143,96.13
+Zambia,DI02_2_AC,integer,4143,96.13
+Zambia,DI02_2_AB,integer,4143,96.13
+Zambia,DI02_2_AA,integer,4143,96.13
+Zambia,DI02_2_A,integer,4143,96.13
+Zambia,DI02_specify2,character,4293,99.61
+Zambia,DI03_2,character,4181,97.01
+Zambia,DI03a_2,character,4143,96.13
+Zambia,DI02_3,character,4174,96.84
+Zambia,DI02_3_U,integer,4174,96.84
+Zambia,DI02_3_T,integer,4174,96.84
+Zambia,DI02_3_S,integer,4174,96.84
+Zambia,DI02_3_Q,integer,4174,96.84
+Zambia,DI02_3_P,integer,4174,96.84
+Zambia,DI02_3_OT,integer,4174,96.84
+Zambia,DI02_3_O,integer,4174,96.84
+Zambia,DI02_3_N,integer,4174,96.84
+Zambia,DI02_3_M,integer,4174,96.84
+Zambia,DI02_3_L,integer,4174,96.84
+Zambia,DI02_3_K,integer,4174,96.84
+Zambia,DI02_3_J,integer,4174,96.84
+Zambia,DI02_3_I,integer,4174,96.84
+Zambia,DI02_3_H,integer,4174,96.84
+Zambia,DI02_3_G,integer,4174,96.84
+Zambia,DI02_3_F,integer,4174,96.84
+Zambia,DI02_3_E,integer,4174,96.84
+Zambia,DI02_3_DK,integer,4174,96.84
+Zambia,DI02_3_D,integer,4174,96.84
+Zambia,DI02_3_C,integer,4174,96.84
+Zambia,DI02_3_B,integer,4174,96.84
+Zambia,DI02_3_AE,integer,4174,96.84
+Zambia,DI02_3_AD,integer,4174,96.84
+Zambia,DI02_3_AC,integer,4174,96.84
+Zambia,DI02_3_AB,integer,4174,96.84
+Zambia,DI02_3_AA,integer,4174,96.84
+Zambia,DI02_3_A,integer,4174,96.84
+Zambia,DI02_specify3,character,4302,99.81
+Zambia,DI03_3,character,4205,97.56
+Zambia,DI03a_3,character,4174,96.84
+Zambia,DI02_4,character,4157,96.45
+Zambia,DI02_4_U,integer,4157,96.45
+Zambia,DI02_4_T,integer,4157,96.45
+Zambia,DI02_4_S,integer,4157,96.45
+Zambia,DI02_4_Q,integer,4157,96.45
+Zambia,DI02_4_P,integer,4157,96.45
+Zambia,DI02_4_OT,integer,4157,96.45
+Zambia,DI02_4_O,integer,4157,96.45
+Zambia,DI02_4_N,integer,4157,96.45
+Zambia,DI02_4_M,integer,4157,96.45
+Zambia,DI02_4_L,integer,4157,96.45
+Zambia,DI02_4_K,integer,4157,96.45
+Zambia,DI02_4_J,integer,4157,96.45
+Zambia,DI02_4_I,integer,4157,96.45
+Zambia,DI02_4_H,integer,4157,96.45
+Zambia,DI02_4_G,integer,4157,96.45
+Zambia,DI02_4_F,integer,4157,96.45
+Zambia,DI02_4_E,integer,4157,96.45
+Zambia,DI02_4_DK,integer,4157,96.45
+Zambia,DI02_4_D,integer,4157,96.45
+Zambia,DI02_4_C,integer,4157,96.45
+Zambia,DI02_4_B,integer,4157,96.45
+Zambia,DI02_4_AE,integer,4157,96.45
+Zambia,DI02_4_AD,integer,4157,96.45
+Zambia,DI02_4_AC,integer,4157,96.45
+Zambia,DI02_4_AB,integer,4157,96.45
+Zambia,DI02_4_AA,integer,4157,96.45
+Zambia,DI02_4_A,integer,4157,96.45
+Zambia,DI02_specify4,character,4294,99.63
+Zambia,DI03_4,character,4201,97.47
+Zambia,DI03a_4,character,4157,96.45
+Zambia,DI02_5,character,4209,97.66
+Zambia,DI02_5_U,integer,4209,97.66
+Zambia,DI02_5_T,integer,4209,97.66
+Zambia,DI02_5_S,integer,4209,97.66
+Zambia,DI02_5_Q,integer,4209,97.66
+Zambia,DI02_5_P,integer,4209,97.66
+Zambia,DI02_5_OT,integer,4209,97.66
+Zambia,DI02_5_O,integer,4209,97.66
+Zambia,DI02_5_N,integer,4209,97.66
+Zambia,DI02_5_M,integer,4209,97.66
+Zambia,DI02_5_L,integer,4209,97.66
+Zambia,DI02_5_K,integer,4209,97.66
+Zambia,DI02_5_J,integer,4209,97.66
+Zambia,DI02_5_I,integer,4209,97.66
+Zambia,DI02_5_H,integer,4209,97.66
+Zambia,DI02_5_G,integer,4209,97.66
+Zambia,DI02_5_F,integer,4209,97.66
+Zambia,DI02_5_E,integer,4209,97.66
+Zambia,DI02_5_DK,integer,4209,97.66
+Zambia,DI02_5_D,integer,4209,97.66
+Zambia,DI02_5_C,integer,4209,97.66
+Zambia,DI02_5_B,integer,4209,97.66
+Zambia,DI02_5_AE,integer,4209,97.66
+Zambia,DI02_5_AD,integer,4209,97.66
+Zambia,DI02_5_AC,integer,4209,97.66
+Zambia,DI02_5_AB,integer,4209,97.66
+Zambia,DI02_5_AA,integer,4209,97.66
+Zambia,DI02_5_A,integer,4209,97.66
+Zambia,DI02_specify5,character,4308,99.95
+Zambia,DI03_5,character,4233,98.21
+Zambia,DI03a_5,character,4209,97.66
+Zambia,DI02_6,character,4186,97.12
+Zambia,DI02_6_U,integer,4186,97.12
+Zambia,DI02_6_T,integer,4186,97.12
+Zambia,DI02_6_S,integer,4186,97.12
+Zambia,DI02_6_Q,integer,4186,97.12
+Zambia,DI02_6_P,integer,4186,97.12
+Zambia,DI02_6_OT,integer,4186,97.12
+Zambia,DI02_6_O,integer,4186,97.12
+Zambia,DI02_6_N,integer,4186,97.12
+Zambia,DI02_6_M,integer,4186,97.12
+Zambia,DI02_6_L,integer,4186,97.12
+Zambia,DI02_6_K,integer,4186,97.12
+Zambia,DI02_6_J,integer,4186,97.12
+Zambia,DI02_6_I,integer,4186,97.12
+Zambia,DI02_6_H,integer,4186,97.12
+Zambia,DI02_6_G,integer,4186,97.12
+Zambia,DI02_6_F,integer,4186,97.12
+Zambia,DI02_6_E,integer,4186,97.12
+Zambia,DI02_6_DK,integer,4186,97.12
+Zambia,DI02_6_D,integer,4186,97.12
+Zambia,DI02_6_C,integer,4186,97.12
+Zambia,DI02_6_B,integer,4186,97.12
+Zambia,DI02_6_AE,integer,4186,97.12
+Zambia,DI02_6_AD,integer,4186,97.12
+Zambia,DI02_6_AC,integer,4186,97.12
+Zambia,DI02_6_AB,integer,4186,97.12
+Zambia,DI02_6_AA,integer,4186,97.12
+Zambia,DI02_6_A,integer,4186,97.12
+Zambia,DI02_specify6,character,4306,99.91
+Zambia,DI03_6,character,4214,97.77
+Zambia,DI03a_6,character,4186,97.12
+Zambia,DI02_7,character,4116,95.5
+Zambia,DI02_7_U,integer,4116,95.5
+Zambia,DI02_7_T,integer,4116,95.5
+Zambia,DI02_7_S,integer,4116,95.5
+Zambia,DI02_7_Q,integer,4116,95.5
+Zambia,DI02_7_P,integer,4116,95.5
+Zambia,DI02_7_OT,integer,4116,95.5
+Zambia,DI02_7_O,integer,4116,95.5
+Zambia,DI02_7_N,integer,4116,95.5
+Zambia,DI02_7_M,integer,4116,95.5
+Zambia,DI02_7_L,integer,4116,95.5
+Zambia,DI02_7_K,integer,4116,95.5
+Zambia,DI02_7_J,integer,4116,95.5
+Zambia,DI02_7_I,integer,4116,95.5
+Zambia,DI02_7_H,integer,4116,95.5
+Zambia,DI02_7_G,integer,4116,95.5
+Zambia,DI02_7_F,integer,4116,95.5
+Zambia,DI02_7_E,integer,4116,95.5
+Zambia,DI02_7_DK,integer,4116,95.5
+Zambia,DI02_7_D,integer,4116,95.5
+Zambia,DI02_7_C,integer,4116,95.5
+Zambia,DI02_7_B,integer,4116,95.5
+Zambia,DI02_7_AE,integer,4116,95.5
+Zambia,DI02_7_AD,integer,4116,95.5
+Zambia,DI02_7_AC,integer,4116,95.5
+Zambia,DI02_7_AB,integer,4116,95.5
+Zambia,DI02_7_AA,integer,4116,95.5
+Zambia,DI02_7_A,integer,4116,95.5
+Zambia,DI02_specify7,character,4288,99.49
+Zambia,DI03_7,character,4165,96.64
+Zambia,DI03a_7,character,4116,95.5
+Zambia,DI02_8,character,4157,96.45
+Zambia,DI02_8_U,integer,4157,96.45
+Zambia,DI02_8_T,integer,4157,96.45
+Zambia,DI02_8_S,integer,4157,96.45
+Zambia,DI02_8_Q,integer,4157,96.45
+Zambia,DI02_8_P,integer,4157,96.45
+Zambia,DI02_8_OT,integer,4157,96.45
+Zambia,DI02_8_O,integer,4157,96.45
+Zambia,DI02_8_N,integer,4157,96.45
+Zambia,DI02_8_M,integer,4157,96.45
+Zambia,DI02_8_L,integer,4157,96.45
+Zambia,DI02_8_K,integer,4157,96.45
+Zambia,DI02_8_J,integer,4157,96.45
+Zambia,DI02_8_I,integer,4157,96.45
+Zambia,DI02_8_H,integer,4157,96.45
+Zambia,DI02_8_G,integer,4157,96.45
+Zambia,DI02_8_F,integer,4157,96.45
+Zambia,DI02_8_E,integer,4157,96.45
+Zambia,DI02_8_DK,integer,4157,96.45
+Zambia,DI02_8_D,integer,4157,96.45
+Zambia,DI02_8_C,integer,4157,96.45
+Zambia,DI02_8_B,integer,4157,96.45
+Zambia,DI02_8_AE,integer,4157,96.45
+Zambia,DI02_8_AD,integer,4157,96.45
+Zambia,DI02_8_AC,integer,4157,96.45
+Zambia,DI02_8_AB,integer,4157,96.45
+Zambia,DI02_8_AA,integer,4157,96.45
+Zambia,DI02_8_A,integer,4157,96.45
+Zambia,DI02_specify8,character,4297,99.7
+Zambia,DI03_8,character,4194,97.31
+Zambia,DI03a_8,character,4157,96.45
+Zambia,DI02_9,character,4170,96.75
+Zambia,DI02_9_U,integer,4170,96.75
+Zambia,DI02_9_T,integer,4170,96.75
+Zambia,DI02_9_S,integer,4170,96.75
+Zambia,DI02_9_Q,integer,4170,96.75
+Zambia,DI02_9_P,integer,4170,96.75
+Zambia,DI02_9_OT,integer,4170,96.75
+Zambia,DI02_9_O,integer,4170,96.75
+Zambia,DI02_9_N,integer,4170,96.75
+Zambia,DI02_9_M,integer,4170,96.75
+Zambia,DI02_9_L,integer,4170,96.75
+Zambia,DI02_9_K,integer,4170,96.75
+Zambia,DI02_9_J,integer,4170,96.75
+Zambia,DI02_9_I,integer,4170,96.75
+Zambia,DI02_9_H,integer,4170,96.75
+Zambia,DI02_9_G,integer,4170,96.75
+Zambia,DI02_9_F,integer,4170,96.75
+Zambia,DI02_9_E,integer,4170,96.75
+Zambia,DI02_9_DK,integer,4170,96.75
+Zambia,DI02_9_D,integer,4170,96.75
+Zambia,DI02_9_C,integer,4170,96.75
+Zambia,DI02_9_B,integer,4170,96.75
+Zambia,DI02_9_AE,integer,4170,96.75
+Zambia,DI02_9_AD,integer,4170,96.75
+Zambia,DI02_9_AC,integer,4170,96.75
+Zambia,DI02_9_AB,integer,4170,96.75
+Zambia,DI02_9_AA,integer,4170,96.75
+Zambia,DI02_9_A,integer,4170,96.75
+Zambia,DI02_specify9,character,4303,99.84
+Zambia,DI03_9,character,4206,97.59
+Zambia,DI03a_9,character,4170,96.75
+Zambia,randomDISC3,numeric,0,0
+Zambia,randomDISC4,numeric,2,0.05
+Zambia,VW00_1,character,0,0
+Zambia,VW00_1_EndTime,"POSIXct, POSIXt",0,0
+Zambia,VW00_2,character,3845,89.21
+Zambia,VW00_2_30,integer,3845,89.21
+Zambia,VW00_2_29,integer,3845,89.21
+Zambia,VW00_2_28,integer,3845,89.21
+Zambia,VW00_2_27,integer,3845,89.21
+Zambia,VW00_2_26,integer,3845,89.21
+Zambia,VW00_2_25,integer,3845,89.21
+Zambia,VW00_2_24,integer,3845,89.21
+Zambia,VW00_2_23,integer,3845,89.21
+Zambia,VW00_2_22,integer,3845,89.21
+Zambia,VW00_2_21,integer,3845,89.21
+Zambia,VW00_2_20,integer,3845,89.21
+Zambia,VW00_2_19,integer,3845,89.21
+Zambia,VW00_2_18,integer,3845,89.21
+Zambia,VW00_2_17,integer,3845,89.21
+Zambia,VW00_2_16,integer,3845,89.21
+Zambia,VW00_2_15,integer,3845,89.21
+Zambia,VW00_2_14,integer,3845,89.21
+Zambia,VW00_2_13,integer,3845,89.21
+Zambia,VW00_2_12,integer,3845,89.21
+Zambia,VW00_2_11,integer,3845,89.21
+Zambia,VW00_2_10,integer,3845,89.21
+Zambia,VW00_2_9,integer,3845,89.21
+Zambia,VW00_2_8,integer,3845,89.21
+Zambia,VW00_2_7,integer,3845,89.21
+Zambia,VW00_2_6,integer,3845,89.21
+Zambia,VW00_2_5,integer,3845,89.21
+Zambia,VW00_2_4,integer,3845,89.21
+Zambia,VW00_2_3,integer,3845,89.21
+Zambia,VW00_2_2,integer,3845,89.21
+Zambia,VW00_2_1,integer,3845,89.21
+Zambia,VW00_2_0,integer,3845,89.21
+Zambia,randomVIC1,numeric,0,0
+Zambia,randomVIC2,numeric,3,0.07
+Zambia,VW01_12,character,3755,87.12
+Zambia,VW01_5,character,3755,87.12
+Zambia,VW01_8,character,3755,87.12
+Zambia,VW01_2,character,3755,87.12
+Zambia,VW01_4,character,3755,87.12
+Zambia,VW01_13,character,3755,87.12
+Zambia,VW01_6,character,3755,87.12
+Zambia,VW01_7,character,3755,87.12
+Zambia,VW01_11,character,3755,87.12
+Zambia,VW01_10,character,3755,87.12
+Zambia,VW01_1,character,3755,87.12
+Zambia,randomVIC3,numeric,0,0
+Zambia,randomVIC4,numeric,2,0.05
+Zambia,VW02_4,character,3755,87.12
+Zambia,VW02_7,character,3755,87.12
+Zambia,VW02_1,character,3755,87.12
+Zambia,VW02_8,character,3755,87.12
+Zambia,VW02_3,character,3755,87.12
+Zambia,VW02_2,character,3755,87.12
+Zambia,VW02_6,character,3755,87.12
+Zambia,VW02_5,character,3755,87.12
+Zambia,randomVIC11,numeric,0,0
+Zambia,randomVIC12,numeric,2,0.05
+Zambia,AS01_1,character,0,0
+Zambia,AS01_2,character,0,0
+Zambia,AS01_3a,character,0,0
+Zambia,AS01_3b,character,0,0
+Zambia,AS01_4,character,0,0
+Zambia,AS01_5,character,0,0
+Zambia,AS01_5_specify,character,4091,94.92
+Zambia,AS02_1,character,707,16.4
+Zambia,AS02_2,character,3073,71.3
+Zambia,AS02_3a,character,2692,62.46
+Zambia,AS02_3b,character,931,21.6
+Zambia,AS02_4,character,2263,52.51
+Zambia,AS02_5,character,4091,94.92
+Zambia,AS02_5_specify,character,4151,96.31
+Zambia,AS04,character,0,0
+Zambia,AS05,character,2184,50.67
+Zambia,randomVIC7,numeric,0,0
+Zambia,randomVIC8,numeric,1,0.02
+Zambia,CD01_1,character,0,0
+Zambia,CD01_2,character,0,0
+Zambia,CD01_3,character,0,0
+Zambia,CD01_4,character,0,0
+Zambia,CD01_5,character,0,0
+Zambia,CD01_6,character,0,0
+Zambia,CD01_7,character,0,0
+Zambia,CD01_8,character,0,0
+Zambia,CD01_9,character,0,0
+Zambia,CD01_10,character,0,0
+Zambia,CD01_11,character,0,0
+Zambia,CD01_12,character,0,0
+Zambia,MH01_1,character,0,0
+Zambia,MH01_1_EndTime,"POSIXct, POSIXt",0,0
+Zambia,MH01_2,character,0,0
+Zambia,MH01_3,character,0,0
+Zambia,MH01_4,character,0,0
+Zambia,MH01_5,character,0,0
+Zambia,MH01_6,character,0,0
+Zambia,MH01_7,character,0,0
+Zambia,MH01_8,character,0,0
+Zambia,MH01_9,character,0,0
+Zambia,MH02,character,965,22.39
+Zambia,telAdultSelectedavailable,character,0,0
+Zambia,telAdultSelectedavailable_EndTime,"POSIXct, POSIXt",0,0
+Zambia,telAdultSelected,character,1313,30.46
+Zambia,OBS_01_RA,character,0,0
+Zambia,OBS_01_RA_EndTime,"POSIXct, POSIXt",16,0.37
+Zambia,OBS_02_RA,character,3840,89.1
+Zambia,OBS_02_RA_30,integer,3840,89.1
+Zambia,OBS_02_RA_29,integer,3840,89.1
+Zambia,OBS_02_RA_28,integer,3840,89.1
+Zambia,OBS_02_RA_27,integer,3840,89.1
+Zambia,OBS_02_RA_26,integer,3840,89.1
+Zambia,OBS_02_RA_25,integer,3840,89.1
+Zambia,OBS_02_RA_24,integer,3840,89.1
+Zambia,OBS_02_RA_23,integer,3840,89.1
+Zambia,OBS_02_RA_22,integer,3840,89.1
+Zambia,OBS_02_RA_21,integer,3840,89.1
+Zambia,OBS_02_RA_20,integer,3840,89.1
+Zambia,OBS_02_RA_19,integer,3840,89.1
+Zambia,OBS_02_RA_18,integer,3840,89.1
+Zambia,OBS_02_RA_17,integer,3840,89.1
+Zambia,OBS_02_RA_16,integer,3840,89.1
+Zambia,OBS_02_RA_15,integer,3840,89.1
+Zambia,OBS_02_RA_14,integer,3840,89.1
+Zambia,OBS_02_RA_13,integer,3840,89.1
+Zambia,OBS_02_RA_12,integer,3840,89.1
+Zambia,OBS_02_RA_11,integer,3840,89.1
+Zambia,OBS_02_RA_10,integer,3840,89.1
+Zambia,OBS_02_RA_9,integer,3840,89.1
+Zambia,OBS_02_RA_8,integer,3840,89.1
+Zambia,OBS_02_RA_7,integer,3840,89.1
+Zambia,OBS_02_RA_6,integer,3840,89.1
+Zambia,OBS_02_RA_5,integer,3840,89.1
+Zambia,OBS_02_RA_4,integer,3840,89.1
+Zambia,OBS_02_RA_3,integer,3840,89.1
+Zambia,OBS_02_RA_2,integer,3840,89.1
+Zambia,OBS_02_RA_1,integer,3840,89.1
+Zambia,OBS_02_RA_0,integer,3840,89.1
+Zambia,OBS_03_RA,character,3840,89.1
+Zambia,Enumerator3,character,3256,75.55
+Zambia,Enumerator3_EndTime,"POSIXct, POSIXt",3256,75.55
+Zambia,Enumerator3name,character,4307,99.93
+Zambia,sender_names_1,character,3813,88.47
+Zambia,sender_names_2,character,4269,99.05
+Zambia,sender_names_3,character,4303,99.84
+Zambia,sender_names_4,character,4308,99.95
+Zambia,sender_names_5,character,4309,99.98
+Zambia,current_sender1,character,3813,88.47
+Zambia,current_sender2,character,4269,99.05
+Zambia,current_sender3,character,4303,99.84
+Zambia,current_sender4,character,4308,99.95
+Zambia,current_sender5,character,4309,99.98
+Zambia,current_sender6,character,4309,99.98
+Zambia,Remit02a1,character,3813,88.47
+Zambia,Remit02a2,character,4269,99.05
+Zambia,Remit02a3,character,4303,99.84
+Zambia,Remit02a4,character,4308,99.95
+Zambia,Remit02a5,character,4309,99.98
+Zambia,Remit02a6,character,4309,99.98
+Zambia,Remit02a_specify1,character,4194,97.31
+Zambia,Remit02a_specify2,character,4305,99.88
+Zambia,Remit02a_specify3,character,4310,100
+Zambia,Remit02a_specify4,character,4310,100
+Zambia,Remit02a_specify5,character,4310,100
+Zambia,Remit02a_specify6,character,4310,100
+Zambia,Remit02b1,character,3813,88.47
+Zambia,Remit02b2,character,4269,99.05
+Zambia,Remit02b3,character,4303,99.84
+Zambia,Remit02b4,character,4308,99.95
+Zambia,Remit02b5,character,4309,99.98
+Zambia,Remit02b6,character,4309,99.98
+Zambia,Remit02b_member1,character,4282,99.35
+Zambia,Remit02b_member2,character,4307,99.93
+Zambia,Remit02b_member3,character,4309,99.98
+Zambia,Remit02b_member4,character,4310,100
+Zambia,Remit02b_member5,character,4310,100
+Zambia,Remit02b_member6,character,4310,100
+Zambia,Remit03a1,character,3841,89.12
+Zambia,Remit03a2,character,4272,99.12
+Zambia,Remit03a3,character,4304,99.86
+Zambia,Remit03a4,character,4308,99.95
+Zambia,Remit03a5,character,4309,99.98
+Zambia,Remit03a6,character,4309,99.98
+Zambia,Remit03a_specify1,character,4256,98.75
+Zambia,Remit03a_specify2,character,4301,99.79
+Zambia,Remit03a_specify3,character,4308,99.95
+Zambia,Remit03a_specify4,character,4308,99.95
+Zambia,Remit03a_specify5,character,4309,99.98
+Zambia,Remit03a_specify6,character,4309,99.98
+Zambia,Remit03b1,character,4282,99.35
+Zambia,Remit03b2,character,4307,99.93
+Zambia,Remit03b3,character,4309,99.98
+Zambia,Remit03b4,character,4310,100
+Zambia,Remit03b5,character,4310,100
+Zambia,Remit03b6,character,4310,100
+Zambia,Remit03b_specify1,character,4310,100
+Zambia,Remit03b_specify2,character,4310,100
+Zambia,Remit03b_specify3,character,4310,100
+Zambia,Remit03b_specify4,character,4310,100
+Zambia,Remit03b_specify5,character,4310,100
+Zambia,Remit03b_specify6,character,4310,100
+Zambia,Remit041,numeric,3813,88.47
+Zambia,Remit042,numeric,4269,99.05
+Zambia,Remit043,numeric,4303,99.84
+Zambia,Remit044,numeric,4308,99.95
+Zambia,Remit045,numeric,4309,99.98
+Zambia,Remit046,numeric,4309,99.98
+Zambia,Remit071,character,3813,88.47
+Zambia,Remit072,character,4269,99.05
+Zambia,Remit073,character,4303,99.84
+Zambia,Remit074,character,4308,99.95
+Zambia,Remit075,character,4309,99.98
+Zambia,Remit076,character,4309,99.98
+Zambia,Remit07_label1,character,3813,88.47
+Zambia,Remit07_label2,character,4269,99.05
+Zambia,Remit07_label3,character,4303,99.84
+Zambia,Remit07_label4,character,4308,99.95
+Zambia,Remit07_label5,character,4309,99.98
+Zambia,Remit07_label6,character,4309,99.98
+Zambia,Remit81,character,3890,90.26
+Zambia,Remit82,character,4273,99.14
+Zambia,Remit83,character,4303,99.84
+Zambia,Remit84,character,4308,99.95
+Zambia,Remit85,character,4309,99.98
+Zambia,Remit86,character,4309,99.98
+Zambia,Remit8_specify1,character,4259,98.82
+Zambia,Remit8_specify2,character,4302,99.81
+Zambia,Remit8_specify3,character,4309,99.98
+Zambia,Remit8_specify4,character,4310,100
+Zambia,Remit8_specify5,character,4309,99.98
+Zambia,Remit8_specify6,character,4309,99.98
+Zambia,Remit8_label1,character,3890,90.26
+Zambia,Remit8_label2,character,4273,99.14
+Zambia,Remit8_label3,character,4303,99.84
+Zambia,Remit8_label4,character,4308,99.95
+Zambia,Remit8_label5,character,4309,99.98
+Zambia,Remit8_label6,character,4309,99.98
+Zambia,Remit111,character,4152,96.33
+Zambia,Remit112,character,4296,99.68
+Zambia,Remit113,character,4309,99.98
+Zambia,Remit114,character,4310,100
+Zambia,Remit115,character,4309,99.98
+Zambia,Remit116,character,4309,99.98
+Zambia,Remit121,character,4304,99.86
+Zambia,Remit122,character,4309,99.98
+Zambia,Remit123,character,4310,100
+Zambia,Remit124,character,4310,100
+Zambia,Remit125,character,4309,99.98
+Zambia,Remit126,character,4309,99.98
+Zambia,sender_names_6,character,4309,99.98
+Zambia,recipient_names_1,character,4020,93.27
+Zambia,recipient_names_2,character,4287,99.47
+Zambia,recipient_names_3,character,4305,99.88
+Zambia,recipient_names_4,character,4307,99.93
+Zambia,current_recipient1,character,4020,93.27
+Zambia,current_recipient2,character,4287,99.47
+Zambia,current_recipient3,character,4305,99.88
+Zambia,current_recipient4,character,4307,99.93
+Zambia,current_recipient5,character,4309,99.98
+Zambia,Remit18a1,character,4020,93.27
+Zambia,Remit18a2,character,4285,99.42
+Zambia,Remit18a3,character,4305,99.88
+Zambia,Remit18a4,character,4307,99.93
+Zambia,Remit18a5,character,4309,99.98
+Zambia,Remit18a_specify1,character,4287,99.47
+Zambia,Remit18a_specify2,character,4308,99.95
+Zambia,Remit18a_specify3,character,4309,99.98
+Zambia,Remit18a_specify4,character,4310,100
+Zambia,Remit18a_specify5,character,4310,100
+Zambia,Remit18b1,character,4020,93.27
+Zambia,Remit18b2,character,4285,99.42
+Zambia,Remit18b3,character,4305,99.88
+Zambia,Remit18b4,character,4307,99.93
+Zambia,Remit18b5,character,4309,99.98
+Zambia,Remit19a1,character,4060,94.2
+Zambia,Remit19a2,character,4287,99.47
+Zambia,Remit19a3,character,4305,99.88
+Zambia,Remit19a4,character,4307,99.93
+Zambia,Remit19a5,character,4309,99.98
+Zambia,Remit19a_specify1,character,4305,99.88
+Zambia,Remit19a_specify2,character,4310,100
+Zambia,Remit19a_specify3,character,4310,100
+Zambia,Remit19a_specify4,character,4310,100
+Zambia,Remit19a_specify5,character,4310,100
+Zambia,Remit19b1,character,4270,99.07
+Zambia,Remit19b2,character,4308,99.95
+Zambia,Remit19b3,character,4310,100
+Zambia,Remit19b4,character,4310,100
+Zambia,Remit19b5,character,4310,100
+Zambia,Remit19b_specify1,character,4309,99.98
+Zambia,Remit19b_specify2,character,4310,100
+Zambia,Remit19b_specify3,character,4310,100
+Zambia,Remit19b_specify4,character,4310,100
+Zambia,Remit19b_specify5,character,4310,100
+Zambia,Remit231,character,4020,93.27
+Zambia,Remit232,character,4285,99.42
+Zambia,Remit233,character,4305,99.88
+Zambia,Remit234,character,4307,99.93
+Zambia,Remit235,character,4309,99.98
+Zambia,Remit23_label1,character,4020,93.27
+Zambia,Remit23_label2,character,4285,99.42
+Zambia,Remit23_label3,character,4305,99.88
+Zambia,Remit23_label4,character,4307,99.93
+Zambia,Remit23_label5,character,4309,99.98
+Zambia,Remit241,character,4093,94.97
+Zambia,Remit242,character,4296,99.68
+Zambia,Remit243,character,4307,99.93
+Zambia,Remit244,character,4307,99.93
+Zambia,Remit245,character,4310,100
+Zambia,Remit24_specify1,character,4274,99.16
+Zambia,Remit24_specify2,character,4305,99.88
+Zambia,Remit24_specify3,character,4307,99.93
+Zambia,Remit24_specify4,character,4309,99.98
+Zambia,Remit24_specify5,character,4310,100
+Zambia,Remit24_label1,character,4093,94.97
+Zambia,Remit24_label2,character,4296,99.68
+Zambia,Remit24_label3,character,4307,99.93
+Zambia,Remit24_label4,character,4307,99.93
+Zambia,Remit24_label5,character,4310,100
+Zambia,Remit261,character,4186,97.12
+Zambia,Remit262,character,4294,99.63
+Zambia,Remit263,character,4305,99.88
+Zambia,Remit264,character,4309,99.98
+Zambia,Remit265,character,4309,99.98
+Zambia,Remit271,character,4293,99.61
+Zambia,Remit272,character,4307,99.93
+Zambia,Remit273,character,4310,100
+Zambia,Remit274,character,4310,100
+Zambia,Remit275,character,4310,100
+Zambia,recipient_names_5,character,4309,99.98
+Zambia,RA_HH_04_cat2,factor,2,0.05
+Zambia,RA_HH_04_cat4,factor,2,0.05
+Zambia,HH_Educ02a_RA,character,1069,24.8
+Zambia,HH_Educ07_RA,character,691,16.03
+Zambia,HH_Educ14_RA,character,3803,88.24
+Zambia,employed,numeric,0,0
+Zambia,unemployed,numeric,372,8.63
+Zambia,C040301_15_24,"haven_labelled, vctrs_vctr, double",3179,73.76
+Zambia,C040301_25_45,"haven_labelled, vctrs_vctr, double",2543,59
+Zambia,C050b01,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,isce93,numeric,2709,62.85
+Zambia,ins_sector,numeric,2709,62.85
+Zambia,socsec,numeric,2709,62.85
+Zambia,painleave,numeric,2709,62.85
+Zambia,sickleave,numeric,2709,62.85
+Zambia,parentalleave,numeric,2709,62.85
+Zambia,registered,numeric,2709,62.85
+Zambia,bookkeep,numeric,2709,62.85
+Zambia,unit_prod,numeric,2709,62.85
+Zambia,job_nature,numeric,2709,62.85
+Zambia,hourly_pay,integer,3721,86.33
+Zambia,labour_force,numeric,372,8.63
+Zambia,C080502,"haven_labelled, vctrs_vctr, double",2113,49.03
+Zambia,employed_youth,numeric,3115,72.27
+Zambia,unemployed_youth,numeric,1975,45.82
+Zambia,youth_education,numeric,3116,72.3
+Zambia,youth_training,numeric,386,8.96
+Zambia,num_C080601,numeric,0,0
+Zambia,denominator_age,numeric,0,0
+Zambia,C081002,"haven_labelled, vctrs_vctr, double",13,0.3
+Zambia,C200204,"haven_labelled, vctrs_vctr, double",165,3.83
+Zambia,C160105,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,dispute,numeric,5,0.12
+Zambia,resolution,numeric,4053,94.04
+Zambia,C170801,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,healthcare,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,health_all,numeric,0,0
+Zambia,RBM10203,"haven_labelled, vctrs_vctr, double",2844,65.99
+Zambia,RBM10303,"haven_labelled, vctrs_vctr, double",0,0
+Zambia,RBM20401,"haven_labelled, vctrs_vctr, double",16,0.37
+Zambia,RBM21301,"haven_labelled, vctrs_vctr, double",13,0.3
+Zambia,working_age,numeric,372,8.63
+Zambia,RBM21303,"haven_labelled, vctrs_vctr, double",2240,51.97

@@ -2,7 +2,6 @@
 
 ###We will use the random adult dataset for this part of the analysis
 
-#Start with Pakistan
 
 #FDS_PAK_2024_RA_adult
 #FDS_CMR_2024_RA_adult
