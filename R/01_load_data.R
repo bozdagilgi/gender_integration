@@ -39,20 +39,29 @@ FDS_CMR_2024_RA_woman <- CMR_RA_woman %>%
   as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr_w, nest = TRUE)
 
 # ---------------------------
-# Zambia (survey objects pre-built)
+# Zambia (survey objects)
 # ---------------------------
-FDS_ZAM_2025_main       <- read_rds(here("Zambia", "data", "Survey objects", "FDS_ZAM_2025_main.rds"))
-FDS_ZAM_2025_RA_adult   <- read_rds(here("Zambia", "data", "Survey objects", "FDS_ZAM_2025_RA_adult.rds"))
-FDS_ZAM_2025_RA_woman   <- read_rds(here("Zambia", "data", "Survey objects", "FDS_ZAM_2025_RA_woman.rds"))
-FDS_ZAM_2025_RA_caregiver <- read_rds(here("Zambia", "data", "Survey objects", "FDS_ZAM_2025_RA_caregiver.rds"))
-FDS_ZAM_2025_HHroster   <- read_rds(here("Zambia", "data", "Survey objects", "FDS_ZAM_2025_HHroster_strat.rds"))
+ZAM_HHroster    <- read_rds(here("Zambia", "data", "HHroster.rds"))
+ZAM_main        <- read_rds(here("Zambia", "data", "main.rds"))
+ZAM_RA_adult    <- read_rds(here("Zambia", "data", "RA_adult.rds"))
+ZAM_RA_woman    <- read_rds(here("Zambia", "data", "RA_woman.rds"))
+ZAM_RA_caregiver <- read_rds(here("Zambia", "data", "RA_caregiver.rds"))
 
-# Extract raw data for pooling (Zambia survey object wraps the raw data)
-ZAM_RA_adult    <- FDS_ZAM_2025_RA_adult$variables
-ZAM_HHroster    <- FDS_ZAM_2025_HHroster$variables
-ZAM_main    <- FDS_ZAM_2025_RA_adult$variables
-ZAM_RA_woman    <- FDS_ZAM_2025_HHroster$variables
-ZAM_RA_caregiver    <- FDS_ZAM_2025_RA_adult$variables
+FDS_ZAM_2025_main <- ZAM_main %>%
+  as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr, nest = TRUE)
+
+FDS_ZAM_2025_HHroster <- ZAM_HHroster %>%
+  as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr, nest = TRUE)
+
+FDS_ZAM_2025_RA_adult <- ZAM_RA_adult %>%
+  as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr_resp, nest = TRUE)
+
+FDS_ZAM_2025_RA_caregiver <- ZAM_RA_caregiver %>%
+  as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr_u5, nest = TRUE)
+
+FDS_ZAM_2025_RA_woman <- ZAM_RA_woman %>%
+  as_survey_design(strata = samp_strat, weights = wgh_samp_pop_restr_w, nest = TRUE)
+
 
 # ---------------------------
 # Pakistan

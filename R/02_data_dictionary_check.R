@@ -1,149 +1,321 @@
 # =========================================================
-# 02_data_dictionary_check.R
-# Purpose: Audit column names, classes, missingness, and
-#          unique values for variables used in the analysis.
-#          Run this before 03_build_analysis_data.R to verify
-#          variable mapping for each country's dataset.
-# Expected output: CSV and TXT check files in output/checks/
+# 02_data_dictionary_check_full.R
+# Purpose: Audit availability, class, missingness, and
+#          observed values for all labour market model
+#          variables across Cameroon, Pakistan, and Zambia.
+# 
+# Run after:
+#   00_packages.R
+#   01_load_data.R
+#
+# Output:
+#   output/checks_full/variable_availability.csv
+#   output/checks_full/variable_summary.csv
+#   output/checks_full/categorical_unique_values.csv
+#   output/checks_full/missing_by_country.csv
 # =========================================================
 
-dir.create(here("output", "checks"), recursive = TRUE, showWarnings = FALSE)
+dir.create(here("output", "checks_full"), recursive = TRUE, showWarnings = FALSE)
 
-# ---------------------------
-# USER ADJUSTMENT SECTION
-# Map standardised analysis names to raw column names.
-# Verify these match your actual dataset columns.
-# ---------------------------
-var_map <- list(
-  # Identifiers
-  uuid            = "uuid",
-  rosterposition  = "rosterposition",
-  country         = "country",           # added in 03_build_analysis_data.R
-  strata          = "samp_strat",
-  weight_adult    = "wgh_samp_pop_restr_resp",
+# ---------------------------------------------------------
+# 1. Full variable inventory from QMD + pooled model plan
+# ---------------------------------------------------------
+analysis_vars <- c(
+  # identifiers / survey design
+  "uuid", "rosterposition", "samp_strat", "wgh_samp_pop_restr_resp",
   
-  # Demographics
-  sex             = "HH_02_RA",          # 1=Male, 2=Female (or labelled)
-  age             = "HH_03_RA",          # age in years
-  pop_group       = "Intro_07",          # refugee / asylum seeker / host
-  disability      = "disability_RA",
+  # disaggregation / demographics
+  "HH_02_RA", "HH_03_RA", "Intro_07", "disability_RA",
   
-  # Education (merged from HHroster)
-  educ_level      = "HH_Educ18",         # highest completed level
-  educ_current    = "HH_Educ07",         # currently attending school
+  # education / roster merge targets
+  "HH_Educ18", "HH_Educ23", "HH_Educ07", "HH_27",
   
-  # Labour force (constructed in skills_indicators.R style)
-  employed        = "employed",
-  unemployed      = "unemployed",
-  emp_type        = "EMP30",             # type of unpaid work
-  emp_want        = "EMP27",             # want a job
-  emp_search_a    = "EMP25a",            # searched last 4 weeks
-  emp_search_aa   = "EMP25aa",           # searched last 4 weeks (alt)
-  emp_available   = "EMP29",             # available to start
+  # labour force inputs
+  "labour_force", "employed", "unemployed",
+  "EMP30", "EMP27", "EMP25a", "EMP25aa", "EMP29",
   
-  # Legal right to work
-  right_to_work   = "JobLegal1",
+  # skills / experience
+  "Exp01a", "Exp01c", "Exp01d", "Exp01e", "Exp01f", "Exp01g", "Exp01h",
+  "Exp01i", "Exp01j", "Exp01k", "Exp01l", "Exp01m", "Exp01n", "Exp01o",
+  "Exp03",
   
-  # Care barriers
-  care_skill      = "Exp01a",            # experience caring for children
-  care_sick       = "Exp01c",            # experience caring for sick/disabled
+  # literacy / numeracy / digital
+  "Skill01a", "Skills06b", "Skills06c", "Skills06d",
+  "Skills38a", "Skills38b", "Skills38c", "Skills39",
+  "Skills41a", "Skills41b", "Skills41c", "Skills41d",
+  "Skills42a", "Skills42b",
   
-  # Digital barriers
-  has_phone       = "Skills38a",         # can use mobile phone
-  has_smartphone  = "Skills38b",         # can use smartphone
-  used_computer   = "Skills39",          # used computer last 3 months
-  digital_email   = "Skills41a",         # send/receive email
-  digital_calls   = "Skills41b",         # video/internet calls
-  digital_info    = "Skills41c",         # find info online
+  # legal / finance / assets
+  "JobLegal1", "RBM21301", "C050b01",
   
-  # Driving / mobility proxy
-  drive_car       = "Skills42a"          # driving licence - car
+  # mental health
+  paste0("MH01_", 1:9),
+  
+  # decision-making
+  "MD01_1", "MD01_2", "MD01_3", "MD01_4", "MD01_5",
+  "MD01_6", "MD01_7", "MD01_8", "MD01_9",
+  
+  # job barriers
+  "JobSearch11", "JobSearch12", "JobSearch13", "JobSearch14",
+  
+  # discrimination
+  "DI01_01", "DI01_02", "DI01_03", "DI01_04", "DI01_05",
+  "DI01_06", "DI01_07", "DI01_08", "DI01_09",
+  
+  # safety / mobility
+  "FS01", "C160105",
+  
+  # domestic work
+  "DW01_1", "DW01_2", "DW01_3", "DW01_4", "DW01_5",
+  "DW01_6", "DW01_7", "DW01_8", "DW01_9", "DW01_10",
+  
+  # training / job information
+  "EducR13", "INFO00_3"
 )
 
-# ---------------------------
-# Helper: audit one raw data frame
-# ---------------------------
-audit_df <- function(df, country_label) {
-  map_check <- tibble(
-    country  = country_label,
-    std_name = names(var_map),
-    raw_name = unlist(var_map),
-    exists   = unlist(var_map) %in% names(df)
-  )
-  
-  # Column-level summary
-  col_summary <- tibble(
-    country     = country_label,
-    column      = names(df),
-    class       = map_chr(df, ~ paste(class(.x), collapse = ", ")),
-    n_missing   = map_int(df, ~ sum(is.na(.x))),
-    pct_missing = round(100 * n_missing / nrow(df), 2)
-  )
-  
-  list(map_check = map_check, col_summary = col_summary)
-}
+# Variables expected in HH roster rather than RA_adult
+roster_vars <- c("HH_Educ18", "HH_Educ23", "HH_Educ07", "HH_27")
 
-# ---------------------------
-# Run audit for each country RA_adult dataset
-# ---------------------------
-audits <- list(
-  audit_df(CMR_RA_adult, "Cameroon"),
-  audit_df(PAK_RA_adult, "Pakistan"),
-  audit_df(ZAM_RA_adult, "Zambia")
+# Derived variables from QMD (not expected to exist yet in raw data)
+derived_vars <- c(
+  "unpaid_work", "no_job_want", "no_job_search", "no_job_availability",
+  "outside_lab_force_potential", "outside_lab_force_no_potential",
+  "labour_force_status", "in_labour_force",
+  "hhwork", "farming", "volunteering",
+  paste0("new_MH01_", 1:9),
+  "PHQ9", "depression",
+  "country"
 )
 
-map_checks   <- bind_rows(map(audits, "map_check"))
-col_summaries <- bind_rows(map(audits, "col_summary"))
+# ---------------------------------------------------------
+# 2. Data sources
+# ---------------------------------------------------------
+country_data <- list(
+  Cameroon = list(
+    ra_adult = CMR_RA_adult,
+    hhroster = CMR_HHroster
+  ),
+  Pakistan = list(
+    ra_adult = PAK_RA_adult,
+    hhroster = PAK_HHroster
+  ),
+  Zambia = list(
+    ra_adult = ZAM_RA_adult,
+    hhroster = ZAM_HHroster
+  )
+)
 
-write_csv(map_checks,    here("output", "checks", "var_map_check.csv"))
-write_csv(col_summaries, here("output", "checks", "columns_missingness.csv"))
-
-# Flag missing mappings
-missing_vars <- map_checks %>% filter(!exists)
-if (nrow(missing_vars) > 0) {
-  message("Some mapped variables are missing from one or more datasets:")
-  print(missing_vars)
-  message("Please update var_map in 02_data_dictionary_check.R and 03_build_analysis_data.R.")
-} else {
-  message("All mapped variables found in all three country datasets.")
+# ---------------------------------------------------------
+# 3. Helper functions
+# ---------------------------------------------------------
+safe_class <- function(x) {
+  paste(class(x), collapse = ", ")
 }
 
-# ---------------------------
-# Unique values for key categorical variables
-# ---------------------------
-key_vars <- c("sex", "employed", "unemployed", "emp_type", "emp_want",
-              "right_to_work", "has_phone", "used_computer",
-              "disability", "educ_level", "pop_group")
+safe_missing_n <- function(x) {
+  sum(is.na(x))
+}
 
-safe_unique <- function(df, country_label, std_nm) {
-  raw_nm <- var_map[[std_nm]]
-  if (!raw_nm %in% names(df)) {
-    return(tibble(country = country_label, std_name = std_nm,
-                  raw_name = raw_nm, value = NA_character_, n = NA_integer_,
-                  pct = NA_real_, note = "COLUMN_NOT_FOUND"))
+safe_missing_pct <- function(x) {
+  round(100 * mean(is.na(x)), 2)
+}
+
+safe_n_unique <- function(x) {
+  dplyr::n_distinct(x, na.rm = FALSE)
+}
+
+get_source_expected <- function(var) {
+  if (var %in% roster_vars) {
+    return("HHroster")
+  } else if (var %in% derived_vars) {
+    return("Derived")
+  } else {
+    return("RA_adult")
   }
-  df %>%
-    mutate(.val = as.character(.data[[raw_nm]])) %>%
-    count(.val) %>%
-    mutate(
-      country  = country_label,
-      std_name = std_nm,
-      raw_name = raw_nm,
-      value    = .val,
-      pct      = round(100 * n / sum(n), 2),
-      note     = ""
-    ) %>%
-    select(country, std_name, raw_name, value, n, pct, note) %>%
-    slice_head(n = 50)
 }
 
-unique_tables <- bind_rows(
-  map_dfr(key_vars, ~ safe_unique(CMR_RA_adult, "Cameroon", .x)),
-  map_dfr(key_vars, ~ safe_unique(PAK_RA_adult, "Pakistan", .x)),
-  map_dfr(key_vars, ~ safe_unique(ZAM_RA_adult, "Zambia",   .x))
+audit_one_variable <- function(var, country_name, ra_df, roster_df) {
+  expected_source <- get_source_expected(var)
+  
+  in_ra <- var %in% names(ra_df)
+  in_roster <- var %in% names(roster_df)
+  
+  actual_source <- dplyr::case_when(
+    in_ra & in_roster ~ "Both",
+    in_ra ~ "RA_adult",
+    in_roster ~ "HHroster",
+    TRUE ~ "Missing"
+  )
+  
+  if (in_ra) {
+    x <- ra_df[[var]]
+  } else if (in_roster) {
+    x <- roster_df[[var]]
+  } else {
+    x <- NULL
+  }
+  
+  tibble(
+    country = country_name,
+    variable = var,
+    expected_source = expected_source,
+    actual_source = actual_source,
+    exists = actual_source != "Missing",
+    in_ra_adult = in_ra,
+    in_hhroster = in_roster,
+    class = if (is.null(x)) NA_character_ else safe_class(x),
+    n_missing = if (is.null(x)) NA_integer_ else safe_missing_n(x),
+    pct_missing = if (is.null(x)) NA_real_ else safe_missing_pct(x),
+    n_unique = if (is.null(x)) NA_integer_ else safe_n_unique(x)
+  )
+}
+
+extract_unique_values <- function(var, country_name, ra_df, roster_df, max_values = 50) {
+  in_ra <- var %in% names(ra_df)
+  in_roster <- var %in% names(roster_df)
+  
+  if (in_ra) {
+    x <- ra_df[[var]]
+    source <- "RA_adult"
+  } else if (in_roster) {
+    x <- roster_df[[var]]
+    source <- "HHroster"
+  } else {
+    return(
+      tibble(
+        country = country_name,
+        variable = var,
+        source = "Missing",
+        value = NA_character_,
+        n = NA_integer_,
+        pct = NA_real_,
+        note = "COLUMN_NOT_FOUND"
+      )
+    )
+  }
+  
+  tibble(value = as.character(x)) %>%
+    count(value, sort = TRUE) %>%
+    mutate(
+      country = country_name,
+      variable = var,
+      source = source,
+      pct = round(100 * n / sum(n), 2),
+      note = ""
+    ) %>%
+    select(country, variable, source, value, n, pct, note) %>%
+    slice_head(n = max_values)
+}
+
+# ---------------------------------------------------------
+# 4. Variable availability and summary
+# ---------------------------------------------------------
+all_vars_to_check <- c(analysis_vars, derived_vars)
+
+variable_summary <- purrr::map_dfr(names(country_data), function(ctry) {
+  audit_one_variable(
+    var = all_vars_to_check[1],
+    country_name = ctry,
+    ra_df = country_data[[ctry]]$ra_adult,
+    roster_df = country_data[[ctry]]$hhroster
+  )
+})
+
+variable_summary <- purrr::map_dfr(all_vars_to_check, function(vv) {
+  purrr::map_dfr(names(country_data), function(ctry) {
+    audit_one_variable(
+      var = vv,
+      country_name = ctry,
+      ra_df = country_data[[ctry]]$ra_adult,
+      roster_df = country_data[[ctry]]$hhroster
+    )
+  })
+})
+
+variable_availability <- variable_summary %>%
+  select(country, variable, expected_source, actual_source, exists, in_ra_adult, in_hhroster)
+
+missing_by_country <- variable_summary %>%
+  filter(!exists | expected_source != actual_source) %>%
+  arrange(variable, country)
+
+# ---------------------------------------------------------
+# 5. Unique values for categorical / coded variables
+# ---------------------------------------------------------
+categorical_vars <- c(
+  "HH_02_RA", "Intro_07", "disability_RA",
+  "labour_force", "employed", "unemployed",
+  "EMP30", "EMP27", "EMP25a", "EMP25aa", "EMP29",
+  "HH_Educ18", "HH_Educ23", "HH_Educ07", "HH_27",
+  "Exp01a", "Exp01c", "Exp01d", "Exp01e", "Exp01f", "Exp01g", "Exp01h",
+  "Exp01i", "Exp01j", "Exp01k", "Exp01l", "Exp01m", "Exp01n", "Exp01o",
+  "Exp03",
+  "Skill01a", "Skills06b", "Skills06c", "Skills06d",
+  "Skills38a", "Skills38b", "Skills38c", "Skills39",
+  "Skills41a", "Skills41b", "Skills41c", "Skills41d",
+  "Skills42a", "Skills42b",
+  "JobLegal1", "RBM21301", "C050b01",
+  paste0("MH01_", 1:9),
+  "MD01_1", "MD01_2", "MD01_3", "MD01_4", "MD01_5",
+  "MD01_6", "MD01_7", "MD01_8", "MD01_9",
+  "JobSearch11", "JobSearch12", "JobSearch13", "JobSearch14",
+  "DI01_01", "DI01_02", "DI01_03", "DI01_04", "DI01_05",
+  "DI01_06", "DI01_07", "DI01_08", "DI01_09",
+  "FS01", "C160105",
+  "DW01_1", "DW01_2", "DW01_3", "DW01_4", "DW01_5",
+  "DW01_6", "DW01_7", "DW01_8", "DW01_9", "DW01_10",
+  "EducR13", "INFO00_3"
 )
 
-write_csv(unique_tables, here("output", "checks", "mapped_variables_unique_values.csv"))
+categorical_unique_values <- purrr::map_dfr(categorical_vars, function(vv) {
+  purrr::map_dfr(names(country_data), function(ctry) {
+    extract_unique_values(
+      var = vv,
+      country_name = ctry,
+      ra_df = country_data[[ctry]]$ra_adult,
+      roster_df = country_data[[ctry]]$hhroster,
+      max_values = 50
+    )
+  })
+})
 
-message("02_data_dictionary_check.R complete.")
-message("Check files written to output/checks/")
+# ---------------------------------------------------------
+# 6. Save outputs
+# ---------------------------------------------------------
+readr::write_csv(
+  variable_availability,
+  here("output", "checks_full", "variable_availability.csv")
+)
+
+readr::write_csv(
+  variable_summary,
+  here("output", "checks_full", "variable_summary.csv")
+)
+
+readr::write_csv(
+  categorical_unique_values,
+  here("output", "checks_full", "categorical_unique_values.csv")
+)
+
+readr::write_csv(
+  missing_by_country,
+  here("output", "checks_full", "missing_by_country.csv")
+)
+
+# ---------------------------------------------------------
+# 7. Console messages
+# ---------------------------------------------------------
+message("02_data_dictionary_check_full.R complete.")
+message("Files written to output/checks_full/")
+
+message("Summary:")
+message("- variable_availability.csv: whether each variable exists and where")
+message("- variable_summary.csv: class, missingness, unique counts")
+message("- categorical_unique_values.csv: observed values for coded/categorical variables")
+message("- missing_by_country.csv: variables missing or not in expected source")
+
+if (nrow(missing_by_country) > 0) {
+  message("Some variables are missing or found in an unexpected source. Review missing_by_country.csv")
+} else {
+  message("All checked variables were found in expected sources.")
+}

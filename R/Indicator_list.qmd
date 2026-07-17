@@ -1,0 +1,104 @@
+---
+title: "Indicator list"
+format: html
+editor: visual
+---
+
+## Summary of indicators for labour market barriers model
+
+| Dimension | Indicator | Variable name(s) |
+|------------------------|------------------------|------------------------|
+| Disaggregation | Population group | `Intro_07` |
+| Disaggregation | Disability status | `disability_RA` |
+| Disaggregation | Sex | `age_selected` |
+| Disaggregation | Marital status | `HH_08` |
+| Disaggregation | Country | `country` |
+| Binary target? | Labour force status (1=In 0=Out) | `labour_force_status` |
+| Moni target? | In labour force status (1=Employed / 2=Unemployed / 3=Outside with potential / 4=Outside no potential | `labour_force` |
+| Outcome | Unpaid work status | `unpaid_work` |
+| Outcome | Unpaid work - household care `EMP30` → derived `hhwork` | `unpaid_work_housecare` |
+| Education | Highest level of education | `lowersec_complete_RA and primary_complete_RA` |
+| Education | Education-related additional fields - Have you ever been to school? | `HH_Educ07_RA` |
+| Skills / prior experience | Caring for children | `Exp01a` |
+| Skills / prior experience | Caring for sick or disabled people | `Exp01c` |
+| Skills / prior experience | Making/mending clothing | `Exp01d` |
+| Skills / prior experience | Preparing meals / baking | `Exp01e` |
+| Skills / prior experience | Cultivating crops | `Exp01f` |
+| Skills / prior experience | Taking care of livestock | `Exp01g` |
+| Skills / prior experience | Fishing | `Exp01h` |
+| Skills / prior experience | Handicraft activities | `Exp01i` |
+| Skills / prior experience | Selling or trading products | `Exp01j` |
+| Skills / prior experience | Making furniture | `Exp01k` |
+| Skills / prior experience | House construction | `Exp01l` |
+| Skills / prior experience | Coaching/teaching | `Exp01m` |
+| Skills / prior experience | Photography/film-making | `Exp01n` |
+| Skills / prior experience | Hairdressing/aesthetic care | `Exp01o` |
+| Entrepreneurship | Ever run a business | `Exp03` |
+| Literacy / numeracy | Read phone messages easily | `Skill01a` |
+| Literacy / numeracy | Calculate prices | `Skills06b` |
+| Literacy / numeracy | Multiplication/division | `Skills06c` |
+| Literacy / numeracy | Fractions/decimals/percentages | `Skills06d` |
+| Digital skills / access | Use mobile phone | `Skills38a` |
+| Digital skills / access | Use smartphone | `Skills38b` |
+| Digital skills / access | Use tablet | `Skills38c` |
+| Digital skills / access | Used computer in past 3 months | `Skills39` |
+| Digital skills / access | Send/receive emails | `Skills41a` |
+| Digital skills / access | Make internet/video calls | `Skills41b` |
+| Digital skills / access | Find information on internet | `Skills41c` |
+| Digital skills / access | Learn/study online | `Skills41d` |
+| Mobility / certification | Driving license for car | `Skills42a` |
+| Mobility / certification | Driving license for truck | `Skills42b` |
+| Legal status | Right to work legally | `JobLegal1` |
+| Care / family | Gave birth to a live child in past 2 years | `HH_27` |
+| Financial inclusion | Bank / financial / mobile money account | `RBM21301` |
+|  |  |  |
+| Mental health | Depression indicator | `depression` |
+| Decision-making / autonomy | Routine household purchases | `MD01_1` |
+| Decision-making / autonomy | Occasional expensive purchases | `MD01_2` |
+| Decision-making / autonomy | Time spent in respondent’s paid work | `MD01_3` |
+| Decision-making / autonomy | Time spent in spouse’s paid work | `MD01_4` |
+| Decision-making / autonomy | Childrearing decisions | `MD01_5` |
+| Decision-making / autonomy | Family social life and leisure | `MD01_6` |
+| Decision-making / autonomy | Who respondent spends time with | `MD01_7` |
+| Decision-making / autonomy | Who spouse spends time with | `MD01_8` |
+| Decision-making / autonomy | Having children | `MD01_9` |
+| Job-search barriers | Lack of reading/writing skills | `JobSearch11` |
+| Job-search barriers | Lack of computer/digital skills | `JobSearch12` |
+| Job-search barriers | Lack of legal documents | `JobSearch13` |
+| Job-search barriers | Discrimination in labour market | `JobSearch14` |
+| Discrimination | Treated with less politeness | `DI01_01` |
+| Discrimination | Treated with less respect | `DI01_02` |
+| Discrimination | Poorer service in restaurants | `DI01_03` |
+| Discrimination | People think respondent is not smart | `DI01_04` |
+| Discrimination | People act afraid of respondent | `DI01_05` |
+| Discrimination | People act as if respondent is dishonest | `DI01_06` |
+| Discrimination | People act as if they are better than respondent | `DI01_07` |
+| Discrimination | Called names or insulted | `DI01_08` |
+| Discrimination | Threatened or harassed | `DI01_09` |
+| Assets / connectivity | Owns mobile phone with active SIM | `C050b01` |
+| Safety / mobility | Feels safe walking alone in the dark | `FS01` |
+| Safety / mobility | Additional safety-related indicator - SDG | `C160105` |
+| Domestic work / unpaid care | Repairs to home/furniture/vehicle/appliances | `DW01_6` |
+| Domestic work / unpaid care | Laundry / washing clothes | `DW01_2` |
+| Domestic work / unpaid care | Shopping for household | `DW01_4` |
+| Domestic work / unpaid care | Cooking | `DW01_3` |
+| Domestic work / unpaid care | Collecting water | `DW01_7` |
+| Domestic work / unpaid care | Collecting firewood | `DW01_8` |
+| Domestic work / unpaid care | Caring for elderly or disabled | `DW01_10` |
+| Domestic work / unpaid care | Caring for children | `DW01_9` |
+| Domestic work / unpaid care | Cleaning the house | `DW01_1` |
+| Domestic work / unpaid care | Managing household finances | `DW01_5` |
+| Training | Any non-formal training | `EducR13` |
+| Job information access | Looked for job opportunity information in last 30 days | `INFO00_3` |
+
+### Variables mentioned but not operationalized
+
+Check differences between genders for safety at work and documentation - not to be added in regression model - just to add as descriptives at the end
+
+| Dimension | Indicator | Variable name(s) |
+|------------------------|------------------------|------------------------|
+| Other / placeholder | Safety at work | not specified |
+| Other / placeholder | Documentation / valid ID / work permits | not specified |
+| Other / placeholder | Formal employment documentation | not specified |
+
+### 

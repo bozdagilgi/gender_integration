@@ -1,22 +1,21 @@
----
-title: "Labour market integration"
-format: html
-editor: visual
----
+###Data Manipulation for indicators
 
-## Labour market indicators
 
-The indicators below are the ones to be used for integration model from a gender perspective to understand the differences.
-
-Pakistan 2024 dataset will be used exemplary.
-
-```{r disaggregation, echo=FALSE}
+##Disaggregation variables 
 
 
 table(FDS_PAK_2024_RA_adult$variables$HH_02_RA)
 table(FDS_PAK_2024_RA_adult$variables$disability_RA)
 table(FDS_PAK_2024_RA_adult$variables$Intro_07)
 
+##Create a new variable called country for the survey
+
+
+FDS_PAK_2024_RA_adult <- FDS_PAK_2024_RA_adult %>% 
+  mutate(country = "Pakistan")
+
+
+### Bring marital status variable to RA_adult dataset
 
 PAK_RA_adult <- PAK_RA_adult %>%
   mutate(rosterposition = as.numeric(rosterposition)) %>%
@@ -30,16 +29,11 @@ PAK_RA_adult <- PAK_RA_adult %>%
 
 table(PAK_RA_adult$HH_08)
 
- 
-```
+table(PAK_RA_adult$age_selected)
 
-```{r labour market, echo=FALSE}
-
+##Labour force status indicators
 
 ##Employment Indicators
-
-
-table(FDS_PAK_2024_RA_adult$variables$labour_force)
 
 
 ## Labour force participation rate
@@ -78,79 +72,36 @@ PAK_RA_adult <- PAK_RA_adult %>%
                                                    "Outside labour force - unavailable - potential labour force (available but not looking for a job)" = 3,
                                                    "Outside labour force - unavailable" = 4)))
 
-FDS_PAK_2024_RA_adult <- PAK_RA_adult %>%
-  as_survey_design(
-    strata = samp_strat,           # Specify the column with cluster IDs
-    weights = wgh_samp_pop_restr_resp, # Specify the column with survey weights
-    nest = TRUE              # Use TRUE if PSUs are nested within clusters (optional, based on your survey design)
-  )
+table(PAK_RA_adult$labour_force)
+table(PAK_RA_adult$labour_force_status)
+
+
 
 table(FDS_PAK_2024_RA_adult$variables$labour_force_status) # Use as binary variable 
 
 
 ##Now check with the main activity for those in the labour force
 
-
 # Type of unpaid work
 
-hhwork_G <- FDS_PAK_2024_RA_adult %>%
-  filter(EMP30 %in% c(2,5,6), !is.na(EMP30)) %>%
-  mutate(hhwork = case_when(EMP30 == 2 ~ 1,
-                            EMP30 != 2 ~ 0)) %>%
-  filter(!is.na(HH_02_RA), !is.na(Intro_07)) %>%     # Exclude if pop groups is NA
-  group_by(Intro_07, HH_02_RA) %>%      # Show results disaggregated by pop groups
-  summarise(
-    var_name = "Household/care work",
-    num_obs_uw = n(),
-    denominator = survey_total(),
-    mean_value = survey_mean(hhwork, vartype = c("ci", "se"), na.rm = TRUE)
+
+##Recode 
+
+
+table(PAK_RA_adult$EMP30)
+
+
+PAK_RA_adult <- PAK_RA_adult %>%
+  mutate(
+    unpaid_work_housecare = if_else(EMP30 == 2, 1, 0, 
+                                    missing = NA_real_)
   )
 
-farming_G <- FDS_PAK_2024_RA_adult %>%
-  filter(EMP30 %in% c(2,5,6), !is.na(EMP30)) %>%
-  mutate(farming = case_when(EMP30 == 5 ~ 1,
-                             EMP30 != 5 ~ 0)) %>%
-  filter(!is.na(HH_02_RA), !is.na(Intro_07)) %>%     # Exclude if pop groups is NA
-  group_by(Intro_07, HH_02_RA) %>%      # Show results disaggregated by pop groups
-  summarise(
-    var_name = "Farming",
-    num_obs_uw = n(),
-    denominator = survey_total(),
-    mean_value = survey_mean(farming, vartype = c("ci", "se"), na.rm = TRUE)
-  )
-
-volunteering_G <- FDS_PAK_2024_RA_adult %>%
-  filter(EMP30 %in% c(2,5,6), !is.na(EMP30)) %>%
-  mutate(volunteering = case_when(EMP30 == 6 ~ 1,
-                                  EMP30 != 6 ~ 0)) %>%
-  filter(!is.na(HH_02_RA), !is.na(Intro_07)) %>%     # Exclude if pop groups is NA
-  group_by(Intro_07, HH_02_RA) %>%      # Show results disaggregated by pop groups
-  summarise(
-    var_name = "Volunteering",
-    num_obs_uw = n(),
-    denominator = survey_total(),
-    mean_value = survey_mean(volunteering, vartype = c("ci", "se"), na.rm = TRUE)
-  )
-
-# Bind the dataframes together
-unpaid_combined_G <- bind_rows(hhwork_G, farming_G, volunteering_G)
-
-unpaid_combined_G <- unpaid_combined_G  %>%
-  group_by(Intro_07, HH_02_RA) %>%
-  arrange(desc(var_name)) %>%
-  mutate(cumulative_sum = cumsum(mean_value) - (mean_value / 2))  |>
-  mutate(HH_02_RA = labelled::to_factor(HH_02_RA))
+table(PAK_RA_adult$unpaid_work_housecare)
+table(PAK_RA_adult$unpaid_work)
 
 
-
-
-```
-
-```{r education, echo=FALSE}
-
-#Education from HHroster
-
-table(FDS_PAK_2024_HHroster$variables$HH_Educ18) #Highest level of education
+##Education indicators from HH roster
 
 #merge with rosterposition and uuid
 
@@ -167,9 +118,13 @@ PAK_RA_adult <- PAK_RA_adult %>%
     by = c("uuid", "rosterposition")
   )
 
-```
 
-```{r skills, echo=FALSE}
+table(PAK_RA_adult$HH_Educ07_RA) #have you ever been to school? 
+table(PAK_RA_adult$primary_complete_RA)
+table(PAK_RA_adult$lowersec_complete_RA)
+
+
+#Skills
 
 
 #Check tables
@@ -191,20 +146,10 @@ table(FDS_PAK_2024_RA_adult$variables$Exp01m) #Coaching/teaching
 table(FDS_PAK_2024_RA_adult$variables$Exp01n) #Photography/film-making
 table(FDS_PAK_2024_RA_adult$variables$Exp01o) #Hairdressing/aesthetic care
 
-```
-
-```{r runbusiness, echo=FALSE}
-
 
 ##HAVE YOU EVER RUN A BUSINESS?
 
 table(FDS_PAK_2024_RA_adult$variables$Exp03) #Ever run a business
-
-
-
-```
-
-```{r softskills, echo=FALSE}
 
 ###Reading/writing skills
 
@@ -234,21 +179,15 @@ table(FDS_PAK_2024_RA_adult$variables$Skills41d) #learning/studying online
 table(FDS_PAK_2024_RA_adult$variables$Skills42a) #driving license to drive a car
 table(FDS_PAK_2024_RA_adult$variables$Skills42b) #driving license to drive a truck
 
-#add job search sction
-table(FDS_ZAM_2025_RA_adult$variables$PL01_10) #driving license to drive a truck
 
-```
-
-```{r legalrighttowork, echo=FALSE}
 
 ##To your knowledge, do you have the right to work legally in Pakistan?
 
 table(FDS_PAK_2024_RA_adult$variables$JobLegal1) #to your knowledge d you have a right to work?
 
 
-```
+##If they have a children under 2 years old - or any live birth in the last 2 years
 
-```{r ownchildren, echo=FALSE}
 
 # Not possible to calculate as randomly selected adult is not always the spouse -
 
@@ -278,46 +217,17 @@ PAK_RA_adult <- PAK_RA_adult %>%
   )
 
 
-table(PAK_RA_adult$HH_27)
+table(PAK_RA_adult$HH_27) # Only available for women - 
 
-```
-
-```{r}
 
 #Ownership of a bank account or any financial account
 
 #We can use the RBM indicator which is Proportion of people with an account at a bank or other financial institution or with a mobile-money provider
 table(PAK_RA_adult$RBM21301)
-  
-
-```
-
-```{r}
-
-#Depression rates
-####Subjective well being
-
-##Suggestions on depression
-
-#The Total Score indicates the Depression Severity: 
-#  0-4 - Minimal depression
-#5-9 - Mild depression
-#10-14 - Moderate depression
-#15-19 - Moderately severe depression
-#20-27 - Severe depression
 
 
-# PHQ9 <- PHQ9 %>%
-#   mutate(across(starts_with("MH01_"), 
-#                 ~ recode(as_factor(.), 
-#                          "not at all" = 0, 
-#                          "several days" = 1, 
-#                          "more than half the days" = 2, 
-#                          "nearly every day" = 3, 
-#                          "refused to answer" = NA_real_, 
-#                          .default = NA_real_) %>%
-#                   as.numeric(),
-#                 .names = "new_{col}"))
+##depression rates
+
 
 PAK_RA_adult <- PAK_RA_adult %>%
   mutate(across(starts_with("MH01_"), 
@@ -340,10 +250,9 @@ PAK_RA_adult <- PAK_RA_adult %>%
 
 
 table(PAK_RA_adult$depression)
-```
 
-```{r}
-#Decision-making section - check if we can add
+
+###Decision-making section - check if we can add
 
 #Indicator as here:
 
@@ -366,17 +275,6 @@ table(PAK_RA_adult$MD01_7) #who you spend time with
 table(PAK_RA_adult$MD01_8) #who your spouse spend time with
 table(PAK_RA_adult$MD01_9) #having children
 
-```
-
-```{r}
-#If any of the languages in the host country is spoken 
-
-#it;s hard to know in bordering countries - which languages are spoken already in the region - so this will be discarded
-
-
-```
-
-```{r}
 #Job search barriers + lack of reading, computer literacy + legal literacy +
 #1 yes 2 no
 
@@ -385,10 +283,6 @@ table(PAK_RA_adult$JobSearch12) #lack of computer/digital skills
 table(PAK_RA_adult$JobSearch13) #lack of legal documents
 table(PAK_RA_adult$JobSearch14) #discrimination in the labour market
 
-
-```
-
-```{r}
 #Discrimination
 #1 almost everyday
 #2 at least once a week
@@ -407,26 +301,12 @@ table(PAK_RA_adult$DI01_07) #people act as if they are better than you
 table(PAK_RA_adult$DI01_08) #you are called names or insulted
 table(PAK_RA_adult$DI01_09) #threatened or harrassed
 
-```
-
-```{r}
-#Documentation linked to gender
-
-##work permits?
-##There is info on frmal employment but many skip logic - perhaps better to skip 
-
-
-```
-
-```{r}
 #Ownership of a mobile phone 
 #Its an SDG indicator
 
 table(PAK_RA_adult$C050b01) #when an individual has a mobile phone with active sim card
 
-```
 
-```{r}
 #Safety feeling + if you cannot move in the evening.
 #Proportion of population that feel safe walking alone around the area they live after dark**
 
@@ -441,10 +321,6 @@ table(PAK_RA_adult$FS01) #feeling safe walking alone in the dark
 
 table(PAK_RA_adult$C160105)
 
-
-```
-
-```{r}
 #Time spent on domestic work
 
 #1 Always respondent 
@@ -466,17 +342,13 @@ table(PAK_RA_adult$DW01_10) #take care of elderly or disabled
 table(PAK_RA_adult$DW01_9) #take care of children
 table(PAK_RA_adult$DW01_1) #clean the house
 table(PAK_RA_adult$DW01_5) #manage household finances
-```
 
-```{r}
-#Safety at work ( from protection section)
-```
+#Information about job
 
-```{r}
-#Documentation -that is any valid ID document? Also, work permits 
-```
+#In the last 30 days did you look information about job opportunities
 
-```{r}
+table(PAK_RA_adult$INFO00_3)
+
 #Trainings -> check indicator EducR16
 
 ##ANY TRAINING in the country of origin or host country
@@ -484,13 +356,12 @@ table(PAK_RA_adult$DW01_5) #manage household finances
 #ANY training that is not part of educational system
 
 table(PAK_RA_adult$EducR13)
-```
 
-```{r}
+###All indicators are here.
 
-#Information about job
-
-#In the last 30 days did you look information about job opportunities
-
-table(PAK_RA_adult$INFO00_3)
-```
+FDS_PAK_2024_RA_adult <- PAK_RA_adult %>%
+  as_survey_design(
+    strata = samp_strat,           # Specify the column with cluster IDs
+    weights = wgh_samp_pop_restr_resp, # Specify the column with survey weights
+    nest = TRUE              # Use TRUE if PSUs are nested within clusters (optional, based on your survey design)
+  )
