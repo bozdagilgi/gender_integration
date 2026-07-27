@@ -87,7 +87,7 @@ ZAM_RA_adult <- ZAM_RA_adult %>%
   mutate(labour_force_status = labelled(labour_force_status,
                                         labels = c("Employed" = 1,
                                                    "Unemployed" = 2,
-                                                   "Outside labour force - unavailable - potential labour force (available but not looking for a job)" = 3,
+                                                   "Outside labour force - potential labour force (available but not looking for a job)" = 3,
                                                    "Outside labour force - unavailable" = 4)))
 
 table(ZAM_RA_adult$labour_force)

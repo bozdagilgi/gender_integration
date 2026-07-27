@@ -56,7 +56,19 @@ indicators_to_keep <- c(
   
   # Survey design vars used at the end
   "samp_strat","wgh_samp_pop_restr_resp"
+
 )
+
+#Recreate country variable
+
+PAK_RA_adult_ind<- PAK_RA_adult_ind %>% 
+  mutate(country = "Pakistan")
+
+CMR_RA_adult_ind<- CMR_RA_adult_ind %>% 
+  mutate(country = "Cameroon")
+
+ZAM_RA_adult_ind<- ZAM_RA_adult_ind %>% 
+  mutate(country = "Zambia")
 
 # Keep only those that exist for all three datasets
 
@@ -71,6 +83,14 @@ ZAM_RA_adult_ind <- ZAM_RA_adult %>%
 PAK_RA_adult_ind <- PAK_RA_adult %>%
   select(any_of(indicators_to_keep))
 
+PAK_RA_adult_ind<- PAK_RA_adult_ind %>% 
+  mutate(country = "Pakistan")
+
+CMR_RA_adult_ind<- CMR_RA_adult_ind %>% 
+  mutate(country = "Cameroon")
+
+ZAM_RA_adult_ind<- ZAM_RA_adult_ind %>% 
+  mutate(country = "Zambia")
 
 # build a table of variable types by dataset
 
@@ -184,3 +204,15 @@ PAK_RA_adult_ind <- PAK_RA_adult_ind %>% mutate(samp_strat = factor(as.character
 
 ##Now merge 
 combined_RA_adult_ind <- bind_rows(CMR_RA_adult_ind, ZAM_RA_adult_ind, PAK_RA_adult_ind)
+
+
+
+##Categorize age groups
+
+#####Age groups
+
+combined_RA_adult_ind$age_cat4<- cut(combined_RA_adult_ind$age_selected,
+                    breaks = c(-1, 4, 17, 59, Inf),
+                    labels = c("0-4", "5-17", "18-59", "60+"))
+
+table(combined_RA_adult_ind$age_cat4)
