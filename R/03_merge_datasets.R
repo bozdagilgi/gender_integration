@@ -59,16 +59,7 @@ indicators_to_keep <- c(
 
 )
 
-#Recreate country variable
 
-PAK_RA_adult_ind<- PAK_RA_adult_ind %>% 
-  mutate(country = "Pakistan")
-
-CMR_RA_adult_ind<- CMR_RA_adult_ind %>% 
-  mutate(country = "Cameroon")
-
-ZAM_RA_adult_ind<- ZAM_RA_adult_ind %>% 
-  mutate(country = "Zambia")
 
 # Keep only those that exist for all three datasets
 
