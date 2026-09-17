@@ -283,6 +283,9 @@ table(PAK_RA_adult$JobSearch12) #lack of computer/digital skills
 table(PAK_RA_adult$JobSearch13) #lack of legal documents
 table(PAK_RA_adult$JobSearch14) #discrimination in the labour market
 
+table(PAK_RA_adult$labour_force, PAK_RA_adult$JobSearch12)
+labour_force_status
+
 #Discrimination
 #1 almost everyday
 #2 at least once a week

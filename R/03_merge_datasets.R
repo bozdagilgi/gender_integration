@@ -207,3 +207,13 @@ combined_RA_adult_ind$age_cat4<- cut(combined_RA_adult_ind$age_selected,
                     labels = c("0-4", "5-17", "18-59", "60+"))
 
 table(combined_RA_adult_ind$age_cat4)
+
+# Better age groups for labour-force analysis (adults)
+combined_RA_adult_ind$age_cat_lf <- cut(
+  combined_RA_adult_ind$age_selected,
+  breaks = c(17, 24, 34, 44, 54, 64, Inf),
+  labels = c("18-24", "25-34", "35-44", "45-54", "55-64", "65+"),
+  right = TRUE
+)
+
+table(combined_RA_adult_ind$age_cat_lf, useNA = "ifany")

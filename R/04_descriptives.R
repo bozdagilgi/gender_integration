@@ -1,6 +1,30 @@
 ###Descriptives
 ##Questions from Laura
 
+## normalized weights
+
+
+combined_RA_adult_ind <- combined_RA_adult_ind %>%
+  mutate(
+    Intro_07 = case_when(
+      Intro_07 %in% c("Host Community", "Host community") ~ "Host Community",
+      TRUE ~ Intro_07
+    )
+  )
+
+combined_RA_adult_ind <- combined_RA_adult_ind %>%
+  group_by(country) %>%
+  mutate(
+    weight_norm = wgh_samp_pop_restr_resp /
+      mean(wgh_samp_pop_restr_resp, na.rm = TRUE)
+  ) %>%
+  ungroup()
+
+design_all <- svydesign(
+  ids = ~1,
+  weights = ~weight_norm,
+  data = combined_RA_adult_ind
+)
 
 ##	Employment status by sex and age group (and host/displaced status and location)
 ##Employed / unemployed / looking / outside labour force-----
@@ -17,7 +41,7 @@ combined_RA_adult_ind_clean <- combined_RA_adult_ind %>%
 combined_RA_adult_ind_svy <- combined_RA_adult_ind_clean %>%
   as_survey_design(
     ids = NULL,
-    weights = wgh_samp_pop_restr_resp,
+    weights = weight_norm,
     nest = TRUE
   )
 
@@ -85,7 +109,7 @@ table(combined_RA_adult_ind$labour_force)
 combined_RA_adult_ind_svy <- combined_RA_adult_ind %>%
   as_survey_design(
     ids = NULL,
-    weights = wgh_samp_pop_restr_resp,
+    weights = weight_norm,
     nest = TRUE
   )
 
