@@ -76,7 +76,12 @@ table(PAK_RA_adult$labour_force)
 table(PAK_RA_adult$labour_force_status)
 
 
-
+FDS_PAK_2024_RA_adult <- PAK_RA_adult %>%
+  as_survey_design(
+    strata = samp_strat,           # Specify the column with cluster IDs
+    weights = wgh_samp_pop_restr_resp, # Specify the column with survey weights
+    nest = TRUE              # Use TRUE if PSUs are nested within clusters (optional, based on your survey design)
+  )
 table(FDS_PAK_2024_RA_adult$variables$labour_force_status) # Use as binary variable 
 
 
@@ -284,7 +289,6 @@ table(PAK_RA_adult$JobSearch13) #lack of legal documents
 table(PAK_RA_adult$JobSearch14) #discrimination in the labour market
 
 table(PAK_RA_adult$labour_force, PAK_RA_adult$JobSearch12)
-labour_force_status
 
 #Discrimination
 #1 almost everyday

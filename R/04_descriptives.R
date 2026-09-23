@@ -4,13 +4,6 @@
 ## normalized weights
 
 
-combined_RA_adult_ind <- combined_RA_adult_ind %>%
-  mutate(
-    Intro_07 = case_when(
-      Intro_07 %in% c("Host Community", "Host community") ~ "Host Community",
-      TRUE ~ Intro_07
-    )
-  )
 
 combined_RA_adult_ind <- combined_RA_adult_ind %>%
   group_by(country) %>%

@@ -100,7 +100,7 @@ combined_RA_adult_ind <- combined_RA_adult_ind %>%
   )
 
 
-i 
+
 
 class(combined_RA_adult_ind$HH_02_RA)
 
